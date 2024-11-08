@@ -4,7 +4,7 @@ public class Lion extends EarthAnimal {
 
     public Lion() {
     }
-
+//1
     public Lion(String name) {
         super(name);
     }
