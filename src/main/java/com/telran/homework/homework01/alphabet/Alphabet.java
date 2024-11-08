@@ -1,4 +1,4 @@
-package com.telran.homeworks.hw01_05_11_24.alphabet;
+package com.telran.homework.homework01.alphabet;
 
 public class Alphabet {
 
