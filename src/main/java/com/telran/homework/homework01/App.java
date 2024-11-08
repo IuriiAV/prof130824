@@ -1,4 +1,4 @@
-package com.telran.homeworks.hw01_05_11_24;
+package com.telran.homework.homework01;
 
 public class App {
 
