@@ -18,4 +18,11 @@ public class Lion extends EarthAnimal {
     public void drink() {
         System.out.println("Lion driiink!");
     }
+
+    @Override
+    public void makeNoise() {
+        System.out.println("Lion RRRR!");
+    }
+
+
 }
