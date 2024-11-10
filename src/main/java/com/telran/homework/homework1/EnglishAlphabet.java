@@ -1,4 +1,4 @@
-package org.telran.homework.homework1;
+package com.telran.homework.homework1;
 
 import java.util.Arrays;
 
@@ -26,3 +26,4 @@ public class EnglishAlphabet extends Alphabet{
         this.ownNumber = ownNumber;
     }
 }
+

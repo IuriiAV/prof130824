@@ -1,4 +1,6 @@
-package org.telran.homework.homework1;
+package com.telran.homework.homework1;
+
+import com.telran.homework.homework1.Person;
 
 public class PersonApp {
     public static void main(String[] args) {

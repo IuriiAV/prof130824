@@ -1,4 +1,4 @@
-package org.telran.homework.homework1;
+package com.telran.homework.homework1;
 
 import java.util.Arrays;
 
@@ -10,7 +10,7 @@ public class UkraineAlphabet extends Alphabet {
 
     public UkraineAlphabet() {
         letters = new String[] {"А,Б,В,Г,Ґ,Д,Е,Є,Ж,З,И,І,Ї,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,ь,Ю,Я"};
-       setName("Ukraine ABC");
+        setName("Ukraine ABC");
     }
 
     @Override

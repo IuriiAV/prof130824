@@ -1,4 +1,4 @@
-package org.telran.homework.homework1;
+package com.telran.homework.homework1;
 
 public class Alphabet {
     private String name;
