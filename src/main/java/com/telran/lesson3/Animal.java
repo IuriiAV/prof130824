@@ -31,7 +31,7 @@ public abstract class Animal {
     //Абстрактный метод должен быть реализован во всех наследниках
     //Абстрактный метод - метод без тела в абстрактном классе
     public abstract void drink();
-    public void makeNoise() {}
+
 
 
     public String getName() {
