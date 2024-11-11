@@ -23,14 +23,15 @@ public class CoffeeMachine {
         Coffee coffee = coffees[userData - 1];
         //instanceof - проверяет, что в переменной объект класса или
         //его наследника
+        Milk milk = null;
         if (coffee instanceof CoffeeMilk) {
             // add milk
             CoffeeMilk coffeeMilk = (CoffeeMilk) coffee;
-            Milk milk = new Milk();
+            milk = new Milk();
             coffeeMilk.setMilk(milk);
         }
         Water water = new Water();
-        Cup cup = new Cup(water, coffee);
+        Cup cup = new Cup(water, coffee, milk);
         return cup;
     }
 

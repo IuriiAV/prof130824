@@ -6,9 +6,12 @@ public class Cup {
 
     private Coffee coffee;
 
-    public Cup(Water water, Coffee coffee) {
+    private Milk milk;
+
+    public Cup(Water water, Coffee coffee, Milk milk) {
         this.water = water;
         this.coffee = coffee;
+        this.milk = milk;
     }
 
     public void printReadyCoffee() {
