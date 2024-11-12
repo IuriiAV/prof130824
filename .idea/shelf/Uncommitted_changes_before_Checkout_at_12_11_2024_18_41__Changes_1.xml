@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_12_11_2024_18_41_[Changes]1" date="1731433321283" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_11_2024_18_41_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 12.11.2024 18:41 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/telran/h2/DonutMachine.class" />
+    <option name="AFTER_PATH" value="target/classes/com/telran/h2/DonutMachine.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_11_2024_18_41_[Changes]1/DonutMachine.class" />
+  </binary>
+</changelist>
