@@ -1,7 +1,6 @@
 package com.telran.h2;
 
 import com.telran.h2.model.*;
-import com.telran.lesson3.mypractice.model.Coffee;
 
 public  class DonutMachine {
 
