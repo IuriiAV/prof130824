@@ -24,16 +24,16 @@ public class App {
         for (CanJump canJump : canJumps) {
             canJump.jump();
         }
-
-        Animal horse1 = new Horse();
-        Animal rabbit1 = new Rabbit();
-        Animal[] animals = {horse1, rabbit1};
-        for (Animal animal : animals) {
-            animal.print();
-            if (animal instanceof Horse) {
-                Horse horse2 = (Horse) animal;
-                horse2.run();
-            }
-        }
+//
+//        Animal horse1 = new Horse();
+//        Animal rabbit1 = new Rabbit();
+//        Animal[] animals = {horse1, rabbit1};
+//        for (Animal animal : animals) {
+//            animal.print();
+//            if (animal instanceof Horse) {
+//                Horse horse2 = (Horse) animal;
+//                horse2.run();
+//            }
+//        }
     }
 }
