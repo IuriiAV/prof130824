@@ -5,6 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Days.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/EnumExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/EnumExampleTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/PersonApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/SeasonAPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Suitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/SwitchCaseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/UserApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/DealApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Suit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -32,7 +55,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -62,7 +84,11 @@
     "Application.AlphabetApp.executor": "Run",
     "Application.App.executor": "Run",
     "Application.CoffeApp.executor": "Run",
+    "Application.DealApp.executor": "Run",
     "Application.DonutApp.executor": "Run",
+    "Application.EnumExample.executor": "Run",
+    "Application.EnumExampleTwo.executor": "Run",
+    "Application.SeasonAPP.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SierikovKonstantin",
     "kotlin-language-version-configured": "true",
