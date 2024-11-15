@@ -4,29 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Days.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/EnumExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/EnumExampleTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/PersonApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Season.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/SeasonAPP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Suitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/SwitchCaseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/UserApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/DealApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Suit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add DealApp">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/DealAppAdditional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/AdultLibrarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/AdultReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/NonFictionBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/NovelBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/ReaderType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/SeasonAPP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/DealApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/DealApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Suit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Suit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -85,14 +87,16 @@
     "Application.App.executor": "Run",
     "Application.CoffeApp.executor": "Run",
     "Application.DealApp.executor": "Run",
+    "Application.DealAppAdditional.executor": "Run",
     "Application.DonutApp.executor": "Run",
     "Application.EnumExample.executor": "Run",
     "Application.EnumExampleTwo.executor": "Run",
+    "Application.LibraryApp.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SierikovKonstantin",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/GitLessons/TestRepoForStudy"
+    "last_opened_file_path": "C:/IT/JAVA PRO/LessonPractic1"
   }
 }]]></component>
   <component name="RunManager">
@@ -159,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731432998889</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add DealApp">
+      <option name="closed" value="true" />
+      <created>1731585119711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731585119711</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +196,7 @@
     <MESSAGE value="add //" />
     <MESSAGE value="add coffee app" />
     <MESSAGE value="add h2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add h2" />
+    <MESSAGE value="add DealApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DealApp" />
   </component>
 </project>

@@ -1,5 +1,8 @@
 package com.telran.lesson5.deal;
 
+import com.telran.lesson5.deal.add.Rank;
+import com.telran.lesson5.deal.add.Suit;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -33,5 +36,12 @@ public class Deck {
 
     public Card[] getCards() {
         return cards;
+    }
+
+    @Override
+    public String toString() {
+        return "Deck{" +
+                "cards=" + Arrays.toString(cards) +
+                '}';
     }
 }

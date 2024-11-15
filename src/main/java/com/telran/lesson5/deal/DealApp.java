@@ -8,6 +8,10 @@ public class DealApp {
 
         Deck deck = new Deck();
         deck.initialize();
+        System.out.println(deck);
+
+        System.out.println();
+
         Card[] cards = deck.getCards();
         System.out.println(Arrays.toString(cards));
 

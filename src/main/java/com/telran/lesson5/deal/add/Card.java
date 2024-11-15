@@ -1,7 +1,4 @@
-package com.telran.lesson5.deal;
-
-import com.telran.lesson5.deal.add.Rank;
-import com.telran.lesson5.deal.add.Suit;
+package com.telran.lesson5.deal.add;
 
 public class Card {
 
@@ -14,6 +11,10 @@ public class Card {
         this.rank = rank;
     }
 
+    public Card() {
+
+    }
+
     public Suit getSuit() {
         return suit;
     }
@@ -24,9 +25,6 @@ public class Card {
 
     @Override
     public String toString() {
-        return "Card{" +
-                "suit=" + suit +
-                ", rank=" + rank +
-                '}';
+        return "Card: " + suit + " " + rank;
     }
 }

@@ -1,4 +1,4 @@
-package com.telran.lesson5.deal;
+package com.telran.lesson5.deal.add;
 
 public enum Suit {
     CLUBS,
