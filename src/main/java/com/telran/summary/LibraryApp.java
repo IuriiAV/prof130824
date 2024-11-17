@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LibraryApp {
 
-    public static void main(String[] args) {
+    public void run() {
 
         Book bookOne = new NonFictionBook("one", "AutorOne", "123", Genre.NON_FICTION);
         Book bookTwo = new NonFictionBook("two", "Autortwo", "222", Genre.NON_FICTION);

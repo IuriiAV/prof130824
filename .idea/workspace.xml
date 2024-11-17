@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add Library">
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add Library 17.11.2024">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +72,12 @@
     "Application.EnumExample.executor": "Run",
     "Application.EnumExampleTwo.executor": "Run",
     "Application.LibraryApp.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SierikovKonstantin",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/JAVA PRO/LessonPractic1"
+    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson"
   }
 }]]></component>
   <component name="RunManager">
@@ -152,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731585119711</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add Library 17.11.2024">
+      <option name="closed" value="true" />
+      <created>1731840593794</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731840593794</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +186,7 @@
     <MESSAGE value="add coffee app" />
     <MESSAGE value="add h2" />
     <MESSAGE value="add DealApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DealApp" />
+    <MESSAGE value="add Library 17.11.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Library 17.11.2024" />
   </component>
 </project>
