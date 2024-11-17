@@ -1,8 +1,5 @@
 package com.telran.summary;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Librarian - name, department, books(limit = 10) (Abstract)
  * * Библиотекарь может выдать книгу пользователю
@@ -10,9 +7,11 @@ import java.util.List;
  */
 public abstract class Librarian implements Printer {
 
+    private static final int BOOK_LIMIT = 10;
+
     private String name;
 
-    private final List<Book> books = new ArrayList<>(); //10 Magic number!!!
+    private final Book[] books = new Book[BOOK_LIMIT]; //10 Magic number!!!
 
     private Department department;
 
@@ -23,12 +22,10 @@ public abstract class Librarian implements Printer {
 
     public void giveBook(String isbn, Reader reader) {
         for (Book book: books) {
-            if (book != null && book.getIsbn().equals(isbn)) {
+            if (book.getIsbn().equals(isbn)) {
                 reader.takeBook(book);
-                return;
-            }
+            } else System.out.println("Librarian " + this.name + " does not have such a book.");
         }
-        System.out.println("Librarian " + this.name + " does not have such a book.");
     }
 
     @Override
@@ -45,7 +42,7 @@ public abstract class Librarian implements Printer {
         return department;
     }
 
-    public List<Book> getBooks() {
+    public Book[] getBooks() {
         return books;
     }
 }
