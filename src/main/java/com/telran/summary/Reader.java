@@ -16,7 +16,7 @@ public abstract class Reader implements Printer {
 
     private Book[] books;
 
-    private int emptySlot = 0;
+    private int emptySlot = -1;
 
     public Reader(String name, int readerId, ReaderType type, int limit) {
         this.name = name;
@@ -25,19 +25,17 @@ public abstract class Reader implements Printer {
         this.books = new Book[limit];
     }
 
-    private int findEmptySlot() {
-        int indexEmpty = -1;
+    private void findEmptySlot() {
         for (int i = 0; i < books.length; i++) {
             if (books[i] == null) {
-                indexEmpty = i;
+                emptySlot = i;
                 break;
-            }
+            } else emptySlot = -1;
         }
-        return indexEmpty;
     }
 
     public void takeBook(Book book) {
-        int emptySlot =  findEmptySlot();
+        findEmptySlot();
         if (emptySlot > -1) this.books[emptySlot] = book;
         else System.out.println("User " + this.name + " has no place for this book.");
     }
