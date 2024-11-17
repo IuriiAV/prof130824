@@ -44,9 +44,10 @@ public class LibraryApp {
 
         Librarian[] librarians = {one, two};
         Reader readerOne = new AdultReader("Alex", 1, ReaderType.ADULT, 5);
-
+        Reader readerTwo = new AdultReader("Max", 2, ReaderType.ADULT, 5);
         //1_1) Попросим пользователя показать какие книги у него есть
         readerOne.printBooks();
+        readerTwo.printBooks();
 
         //2) Показываем пользователю список всех департаментов
         System.out.println("Please choose department : ");
@@ -90,6 +91,7 @@ public class LibraryApp {
 
         //7) Попросим пользователя показать какие книги у него есть
         readerOne.printBooks();
+        readerTwo.printBooks();
 
         scanner.close();
     }

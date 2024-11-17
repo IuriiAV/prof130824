@@ -1,10 +1,12 @@
-package com.telran.summary;
+package com.telran.lesson5.practicee;
 
 /**
- * Reader - name, readerId, books(limit = 5) array (Abstract)
- * * Пользователь мог показывать какие книги у него есть
+ * Reader - name, readerId, books(массив книг которые у него есть) (limit = 5) array (Abstract)
+ * Пользователь мог показывать какие книги у него есть
  */
-public abstract class Reader implements Printer {
+
+
+public abstract class Reader implements Printer{
 
     private String name;
 
@@ -12,12 +14,13 @@ public abstract class Reader implements Printer {
 
     private ReaderType type;
 
+
     private Book[] books;
 
-    public Reader(String name, int readerId, ReaderType type, int limit) {
+    public Reader(String name, ReaderType type, int readerId, int limit) {
         this.name = name;
-        this.readerId = readerId;
         this.type = type;
+        this.readerId = readerId;
         this.books = new Book[limit];
     }
 
@@ -29,13 +32,18 @@ public abstract class Reader implements Printer {
         return books;
     }
 
-    @Override
+    public Reader(int limit) {
+        books = new Book[limit];
+    }
+
     public void printBooks() {
         for (Book book : books) {
             if (book == null) {
                 continue;
+
             }
             System.out.println(book);
+
         }
     }
 }
