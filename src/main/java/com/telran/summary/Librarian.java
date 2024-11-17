@@ -22,10 +22,12 @@ public abstract class Librarian implements Printer {
 
     public void giveBook(String isbn, Reader reader) {
         for (Book book: books) {
-            if (book.getIsbn().equals(isbn)) {
+            if (book != null && book.getIsbn().equals(isbn)) {
                 reader.takeBook(book);
-            } else System.out.println("Librarian " + this.name + " does not have such a book.");
+                return;
+            }
         }
+        System.out.println("Librarian " + this.name + " does not have such a book.");
     }
 
     @Override
