@@ -21,9 +21,11 @@ public abstract class Librarian implements Printer {
     }
 
     public void giveBook(String isbn, Reader reader) {
-        //Books[] userBooks = reader.getBooks();
-        //найти по isbn книгу из массива книг этого библиотекаря в цикле
-        //и присвоить найденную книгу в массив книг пользователя
+        for (Book book: books) {
+            if (book.getIsbn().equals(isbn)) {
+                reader.takeBook(book);
+            } else System.out.println("Librarian " + this.name + " does not have such a book.");
+        }
     }
 
     @Override
