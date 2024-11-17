@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add DealApp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/DealAppAdditional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/AdultLibrarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/AdultReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/NonFictionBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/NovelBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/ReaderType.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add Library">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/SeasonAPP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/DealApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/DealApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Rank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Suit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Suit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

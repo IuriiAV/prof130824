@@ -1,6 +1,6 @@
 package com.telran.summary;
 
-import java.util.Arrays;
+import java.util.Objects;
 
 public abstract class Librarian implements Printer {
 
@@ -8,7 +8,7 @@ public abstract class Librarian implements Printer {
 
     private String name;
 
-    private final Book[] allBooks = new Book[BOOK_LIMIT];
+    private final Book[] books = new Book[BOOK_LIMIT];
 
     private Department department;
 
@@ -19,10 +19,17 @@ public abstract class Librarian implements Printer {
 
     public void giveBook(String isbn, Reader reader) {
 
+        for (int i = 0; i < books.length; i++) {
+            if (books[i] != null && Objects.equals(books[i].getIsbn(), isbn)){
+                Book bookToGive = books[i];
+                books[i] = null;
+                reader.addBook(bookToGive);
+            }
+        }
     }
 
-    public Book[] getAllBooks() {
-        return allBooks;
+    public Book[] getBooks() {
+        return books;
     }
 
     public Department getDepartment() {
@@ -31,9 +38,12 @@ public abstract class Librarian implements Printer {
 
     @Override
     public void printBooks() {
-        for(Book book : allBooks){
-            System.out.println(book);
+        for(Book book : books){
+            if (book == null){
+                continue;
+            }
+            System.out.println("Librarian " + name + " have a book :" + book);
         }
-        //System.out.println("All books " + Arrays.toString(allBooks));
+
     }
 }

@@ -8,12 +8,16 @@ public class LibraryApp {
 
         Book bookOne = new NonFictionBook("one", "AutorOne", "123", Genre.NON_FICTION);
         Book bookTwo = new NonFictionBook("two", "Autortwo", "222", Genre.NON_FICTION);
+        Book bookThree = new NonFictionBook("two", "Autortwo", "333", Genre.MYSTERY);
 
         Librarian one = new AdultLibrarian("Anna", Department.ART);
-        Book[] oneBook = one.getAllBooks();
+        Book[] oneBook = one.getBooks();
+        oneBook[0] = bookThree;
 
         Librarian two = new AdultLibrarian("Nik",Department.HISTORICAL);
-        Book[] twoBook = two.getAllBooks();
+        Book[] twoBook = two.getBooks();
+        twoBook[0] = bookOne;
+        twoBook[1] = bookTwo;
 
         Librarian[] librarians = {one,two};
         Reader readerOne = new AdultReader("Alex", 1,ReaderType.ADULT,5);
@@ -44,9 +48,13 @@ public class LibraryApp {
         System.out.println("Please choose book :");
         String isbn = scanner.next();
 
+
+
         ourLibrarian.giveBook(isbn,readerOne);
 
         readerOne.printBooks();
+
+        ourLibrarian.printBooks();
 
 
 
