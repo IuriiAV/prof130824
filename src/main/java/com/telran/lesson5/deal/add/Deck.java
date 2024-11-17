@@ -7,7 +7,6 @@ import java.util.List;
 public class Deck {
 
     private Card[] cards = new Card[Rank.values().length * Suit.values().length];
-
     public void fillCards() {
         Rank[] values = Rank.values();
         int counter = 0; //индекс в массиве
@@ -18,17 +17,13 @@ public class Deck {
             cards[counter++] = new Card(Suit.SPADES, values[i]);
         }
         shuffle();
-
-    }
-    public void shuffle() {
+    }public void shuffle() {
         List<Card> list = Arrays.asList(this.cards);
         Collections.shuffle(list);
         for (int i = 0; i < list.size(); i++) {
             cards[i] = list.get(i);
         }
-    }
-
-    public Card getCard() {
+    }public Card getCard() {
 
         Card result = cards [cards.length - 1];
         cards = Arrays.copyOf(cards, cards.length -1);
