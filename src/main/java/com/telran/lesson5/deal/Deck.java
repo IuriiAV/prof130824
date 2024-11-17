@@ -11,6 +11,8 @@ public class Deck {
 
     private final Card[] cards;
 
+    private int currentCard = 0;
+
     public Deck() {
         cards = new Card[Suit.values().length * Rank.values().length];
     }
@@ -31,6 +33,11 @@ public class Deck {
         for (int i = 0; i < list.size(); i++) {
             cards[i] = list.get(i);
         }
+    }
+
+    public void giveCard(Player player) {
+        boolean canTake = player.takeCard(this.cards[currentCard++]);
+        if (!canTake) currentCard--;
     }
 
     public Card[] getCards() {
