@@ -11,8 +11,16 @@ public class Player {
         this.name = name;
     }
 
-    public void takeCard(Card card) {
+    private int emptySlot = 0;
 
+    public boolean takeCard(Card card) {
+        if (cards[4] != null) {
+            System.out.println("Player " + this.name + " can't take more cards.");
+            return false;
+        } else {
+            this.cards[emptySlot++] = card;
+            return true;
+        }
     }
 
     public void printCards() {
