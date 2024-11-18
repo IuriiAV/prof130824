@@ -2,7 +2,7 @@ package com.telran.lesson5.deal.add;
 
 public class DealAppAdditional {
 
-    public static void main(String[] args) {
+    public void run() {
 
         Deck deck = new Deck();
         deck.fillCards();
@@ -12,7 +12,7 @@ public class DealAppAdditional {
         Player ivan = new Player("Ivan");
 
         kostya.shuffleDeck(deck);
-
+        System.out.println(deck);
 
         Player[] players = {kostya,ivan};
         for (Player player : players) {

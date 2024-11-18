@@ -17,6 +17,10 @@ public class Deck {
         }
     }
 
+    public Card[] getCards() {
+        return cards;
+    }
+
     public Card getCard() {
         Card card = new Card();
         for (int i = 0; i < cards.length; i++) {

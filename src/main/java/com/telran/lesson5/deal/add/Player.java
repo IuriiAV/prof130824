@@ -3,6 +3,7 @@ package com.telran.lesson5.deal.add;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 public class Player {
 
@@ -23,11 +24,13 @@ public class Player {
     }
 
     public void shuffleDeck(Deck deck) {
-        Deck[] decks = new Deck[]{deck};
-        List<Deck> list = Arrays.asList(decks);
-        Collections.shuffle(list);
-        for (int i = 0; i < list.size(); i++) {
-            decks[i] = list.get(i);
+        Random random = new Random();
+        Card[] decks = deck.getCards();
+        for (int i = decks.length - 1; i > 0; i--) {
+            int j = random.nextInt(i + 1); // Случайный индекс от 0 до i
+            Card temp = decks[i];
+            decks[i] = decks[j];
+            decks[j] = temp;
         }
     }
 
