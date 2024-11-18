@@ -15,5 +15,8 @@ public class DealApp {
         Card[] cards = deck.getCards();
         System.out.println(Arrays.toString(cards));
 
+
+
+
     }
 }

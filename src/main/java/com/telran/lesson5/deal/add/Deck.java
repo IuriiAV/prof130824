@@ -7,7 +7,7 @@ public class Deck {
 
     private Card[] cards = new Card[Rank.values().length * Suit.values().length];
 
-    public void fillCards(){
+    public void fillCards() {
         int i = 0;
         for (Suit suit : Suit.values()) {
             for (Rank rank : Rank.values()) {
@@ -17,8 +17,16 @@ public class Deck {
         }
     }
 
-    public Card getCard(){
-        return cards[0];
+    public Card getCard() {
+        Card card = new Card();
+        for (int i = 0; i < cards.length; i++) {
+            if (cards[i] != null) {
+                card = cards[i];
+                cards[i] = null;
+                break;
+            }
+        }
+        return card;
     }
 
     @Override

@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add Library 17.11.2024">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/DealApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/DealApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/DealAppAdditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/DealAppAdditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731840593794</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add Library 17.11.2024">
+      <option name="closed" value="true" />
+      <created>1731874714644</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731874714644</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

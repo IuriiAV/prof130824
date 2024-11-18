@@ -11,7 +11,7 @@ public class Player {
     }
 
     public void takeCard(Card card){
-        for (int i = 0; i < cards.length; i++) {
+        for (int i = 1; i < cards.length; i++) {
             cards[i] = card;
         }
     }

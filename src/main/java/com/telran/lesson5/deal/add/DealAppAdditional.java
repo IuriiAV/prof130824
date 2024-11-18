@@ -11,18 +11,22 @@ public class DealAppAdditional {
         Player kostya = new Player("Kostya");
         Player ivan = new Player("Ivan");
 
-       kostya.takeCard(deck.getCard());
-       kostya.printCards();
-
         kostya.shuffleDeck(deck);
 
-//        Player[] players = {kostya,ivan};
-//        for (Player player : players) {
-//            for (int i = 0; i < 5; i++) {
-//                Card card = deck.getCard();
-//                player.takeCard(card);
-//            }
-//        }
+
+        Player[] players = {kostya,ivan};
+        for (Player player : players) {
+            for (int i = 0; i < 5; i++) {
+                Card card = deck.getCard();
+                player.takeCard(card);
+            }
+        }
+
+        kostya.printCards();
+        ivan.printCards();
+
+        System.out.println(deck);
+
 
 
     }

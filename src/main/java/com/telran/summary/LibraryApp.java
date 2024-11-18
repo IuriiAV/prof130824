@@ -49,7 +49,7 @@ public class LibraryApp {
         String isbn = scanner.next();
 
 
-
+        assert ourLibrarian != null;
         ourLibrarian.giveBook(isbn,readerOne);
 
         readerOne.printBooks();
