@@ -1,15 +1,14 @@
 package com.telran.lesson5.deal.add;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+
 import java.util.Random;
 
 public class Player {
 
-    private String name;
+    private final String name;
 
-    private Card[] playerCards = new Card[5];
+    private final Card[] playerCards = new Card[5];
 
 
     public void takeCard(Card card) {

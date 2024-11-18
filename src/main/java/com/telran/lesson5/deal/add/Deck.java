@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Deck {
 
-    private Card[] cards = new Card[Rank.values().length * Suit.values().length];
+    private final Card[] cards = new Card[Rank.values().length * Suit.values().length];
 
     public void fillCards() {
         int i = 0;
