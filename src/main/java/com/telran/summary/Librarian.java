@@ -1,14 +1,14 @@
 package com.telran.summary;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public abstract class Librarian implements Printer {
 
-    private static final int BOOK_LIMIT = 10;
-
     private final String name;
 
-    private final Book[] books = new Book[BOOK_LIMIT];
+    private final List<Book> books = new ArrayList<>();
 
     private final Department department;
 
@@ -19,16 +19,21 @@ public abstract class Librarian implements Printer {
 
     public void giveBook(String isbn, Reader reader) {
 
-        for (int i = 0; i < books.length; i++) {
-            if (books[i] != null && Objects.equals(books[i].getIsbn(), isbn)){
-                Book bookToGive = books[i];
-                books[i] = null;
-                reader.addBook(bookToGive);
+        for (int i = 0; i < books.size(); i++) {
+            if (books.get(i) != null  && Objects.equals(books.get(i).getIsbn(), isbn)) {
+                if (reader.isFullList()) {
+                    Book bookToGive = books.get(i);
+                    reader.addBook(bookToGive);
+                    books.set(i, null);
+
+                }else {
+                    System.out.println("Reader has reached the maximum limit and have this is books: ");
+                }
             }
         }
     }
 
-    public Book[] getBooks() {
+    public List<Book> getBooks() {
         return books;
     }
 
@@ -38,8 +43,8 @@ public abstract class Librarian implements Printer {
 
     @Override
     public void printBooks() {
-        for(Book book : books){
-            if (book == null){
+        for (Book book : books) {
+            if (book == null) {
                 continue;
             }
             System.out.println("Librarian " + name + " have a book :" + book);

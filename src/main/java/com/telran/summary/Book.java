@@ -21,16 +21,8 @@ public abstract class Book {
         return title;
     }
 
-    public String getAuthor() {
-        return author;
-    }
-
     public String getIsbn() {
         return isbn;
-    }
-
-    public Genre getGenre() {
-        return genre;
     }
 
     @Override

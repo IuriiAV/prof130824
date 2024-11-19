@@ -1,41 +1,50 @@
 package com.telran.summary;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Reader implements Printer {
 
-    private String name;
+    private final String name;
 
     private int readerID;
 
-    private ReaderType type;
+    private final ReaderType type;
 
-    private Book[] booksReader;
+    private final List<Book> booksReader = new ArrayList<>();
 
-    public Reader(String name, int readerID, ReaderType type,int limit) {
+    private final int limit;
+
+    public Reader(String name, int readerID, ReaderType type, int limit) {
         this.name = name;
         this.readerID = readerID;
         this.type = type;
-        this.booksReader = new Book[limit];
+        this.limit = limit;
+    }
+
+    public boolean isFullList() {
+        return booksReader.size() < limit;
     }
 
     public void addBook(Book book) {
-        for (int i = 0; i < this.booksReader.length; i++) {
-            if (this.booksReader[i] == null) {
-                this.booksReader[i] = book;
+        for (int i = 0; i < booksReader.size() + 1; i++) {
+            if (booksReader.size() < limit) {
+                booksReader.add(book);
                 return;
             }
         }
-        System.out.println("Reader has reached the maximum limit.");
+
     }
 
 
     @Override
     public void printBooks() {
         for (Book book : booksReader) {
-            if (book == null){
-               // System.out.println("Reader " + name+" have not book");
+            if (book == null) {
                 continue;
             }
             System.out.println("Reader " + name + " have a book :" + book);
         }
+
     }
 }
