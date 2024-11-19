@@ -56,7 +56,7 @@ public class LibraryApp {
 
         ourLibrarian.printBooks();
 
-
+        scanner.close();
 
     }
 }

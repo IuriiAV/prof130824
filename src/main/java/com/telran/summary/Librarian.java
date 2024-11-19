@@ -6,11 +6,11 @@ public abstract class Librarian implements Printer {
 
     private static final int BOOK_LIMIT = 10;
 
-    private String name;
+    private final String name;
 
     private final Book[] books = new Book[BOOK_LIMIT];
 
-    private Department department;
+    private final Department department;
 
     public Librarian(String name, Department department) {
         this.name = name;

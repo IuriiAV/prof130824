@@ -2,13 +2,13 @@ package com.telran.summary;
 
 public abstract class Book {
 
-    private String title;
+    private final String title;
 
-    private String author;
+    private final String author;
 
-    private String isbn;
+    private final String isbn;
 
-    private Genre genre;
+    private final Genre genre;
 
     public Book(String title, String author, String isbn, Genre genre) {
         this.title = title;
