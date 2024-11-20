@@ -1,5 +1,7 @@
 package com.telran.summary;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -14,46 +16,25 @@ public abstract class Reader implements Printer {
 
     private ReaderType type;
 
-    private Book[] books;
+    private List<Book> books;
 
     private int emptySlot = -1;
+
+    private int bookLimit;
 
     public Reader(String name, int readerId, ReaderType type, int limit) {
         this.name = name;
         this.readerId = readerId;
         this.type = type;
-        this.books = new Book[limit];
-    }
-
-    private void findEmptySlot() {
-        for (int i = 0; i < books.length; i++) {
-            if (books[i] == null) {
-                emptySlot = i;
-                break;
-            } else emptySlot = -1;
-        }
+        this.books = new ArrayList<>();
+        this.bookLimit = limit;
     }
 
     public void takeBook(Book book) {
-        findEmptySlot();
-        if (emptySlot > -1) this.books[emptySlot] = book;
-        else System.out.println("User " + this.name + " has no place for this book.");
-    }
-
-    public Book returnBook(String isbn) {
-        Book requestedBook = null;
-        int indexBook = -1;
-        for (int i = 0; i < books.length; i++) {
-            if (Objects.equals(books[i].getIsbn(), isbn)) {
-                requestedBook = books[i];
-                indexBook = i;
-                break;
-            } else {
-                System.out.println("User " + this.name + " does not have such a book.");
-            }
+        if (books.size() <= bookLimit) {
+            this.books.add(book);
         }
-        if (indexBook > -1) books[indexBook] = null;
-        return requestedBook;
+        else System.out.println("User " + this.name + " has no place for this book.");
     }
 
     @Override
