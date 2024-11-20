@@ -1,5 +1,7 @@
 package com.telran.summeryLibrary;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -33,12 +35,19 @@ public class LibraryApp {
 
 
         Librarian librarianOne = new AdultLibrarian("Anna", Department.ART);
-        Book[] oneBooks = librarianOne.getBooks();
+        List<Book> oneBooks = librarianOne.getBooks();
+        oneBooks.add(bookThree);
 
         Librarian librarianTwo = new AdultLibrarian("Maria", Department.HISTORICAL);
+        List<Book> twoBooks = librarianTwo.getBooks();
+        twoBooks.add(bookOne);
+        twoBooks.add(bookTwo);
 
-        Librarian[] librarians = {librarianTwo, librarianOne};
-        Reader readerOne = new AdultReader("Alex", 1, ReaderType.ADULT, 5);
+        List<Librarian> librarians = new ArrayList<>();
+        librarians.add(librarianOne);
+        librarians.add(librarianTwo);
+
+        Reader readerOne = new AdultReader("Alex", 1, ReaderType.ADULT);
 
         readerOne.printBooks();
 
@@ -66,7 +75,7 @@ public class LibraryApp {
             }
         }
 
-        System.out.println("Please, choose a book: ");
+        System.out.println("Please, choose a book by isbn: ");
         String isbn = scanner.next();
 
         ourLibrarian.giveBook(isbn, readerOne);
