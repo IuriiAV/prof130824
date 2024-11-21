@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_11_2024_18_41_[Changes]1/DonutMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_11_2024_18_41_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_11_2024_18_41__Changes_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/IteratorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/IteratorExampleTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/ListIteratorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/RetrievingElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/UniApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/University.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/DonutApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/DonutMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/Donut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/DonutChocolate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/DonutJam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/DonutStandard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/DonutSugar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/Plate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/WithFilling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/WithoutFilling.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,20 +77,30 @@
     "Application.DonutApp.executor": "Run",
     "Application.EnumExample.executor": "Run",
     "Application.EnumExampleTwo.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.IteratorExampleTwo.executor": "Run",
     "Application.LibraryApp.executor": "Run",
     "Application.ListExample.executor": "Run",
     "Application.ListExampleTwo.executor": "Run",
+    "Application.ListIteratorExample.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PatterThree.executor": "Run",
     "Application.PatterTwo.executor": "Run",
     "Application.PatternOne.executor": "Run",
+    "Application.RetrievingElements.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
+    "Maven. [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SierikovKonstantin",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/Java/ProjectCalculator"
+    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Lesson" />
