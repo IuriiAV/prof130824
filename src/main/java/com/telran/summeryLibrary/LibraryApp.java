@@ -83,19 +83,5 @@ public class LibraryApp {
         readerOne.printBooks();
 
         scanner.close();
-
-
-//        Librarian librarian = null;
-//
-//
-//        Reader readerTwo;
-//
-//        librarian.printBooks();
-//        //Choose a book
-//
-//        librarian.giveBook("", readerOne);
-//
-//        readerOne.printBooks();
     }
-
 }
