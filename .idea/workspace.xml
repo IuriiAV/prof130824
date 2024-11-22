@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_11_2024_18_41_[Changes]1/DonutMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_11_2024_18_41_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_11_2024_18_41__Changes_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h2/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/DonutApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/DonutMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/Donut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/DonutChocolate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/DonutJam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/DonutStandard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/DonutSugar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/Plate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/WithFilling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/h2/model/WithoutFilling.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="SierikovKonstantin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,10 +78,11 @@
     "Application.PatterTwo.executor": "Run",
     "Application.PatternOne.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
+    "Application.Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SierikovKonstantin",
+    "git-widget-placeholder": "SierikovKonstantin__h2",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/Java/ProjectCalculator"
+    "last_opened_file_path": "C:/IT/Algoritm/AlcoRythm"
   }
 }]]></component>
   <component name="RunManager">
