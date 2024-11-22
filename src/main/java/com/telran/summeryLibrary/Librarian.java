@@ -1,18 +1,19 @@
 package com.telran.summeryLibrary;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Librarian - name, department, Book[] books (limit)
  */
 
 public abstract class Librarian implements Printer {
 
-    private static final int BOOK_LIMIT = 10;
-
     private String name;
 
     private Department department;
 
-    private final Book[] books = new Book[BOOK_LIMIT];
+    private final List<Book> books = new ArrayList<>();
 
     public Librarian(String name, Department department) {
         this.name = name;
@@ -20,7 +21,12 @@ public abstract class Librarian implements Printer {
     }
 
     public void giveBook(String isbn, Reader reader) {
-
+        for (Book book : books) {
+            if (book.getIsbn() != null && book.getIsbn().equalsIgnoreCase(isbn)) {
+                reader.takeBook(book);
+                return;
+            }
+        }
     }
 
     @Override
@@ -34,7 +40,7 @@ public abstract class Librarian implements Printer {
         return department;
     }
 
-    public Book[] getBooks() {
+    public List<Book> getBooks() {
         return books;
     }
 }
