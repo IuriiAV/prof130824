@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/IteratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/IteratorExampleTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/ListIteratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/RetrievingElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/UniApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/University.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/UniApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/UniApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/University.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/SierikovKnstantin" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -89,6 +88,7 @@
     "Application.PatternOne.executor": "Run",
     "Application.RetrievingElements.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
+    "Application.UniApp.executor": "Run",
     "Maven. [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SierikovKonstantin",
