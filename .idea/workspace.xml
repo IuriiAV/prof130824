@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson7" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/ArrayListTaskExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/MessageBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/Messege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/Messenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/storage/RequestStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/storage/StorageApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary2/HRW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/Example.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,36 +69,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AlphabetApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CoffeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DealApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DealAppAdditional.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DonutApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LibraryApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListIteratorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatterThree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatterTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatternOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RetrievingElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeasonAPP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniApp.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;SierikovKonstantin&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IT/JAVA PRO/Lesson&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlphabetApp.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.ArrayListTaskExample.executor": "Run",
+    "Application.CoffeApp.executor": "Run",
+    "Application.DealApp.executor": "Run",
+    "Application.DealAppAdditional.executor": "Run",
+    "Application.DonutApp.executor": "Run",
+    "Application.EnumExample.executor": "Run",
+    "Application.EnumExampleTwo.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.IteratorExampleTwo.executor": "Run",
+    "Application.LibraryApp.executor": "Run",
+    "Application.ListExample.executor": "Run",
+    "Application.ListExampleTwo.executor": "Run",
+    "Application.ListIteratorExample.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Messenger.executor": "Run",
+    "Application.PatterThree.executor": "Run",
+    "Application.PatterTwo.executor": "Run",
+    "Application.PatternOne.executor": "Run",
+    "Application.RetrievingElements.executor": "Run",
+    "Application.SeasonAPP.executor": "Run",
+    "Application.StorageApp.executor": "Run",
+    "Application.UniApp.executor": "Run",
+    "Maven. [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "SierikovKonstantin",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
