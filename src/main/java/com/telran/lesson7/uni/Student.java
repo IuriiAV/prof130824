@@ -23,7 +23,9 @@ public class Student {
         this.phoneNumber = phoneNumber;
     }
 
-
+    public void setRate(int rate) {
+        this.rate = rate;
+    }
 
     public String getName() {
         return name;

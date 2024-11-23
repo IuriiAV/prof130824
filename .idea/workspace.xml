@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/ArrayListTaskExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/MessageBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/Messege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/Messenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/storage/RequestStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/storage/StorageApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary2/HRW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/UniApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/UniApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/University.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="SierikovKonstantin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,7 +93,7 @@
     "Application.UniApp.executor": "Run",
     "Maven. [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SierikovKonstantin",
+    "git-widget-placeholder": "SierikovKonstantin__h3",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/IT/JAVA PRO/Lesson"
   }

@@ -9,10 +9,10 @@ import java.util.List;
  * list students
  * black list students
  * //methods
- * *     //generate 10 students on start
- * *     //add student in uni, and check duplicate
- * *     //remove students from uni and add to black list
- * *     //up rate for all students (+1)
+ * *   generate 10 students on start
+ * *   add student in uni, and check duplicate
+ * *   remove students from uni and add to black list
+ * *   up rate for all students (+1)
  */
 
 
@@ -60,8 +60,54 @@ public class University {
         return studentList;
     }
 
-    public  void printAllStudents(){
-        System.out.println(studentList);
+    public List<Student> addStudent(Student student) {
+
+        for (Student student1 : studentList) {
+            if (student1.getName().equals(student.getName())) {
+                System.out.println("Student " + student.getName() + " is already study");
+                return studentList;
+            }
+        }
+        studentList.add(student);
+        return studentList;
+    }
+
+    public void removeStudents(Student student) {
+        System.out.println("The student " + student.getName() + " was expelled and added to the blacklist");
+        studentList.remove(student);
+        blackList.add(student);
+    }
+
+
+    public void printAllStudents() {
+        System.out.println("The all students:\n");
+        for (Student student : studentList) {
+            System.out.println("Student :" + student.getName() + ", age : " + student.getAge() + " , rate : " + student.getRate() +
+                    " , phone numbers : " + student.getPhoneNumber());
+        }
+
+    }
+
+    public void printBlackList() {
+        System.out.println("Students in BLACK LIST:\n");
+        for (Student student : blackList) {
+            System.out.println("Student :" + student.getName() + ", age : " + student.getAge() + " , rate : " + student.getRate() +
+                    " , phone numbers : " + student.getPhoneNumber());
+        }
+
+    }
+
+    public List<Student> getStudentList() {
+        return studentList;
+    }
+
+    public void upgradeRate(List<Student> listStudent) {
+        for (Student student : listStudent) {
+            int value = student.getRate();
+            value = value + 1;
+            student.setRate(value);
+        }
+
     }
 
 
