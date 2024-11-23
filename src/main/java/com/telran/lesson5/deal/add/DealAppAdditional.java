@@ -2,31 +2,32 @@ package com.telran.lesson5.deal.add;
 
 public class DealAppAdditional {
 
-    public static void main(String[] args) {
-        //Player - takeCard, printAllCard, shuffleDeck
-
-        //Card (suit, rank)
-
-        //Deck - array of Card, fill card, getCard
+    public void run() {
 
         Deck deck = new Deck();
         deck.fillCards();
+        System.out.println(deck);
 
-        Player alex = new Player("Alex");
-        Player max = new Player("Max");
+        Player kostya = new Player("Kostya");
+        Player ivan = new Player("Ivan");
 
-        alex.shuffleDeck(deck);
+        kostya.shuffleDeck(deck);
+        System.out.println(deck);
 
-        Player[] players = {alex, max};
+        Player[] players = {kostya,ivan};
         for (Player player : players) {
-            for (int i = 0 ; i < 5; i++) {
+            for (int i = 0; i < 5; i++) {
                 Card card = deck.getCard();
                 player.takeCard(card);
             }
         }
 
-        for (Player player : players) {
-            player.printCards();
-        }
+        kostya.printCards();
+        ivan.printCards();
+
+        System.out.println(deck);
+
+
+
     }
 }

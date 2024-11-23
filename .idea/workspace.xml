@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h2">
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h2/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,11 +32,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="SierikovKonstantin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -62,11 +65,24 @@
     "Application.AlphabetApp.executor": "Run",
     "Application.App.executor": "Run",
     "Application.CoffeApp.executor": "Run",
+    "Application.DealApp.executor": "Run",
+    "Application.DealAppAdditional.executor": "Run",
     "Application.DonutApp.executor": "Run",
+    "Application.EnumExample.executor": "Run",
+    "Application.EnumExampleTwo.executor": "Run",
+    "Application.LibraryApp.executor": "Run",
+    "Application.ListExample.executor": "Run",
+    "Application.ListExampleTwo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PatterThree.executor": "Run",
+    "Application.PatterTwo.executor": "Run",
+    "Application.PatternOne.executor": "Run",
+    "Application.SeasonAPP.executor": "Run",
+    "Application.Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SierikovKonstantin",
+    "git-widget-placeholder": "SierikovKonstantin__h2",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/GitLessons/TestRepoForStudy"
+    "last_opened_file_path": "C:/IT/Algoritm/AlcoRythm"
   }
 }]]></component>
   <component name="RunManager">
@@ -133,7 +149,47 @@
       <option name="project" value="LOCAL" />
       <updated>1731432998889</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add DealApp">
+      <option name="closed" value="true" />
+      <created>1731585119711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731585119711</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add Library 17.11.2024">
+      <option name="closed" value="true" />
+      <created>1731840593794</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731840593794</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add Library 17.11.2024">
+      <option name="closed" value="true" />
+      <created>1731874714644</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731874714644</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add Library 17.11.2024">
+      <option name="closed" value="true" />
+      <created>1731949212393</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731949212393</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add lesson6">
+      <option name="closed" value="true" />
+      <created>1732018650989</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732018650989</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +214,9 @@
     <MESSAGE value="add //" />
     <MESSAGE value="add coffee app" />
     <MESSAGE value="add h2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add h2" />
+    <MESSAGE value="add DealApp" />
+    <MESSAGE value="add Library 17.11.2024" />
+    <MESSAGE value="add lesson6" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson6" />
   </component>
 </project>

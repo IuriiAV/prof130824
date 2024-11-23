@@ -1,4 +1,4 @@
 package com.telran.lesson5;
 
-public record Person(String name, int age) {
+public record  Person(String name, int age) {
 }

@@ -1,19 +1,16 @@
 package com.telran.summary;
 
-/**
- * Librarian - name, department, books(limit = 10) (Abstract)
- * * Библиотекарь может выдать книгу пользователю
- * * Можно посмотреть какие книги есть(полный список)
- */
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
 public abstract class Librarian implements Printer {
 
-    private static final int BOOK_LIMIT = 10;
+    private final String name;
 
-    private String name;
+    private final List<Book> books = new ArrayList<>();
 
-    private final Book[] books = new Book[BOOK_LIMIT]; //10 Magic number!!!
-
-    private Department department;
+    private final Department department;
 
     public Librarian(String name, Department department) {
         this.name = name;
@@ -21,9 +18,27 @@ public abstract class Librarian implements Printer {
     }
 
     public void giveBook(String isbn, Reader reader) {
-        //Books[] userBooks = reader.getBooks();
-        //найти по isbn книгу из массива книг этого библиотекаря в цикле
-        //и присвоить найденную книгу в массив книг пользователя
+
+        for (int i = 0; i < books.size(); i++) {
+            if (books.get(i) != null  && Objects.equals(books.get(i).getIsbn(), isbn)) {
+                if (reader.isFullList()) {
+                    Book bookToGive = books.get(i);
+                    reader.addBook(bookToGive);
+                    books.set(i, null);
+
+                }else {
+                    System.out.println("Reader has reached the maximum limit and have this is books: ");
+                }
+            }
+        }
+    }
+
+    public List<Book> getBooks() {
+        return books;
+    }
+
+    public Department getDepartment() {
+        return department;
     }
 
     @Override
@@ -32,15 +47,8 @@ public abstract class Librarian implements Printer {
             if (book == null) {
                 continue;
             }
-            System.out.println(book);
+            System.out.println("Librarian " + name + " have a book :" + book);
         }
-    }
 
-    public Department getDepartment() {
-        return department;
-    }
-
-    public Book[] getBooks() {
-        return books;
     }
 }

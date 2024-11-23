@@ -2,8 +2,9 @@ package com.telran.lesson5;
 
 public enum Connection {
 
-    TESTCONN1("google.com","admin", "1234"),
-    TESTCONN2("amazon.com","admin", "1234");
+    TESTCONN1("google.com", "admin", "1234"),
+    TESTCONN2("amazon.com", "admin", "1234");
+
 
     private String url;
 
@@ -15,17 +16,5 @@ public enum Connection {
         this.url = url;
         this.user = user;
         this.password = password;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public String getUser() {
-        return user;
-    }
-
-    public String getPassword() {
-        return password;
     }
 }

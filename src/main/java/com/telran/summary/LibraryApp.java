@@ -1,96 +1,83 @@
 package com.telran.summary;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-/**
- * Система библиотека:
- * Читатель, Библиотекарь, Книга(и)
- * Жанры книг (можно сделать фильтр)
- * Пользователь должен хранить у себя книги взятые в библиотеке
- * Библиотекарь хранит книги которые есть в библиотеке
- * <p>
- * Можно посмотреть какие книги есть(полный список)
- * Библиотекарь может выдать книгу пользователю
- * Пользователь мог показывать какие книги у него есть
- * <p>
- * Классы системы:
- * Reader, Librarian, Book
- * <p>
- * 1)Book - title(String), author(String), genre(Enum), isbn(String), (Abstract)
- * Enum Genre
- * 2)Reader - name, readerId, books(limit = 5) array (Abstract)
- * <p>
- * 3)Librarian - name, department, books(limit = 10) (Abstract)
- * <p>
- * Поведение объектов:
- */
 public class LibraryApp {
 
-    public static void main(String[] args) {
-        //0 Создадим книги
-        Book bookOne = new NonFictionBook("BookOne", "AuthorOne", "123", Genre.NON_FICTION);
-        Book bookTwo = new NonFictionBook("BookTwo", "AuthorTwo", "256", Genre.NON_FICTION);
-        Book bookThree = new NovellBook("BookThree", "AuthorThree", "789", Genre.ROMANCE);
+    public void run() {
 
-        //1) Создаем набор библиотекарей
+
+        Book bookOne = new NonFictionBook("one", "AutorOne", "111", Genre.NON_FICTION);
+        Book bookTwo = new NonFictionBook("two", "Autortwo", "222", Genre.NON_FICTION);
+        Book bookThree = new NonFictionBook("Three", "Autortwo", "333", Genre.MYSTERY);
+        Book bookFour = new NonFictionBook("Four", "AutorOne", "444", Genre.NON_FICTION);
+        Book bookFive = new NonFictionBook("Five", "Autortwo", "555", Genre.NON_FICTION);
+        Book bookSix = new NonFictionBook("Six", "Autortwo", "666", Genre.MYSTERY);
+        Book bookSeven = new NonFictionBook("Seven", "Autortwo", "777", Genre.MYSTERY);
+
         Librarian one = new AdultLibrarian("Anna", Department.ART);
-        Book[] oneBooks = one.getBooks();
-        oneBooks[0] = bookThree;
+        List<Book> listArt = one.getBooks();
+        listArt.add(bookThree);
+        listArt.add(bookFour);
+        listArt.add(bookFive);
+        listArt.add(bookSix);
 
-        Librarian two = new AdultLibrarian("Maria", Department.HISTORICAL);
-        Book[] twoBooks = two.getBooks();
-        twoBooks[0] = bookOne;
-        twoBooks[1] = bookTwo;
 
-        Librarian[] librarians = {one, two};
-        Reader readerOne = new AdultReader("Alex", 1, ReaderType.ADULT, 5);
+        Librarian two = new AdultLibrarian("Nik", Department.HISTORICAL);
+        List<Book> listHistorical = two.getBooks();
+        listHistorical.add(bookOne);
+        listHistorical.add(bookTwo);
+        listHistorical.add(bookSeven);
 
-        //1_1) Попросим пользователя показать какие книги у него есть
-        readerOne.printBooks();
+        List<Librarian> librariansList = new ArrayList<>();
+        librariansList.add(one);
+        librariansList.add(two);
+        //Librarian[] librarians = {one, two};
 
-        //2) Показываем пользователю список всех департаментов
-        System.out.println("Please choose department : ");
-        System.out.println("Departments list : ");
-        for (Department department : Department.values()) {
-            System.out.println(department);
-        }
+        Reader readerOne = new AdultReader("Alex", 1, ReaderType.ADULT, 2);
 
-        //3) Предлагаем пользователю определиться с департаментом
-        //Choose department
-        Scanner scanner = new Scanner(System.in);
-        String departmentAsString = scanner.next().toUpperCase();
-        //Department выбранный пользователем
-        //Преобразовали строку введенную пользователем в енам!!!
-        Department department = Department.valueOf(departmentAsString);
 
-        //4) Прелагаем пользователю посмотреть книги, которые находятся
-        //в выбранном департаменте
-        //Книги находятся у библиотекаря, а библиотекарь имеет принадлежность
-        //к конкретному департаменту по полю department в классе Librarian
-        Librarian ourLibrarian = null;
-        System.out.println("Books from this department : ");
-        for (int i = 0; i < librarians.length; i++) {
-            Librarian librarian = librarians[i];
-            if (department == librarian.getDepartment()) {
-                //found suitable librarian
-                librarian.printBooks();
-                ourLibrarian = librarian;
+        String oneMore = String.valueOf(Const.Y);
+
+        while (oneMore.equals("Y") ) {
+            System.out.println("Department list :");
+            for (Department department : Department.values()) {
+                System.out.println(department);
             }
+            System.out.println("Please choose department : ");
+            Scanner scanner = new Scanner(System.in);
+            String departmentAsString = scanner.next().toUpperCase();
+
+            Department department = Department.valueOf(departmentAsString);
+
+            System.out.println("Books from this department : ");
+
+            Librarian ourLibrarian = null;
+            for (Librarian librarian : librariansList) {
+                if (department == librarian.getDepartment()) {
+                    librarian.printBooks();
+                    ourLibrarian = librarian;
+                }
+            }
+
+            System.out.println("Please choose book :");
+            String isbn = scanner.next();
+
+
+            assert ourLibrarian != null;
+            ourLibrarian.giveBook(isbn, readerOne);
+
+            readerOne.printBooks();
+
+            ourLibrarian.printBooks();
+
+
+            System.out.println("Do you want to continue? Y/N");
+            oneMore = scanner.next().toUpperCase();
+
+
         }
-
-        //5)Попросим пользователя выбрать книгу из спика книг выведенных
-        // их нужного департамента
-        System.out.println("Please choose a book : ");
-        String isbn = scanner.next();
-
-        //6)Скажем выбранному библиотекарю, который записан теперь
-        // в переменную ourLibrarian, что бы он дал книгу с
-        //выбранным isbn нашему пользователю
-        ourLibrarian.giveBook(isbn, readerOne);
-
-        //7) Попросим пользователя показать какие книги у него есть
-        readerOne.printBooks();
-
-        scanner.close();
     }
 }

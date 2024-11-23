@@ -2,10 +2,10 @@ package com.telran.lesson5;
 
 public enum Season {
 
-    WINTER("very snow", "December"),
-    SPRING("green", "March"),
-    SUMMER("sun", "June"),
-    AUTUMN("rain", "September");
+    WINTER("very snov", "1"),
+    SPRING("Green", "4"),
+    SUMMER("sun","8"),
+    AUTUMN("rain", "12");
 
     private String description;
 
@@ -23,4 +23,6 @@ public enum Season {
     public String getStartMonth() {
         return startMonth;
     }
+
+
 }

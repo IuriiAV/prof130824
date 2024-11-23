@@ -19,7 +19,8 @@ public class Deck {
         int i = 0;
         for (Suit suit : Suit.values()) {
             for (Rank rank : Rank.values()) {
-                cards[i++] = new Card(suit, rank);
+                Card card = new Card(suit, rank);
+                cards[i++] = card;
             }
         }
         shuffle();
@@ -35,5 +36,12 @@ public class Deck {
 
     public Card[] getCards() {
         return cards;
+    }
+
+    @Override
+    public String toString() {
+        return "Deck{" +
+                "cards=" + Arrays.toString(cards) +
+                '}';
     }
 }

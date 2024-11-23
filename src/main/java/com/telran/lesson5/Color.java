@@ -11,4 +11,6 @@ public class Color {
     public String getColor() {
         return color;
     }
+
+
 }

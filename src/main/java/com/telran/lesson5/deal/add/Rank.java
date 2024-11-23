@@ -6,12 +6,12 @@ public enum Rank {
     FOUR,
     FIVE,
     SIX,
-    SEVEN,
+    SEWEN,
     EIGHT,
     NINE,
     TEN,
     JACK,
-    QUEEN,
+    QUIN,
     KING,
     ACE;
 }
