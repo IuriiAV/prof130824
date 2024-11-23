@@ -25,51 +25,33 @@ public class University {
     public University() {
     }
 
-    public List<Student> generateTenStudent() {
+    public void generateTenStudent() {
+        for (int i = 1; i <= 10; i++) {
+            String studentName = "Student" + i;
+            int studentAge = 18 + i;
+            int rate = i;
 
-        List<Phone> listPhonesKost = new ArrayList<>();
-        Student Kost = new Student("Kostya", 35, 1, listPhonesKost);
-        listPhonesKost.add(new Phone("+380", "369878"));
-        listPhonesKost.add(new Phone("+490", "258741"));
-        studentList.add(Kost);
+            List<Phone> listPhones = new ArrayList<>();
+            for (int j = 1; j <= 2; j++) {
+                String code = "+380";
+                String number = "489" + i + j + "789";
+                listPhones.add(new Phone(code, number));
+            }
 
-        List<Phone> listPhonesOlga = new ArrayList<>();
-        Student Olga = new Student("Olga", 35, 2, listPhonesOlga);
-        listPhonesOlga.add(new Phone("+380", "548955"));
-        listPhonesOlga.add(new Phone("+490", "194999"));
-        studentList.add(Olga);
-
-        List<Phone> listPhonesMax = new ArrayList<>();
-        Student max = new Student("Max", 35, 2, listPhonesMax);
-        listPhonesMax.add(new Phone("+380", "323878"));
-        listPhonesMax.add(new Phone("+490", "259741"));
-        studentList.add(max);
-
-        List<Phone> listPhonesGena = new ArrayList<>();
-        Student gena = new Student("Gena", 35, 2, listPhonesGena);
-        listPhonesGena.add(new Phone("+380", "5479135"));
-        listPhonesGena.add(new Phone("+490", "45643165"));
-        studentList.add(gena);
-
-        List<Phone> listPhonesOleg = new ArrayList<>();
-        Student oleg = new Student("Oleg", 37, 4, listPhonesOleg);
-        listPhonesOleg.add(new Phone("+380", "03699135"));
-        listPhonesOleg.add(new Phone("+490", "45643165"));
-        studentList.add(oleg);
-
-        return studentList;
+            Student student = new Student(studentName, studentAge, rate, listPhones);
+            studentList.add(student);
+        }
     }
 
-    public List<Student> addStudent(Student student) {
+    public void addStudent(Student student) {
 
         for (Student student1 : studentList) {
             if (student1.getName().equals(student.getName())) {
                 System.out.println("Student " + student.getName() + " is already study");
-                return studentList;
+                return;
             }
         }
         studentList.add(student);
-        return studentList;
     }
 
     public void removeStudents(Student student) {

@@ -30,7 +30,7 @@ public class UniApp {
 
         university.generateTenStudent();
 
-        //university.printAllStudents();
+        university.printAllStudents();
 
         List<Phone> listPhonesIgor = new ArrayList<>();
         Student igor = new Student("Igor", 40, 4, listPhonesIgor);
@@ -42,15 +42,15 @@ public class UniApp {
         listPhonesAndrey.add(new Phone("+380", "03699135"));
         listPhonesAndrey.add(new Phone("+490", "45643165"));
 
-        List<Phone> listPhonesOleg = new ArrayList<>();
-        Student oleg = new Student("Oleg", 37, 4, listPhonesOleg);
-        listPhonesOleg.add(new Phone("+380", "03699135"));
-        listPhonesOleg.add(new Phone("+490", "45643165"));
+        List<Phone> listPhones10 = new ArrayList<>();
+        Student Student10 = new Student("Student10", 28, 10, listPhones10);
+        listPhones10.add(new Phone("+380", "489101789"));
+        listPhones10.add(new Phone("+380", "489102789"));
 
         university.addStudent(igor);
         university.addStudent(andrey);
-        university.addStudent(oleg);
-       // university.printAllStudents();
+        university.addStudent(Student10);
+        university.printAllStudents();
 
         university.removeStudents(andrey);
         university.removeStudents(igor);
