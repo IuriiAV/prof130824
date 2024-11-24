@@ -1,5 +1,8 @@
 package com.telran.summary;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Librarian - name, department, books(limit = 10) (Abstract)
  * * Библиотекарь может выдать книгу пользователю
@@ -11,7 +14,7 @@ public abstract class Librarian implements Printer {
 
     private String name;
 
-    private final Book[] books = new Book[BOOK_LIMIT]; //10 Magic number!!!
+    private List<Book> books = new ArrayList<>();
 
     private Department department;
 
@@ -21,17 +24,37 @@ public abstract class Librarian implements Printer {
     }
 
     public void giveBook(String isbn, Reader reader) {
-        //Books[] userBooks = reader.getBooks();
-        //найти по isbn книгу из массива книг этого библиотекаря в цикле
-        //и присвоить найденную книгу в массив книг пользователя
+        Book bookToGive = null;
+
+
+        for (Book book : books) {
+            if (book.getIsbn().equals(isbn)) {
+                bookToGive = book;
+                break;
+            }
+        }
+
+        if (bookToGive == null) {
+            System.out.println("Book with ISBN " + isbn + " not found.");
+            return;
+        }
+
+        // Передать книгу пользователю
+        if (reader.addBook(bookToGive)) {
+            books.remove(bookToGive);
+            System.out.println("Book '" + bookToGive.getTitle() + "' has been given to " + reader.getName());
+        } else {
+            System.out.println("Reader cannot take more books. Limit reached.");
+        }
     }
 
     @Override
     public void printBooks() {
+        if (books.isEmpty()) {
+            System.out.println("No books available.");
+            return;
+        }
         for (Book book : books) {
-            if (book == null) {
-                continue;
-            }
             System.out.println(book);
         }
     }
@@ -40,7 +63,15 @@ public abstract class Librarian implements Printer {
         return department;
     }
 
-    public Book[] getBooks() {
+    public List<Book> getBooks() {
         return books;
+    }
+
+    public void addBook(Book book) {
+        if (books.size() < BOOK_LIMIT) {
+            books.add(book);
+        } else {
+            System.out.println("Cannot add more books. Limit reached.");
+        }
     }
 }
