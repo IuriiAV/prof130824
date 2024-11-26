@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/ArrayListTaskExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/MessageBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/Messege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/Messenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/storage/RequestStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/storage/StorageApp.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h4 DealApp and LibraryApp">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/LinkedExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/LinkedListAndArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/LinkedListVsArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/custom/CustomLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/custom/CustomListApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/custom/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary2/HRW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary2/Example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,7 @@
     "Application.App.executor": "Run",
     "Application.ArrayListTaskExample.executor": "Run",
     "Application.CoffeApp.executor": "Run",
+    "Application.CustomListApp.executor": "Run",
     "Application.DealApp.executor": "Run",
     "Application.DealAppAdditional.executor": "Run",
     "Application.DonutApp.executor": "Run",
@@ -83,6 +83,7 @@
     "Application.IteratorExample.executor": "Run",
     "Application.IteratorExampleTwo.executor": "Run",
     "Application.LibraryApp.executor": "Run",
+    "Application.LinkedListVsArrayList.executor": "Run",
     "Application.ListExample.executor": "Run",
     "Application.ListExampleTwo.executor": "Run",
     "Application.ListIteratorExample.executor": "Run",
