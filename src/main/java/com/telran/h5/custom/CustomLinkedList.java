@@ -1,4 +1,4 @@
-package com.telran.lesson8.custom;
+package com.telran.h5.custom;
 
 
 public class CustomLinkedList {
@@ -7,19 +7,11 @@ public class CustomLinkedList {
 
     private int size = 0;
 
-    private Node first;
 
-    public Node getFirst() {
-        return first;
-    }
+
 
     public void addLast(int data) {
         Node node = new Node(data, null);
-        if (head == null) {
-            head = node;
-            size++;
-            return;
-        }
 
         Node current = head;
         while (current.getNext() != null) {
@@ -105,6 +97,29 @@ public class CustomLinkedList {
         }
     }
 
+    public void addIndex(int index, int data) {
+        Node node = new Node(data, null);
+        Node current = head;
+        int count = 0;
+        while (current != null){
+            if (index == 0) {
+                head = node;
+                size++;
+                return;
+            }
+            if (count == index -1){
+                current.setNext(node.getNext());
+                node.setNext(current.getNext());
+            }
+
+            current = current.getNext();
+
+            count++;
+
+        }
+        size++;
+    }
+
     public void removeFirst() {
         head = head.getNext();
         size--;
@@ -118,5 +133,7 @@ public class CustomLinkedList {
         current.setNext(null);
         size--;
     }
+
+
 
 }

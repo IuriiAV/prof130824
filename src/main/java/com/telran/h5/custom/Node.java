@@ -1,4 +1,4 @@
-package com.telran.lesson8.custom;
+package com.telran.h5.custom;
 
 public class Node {
 
@@ -10,6 +10,9 @@ public class Node {
     public Node(int data, Node next) {
         this.data = data;
         this.next = next;
+    }
+
+    public Node(int data) {
     }
 
     public int getData() {
@@ -30,9 +33,7 @@ public class Node {
 
     @Override
     public String toString() {
-        return "Node{" +
-                "data=" + data +
-                ", next=" + next +
-                '}';
+        return "Node = " + data +
+                ", next= " + next ;
     }
 }

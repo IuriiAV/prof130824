@@ -1,4 +1,4 @@
-package com.telran.lesson8.custom;
+package com.telran.h5.custom;
 
 /**
  * get(index), remove(index), add(index, data)
@@ -23,20 +23,23 @@ public class CustomListApp {
 
 
         int element = list.get(4);
-        System.out.println(element);
+        //System.out.println(element);
 
-        System.out.println(list.size());
+        //System.out.println(list.size());
 
         list.removeFirst();
-        list.print();
+        //list.print();
 
         list.removeLast();
-        list.print();
+        //list.print();
 
         list.remove(4);
         list.print();
 
-
+        list.addIndex(2,31);
+        list.print();
 
     }
+
+
 }
