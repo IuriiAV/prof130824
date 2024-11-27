@@ -12,9 +12,13 @@ public class FilterDuplicate {
         List<String> originalList = new ArrayList<String>();
 
         originalList.add("Kuk");
+
         originalList.add("Kuka");
+
         originalList.add("Kuk");
+
         originalList.add("Kuka");
+
         originalList.add("Kuk");
 
 

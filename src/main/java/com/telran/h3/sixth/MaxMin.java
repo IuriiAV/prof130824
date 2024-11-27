@@ -12,9 +12,13 @@ public class MaxMin {
 
         List<Integer> originalList = new ArrayList<>();
         originalList.add(5);
+
         originalList.add(10);
+
         originalList.add(54);
+
         originalList.add(75);
+
         originalList.add(9);
 
         int minInt = originalList.get(0).intValue();

@@ -8,7 +8,7 @@ public class Multiplay2 {
  вы должны вернуть список, каждое значение которого умножается на 2
  */
 
-    public static List<Integer> multiplayTwo(List<Integer> numbers) {
+    public static List<Integer> MultiplayTwo(List<Integer> numbers) {
         List<Integer> result = new ArrayList<>();
         for (int number : numbers) {
             result.add(number * 2);
@@ -24,7 +24,7 @@ public class Multiplay2 {
         numbers.add(8);
         System.out.println("Original list : " + numbers);
 
-        List<Integer> doubleNumber = multiplayTwo(numbers);
+        List<Integer> doubleNumber = MultiplayTwo(numbers);
 
         System.out.println("Doubled list is: " + doubleNumber);
 

@@ -22,7 +22,6 @@ public class LongOfStrings {
 
     public static List<Integer> listWithLength(List<String> originalList) {
         List<Integer> result = new ArrayList<>();
-
         for (int i = 0; i < originalList.size(); i++) {
             result.add(originalList.get(i).length());
         }

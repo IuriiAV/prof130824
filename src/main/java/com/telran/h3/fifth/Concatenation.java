@@ -28,8 +28,11 @@ public class Concatenation {
         List<String> originalList = new ArrayList<>();
 
         originalList.add("Bob|");
+
         originalList.add("John|");
+
         originalList.add("Samuel|");
+
         originalList.add("Karin");
 
         return originalList;

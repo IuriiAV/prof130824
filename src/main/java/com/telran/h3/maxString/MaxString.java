@@ -12,9 +12,13 @@ public class MaxString {
 
         List<String> Str = new ArrayList<>();
         Str.add("Max");
+
         Str.add("Kokoko");
+
         Str.add("mhfuem");
+
         Str.add("ndhvdksl");
+
         Str.add("dbdy");
 
         int largestString = Str.get(0).length();
