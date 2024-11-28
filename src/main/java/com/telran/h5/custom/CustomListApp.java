@@ -3,7 +3,7 @@ package com.telran.h5.custom;
 /**
  * get(index), remove(index), add(index, data)
  * removeFirst(), removeLast(), size();
- * Add inerator, add second direction
+ * Add iterator, add second direction
  */
 public class CustomListApp {
 
@@ -25,7 +25,7 @@ public class CustomListApp {
         int element = list.get(4);
         //System.out.println(element);
 
-        //System.out.println(list.size());
+        System.out.println("The size is = " + list.size());
 
         list.removeFirst();
         //list.print();

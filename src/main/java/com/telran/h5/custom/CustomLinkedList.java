@@ -7,9 +7,6 @@ public class CustomLinkedList {
 
     private int size = 0;
 
-
-
-
     public void addLast(int data) {
         Node node = new Node(data, null);
 
@@ -34,15 +31,27 @@ public class CustomLinkedList {
         size++;
     }
 
-    public void print() {
+    public void addIndex(int index, int data) {
         Node current = head;
+        Node node = new Node(data, null);
+        int count = 0;
         while (current != null) {
-            System.out.print(" " + current.getData() + "-> ");
-            current = current.getNext();
-        }
-        System.out.println("\n");
-    }
+            if (index == 0) {
+                head = node;
+                head.setNext(current);
+                size++;
+                return;
+            }
+            if (count == index - 1) {
+                node.setNext(current.getNext());
+                current.setNext(node);
+            }
 
+            current = current.getNext();
+            count++;
+        }
+        size++;
+    }
 
     public int get(int index) {
         Node current = head;
@@ -62,17 +71,8 @@ public class CustomLinkedList {
         return current.getData();
     }
 
-
     public int size() {
-
         return size;
-    }
-
-
-    @Override
-    public String toString() {
-        return "CustomLinkedList{" +
-                "head=" + head;
     }
 
     public void remove(int index) {
@@ -97,29 +97,6 @@ public class CustomLinkedList {
         }
     }
 
-    public void addIndex(int index, int data) {
-        Node node = new Node(data, null);
-        Node current = head;
-        int count = 0;
-        while (current != null){
-            if (index == 0) {
-                head = node;
-                size++;
-                return;
-            }
-            if (count == index -1){
-                current.setNext(node);
-                node.setNext(current.getNext());
-            }
-
-            current = current.getNext();
-
-            count++;
-
-        }
-        size++;
-    }
-
     public void removeFirst() {
         head = head.getNext();
         size--;
@@ -134,6 +111,20 @@ public class CustomLinkedList {
         size--;
     }
 
+    public void print() {
+        Node current = head;
+        while (current != null) {
+            System.out.print(" " + current.getData() + "-> ");
+            current = current.getNext();
+        }
+        System.out.println("\n");
+    }
+
+    @Override
+    public String toString() {
+        return "CustomLinkedList{" +
+                "head=" + head;
+    }
 
 
 }
