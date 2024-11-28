@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h4 DealApp and LibraryApp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/LinkedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/LinkedListAndArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/LinkedListVsArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/custom/CustomLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/custom/CustomListApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/custom/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/ExampleTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/IncorrectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +78,8 @@
     "Application.DonutApp.executor": "Run",
     "Application.EnumExample.executor": "Run",
     "Application.EnumExampleTwo.executor": "Run",
+    "Application.ExampleTreeSet.executor": "Run",
+    "Application.IncorrectExample.executor": "Run",
     "Application.IteratorExample.executor": "Run",
     "Application.IteratorExampleTwo.executor": "Run",
     "Application.LibraryApp.executor": "Run",
@@ -95,6 +95,7 @@
     "Application.RetrievingElements.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
     "Application.StorageApp.executor": "Run",
+    "Application.Task.executor": "Run",
     "Application.UniApp.executor": "Run",
     "Maven. [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
