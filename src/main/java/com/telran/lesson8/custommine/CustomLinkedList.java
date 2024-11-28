@@ -6,7 +6,7 @@ public class CustomLinkedList implements Iterable<Integer> {
 
     private Node head;
 
-    public void reverse() {
+     public void reverse() {
         Node previous = null;
         Node current = head;
         Node next;

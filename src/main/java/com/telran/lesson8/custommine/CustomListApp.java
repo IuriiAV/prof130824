@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 public class CustomListApp {
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         CustomLinkedList list = new CustomLinkedList();
         // 5 -> 10- > 1-> 4-> 25 -> 7
         // head : 5

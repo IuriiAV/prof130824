@@ -3,7 +3,7 @@ package com.telran.lesson8.custommine;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class CustomIterator implements Iterator<Integer> {
+ public class CustomIterator implements Iterator<Integer> {
     private Node current;
 
     public CustomIterator(Node head) {
