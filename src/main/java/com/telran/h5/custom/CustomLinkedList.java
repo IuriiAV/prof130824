@@ -108,7 +108,7 @@ public class CustomLinkedList {
                 return;
             }
             if (count == index -1){
-                current.setNext(node.getNext());
+                current.setNext(node);
                 node.setNext(current.getNext());
             }
 
