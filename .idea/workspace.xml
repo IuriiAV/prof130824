@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h4 DealApp and LibraryApp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/ExampleTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/IncorrectExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/Task.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add start h5 this is not end">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary3/example/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary3/example/BookStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary3/example/ExampleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +80,7 @@
     "Application.DonutApp.executor": "Run",
     "Application.EnumExample.executor": "Run",
     "Application.EnumExampleTwo.executor": "Run",
+    "Application.ExampleApp.executor": "Run",
     "Application.ExampleTreeSet.executor": "Run",
     "Application.IncorrectExample.executor": "Run",
     "Application.IteratorExample.executor": "Run",
@@ -98,14 +101,18 @@
     "Application.Task.executor": "Run",
     "Application.UniApp.executor": "Run",
     "Maven. [clean].executor": "Run",
+    "Maven..executor": "Run",
+    "Maven.pro130824 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SierikovKonstantin",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson"
+    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn" />
       <command value="mvn clean" />
     </option>
   </component>
