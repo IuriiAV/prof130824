@@ -7,6 +7,8 @@
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add start h5 this is not end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomListApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
     "Application.App.executor": "Run",
     "Application.ArrayListTaskExample.executor": "Run",
     "Application.CoffeApp.executor": "Run",
-    "Application.CustomListApp.executor": "Debug",
+    "Application.CustomListApp.executor": "Run",
     "Application.DealApp.executor": "Run",
     "Application.DealAppAdditional.executor": "Run",
     "Application.DonutApp.executor": "Run",
@@ -96,7 +98,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SierikovKonstantin__h5",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson"
+    "last_opened_file_path": "C:/IT/JAVA PRO/LessonPractic1"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -266,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732740401792</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add start h5 this is not end">
+      <option name="closed" value="true" />
+      <created>1732822178546</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732822178546</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,20 +309,5 @@
     <MESSAGE value="add start h5" />
     <MESSAGE value="add start h5 this is not end" />
     <option name="LAST_COMMIT_MESSAGE" value="add start h5 this is not end" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomLinkedList.java</url>
-          <line>99</line>
-          <properties class="com.telran.h5.custom.CustomLinkedList" method="addIndex">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

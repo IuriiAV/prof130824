@@ -6,9 +6,20 @@ public class Node {
 
     private Node next;
 
-    public Node(int data, Node next) {
+    private Node prev;
+
+    public Node(int data, Node next, Node prev) {
         this.data = data;
         this.next = next;
+        this.prev = prev;
+    }
+
+    public Node getPrevious() {
+        return prev;
+    }
+
+    public void setPrevious(Node previous) {
+        this.prev = prev;
     }
 
     public int getData() {
@@ -29,7 +40,7 @@ public class Node {
 
     @Override
     public String toString() {
-        return "Node = " + data +
-                ", next= " + next ;
+        return data +" "+
+                 next +" " + prev;
     }
 }

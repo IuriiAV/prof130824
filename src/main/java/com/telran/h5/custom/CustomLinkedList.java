@@ -1,14 +1,17 @@
 package com.telran.h5.custom;
 
+import java.util.Iterator;
 
-public class CustomLinkedList {
+public class CustomLinkedList implements Iterable<Node>  {
 
     private Node head;
+
+    private Node tail;
 
     private int size = 0;
 
     public void addLast(int data) {
-        Node node = new Node(data, null);
+        Node node = new Node(data, null, null);
 
         Node current = head;
         while (current.getNext() != null) {
@@ -19,7 +22,7 @@ public class CustomLinkedList {
     }
 
     public void addFirst(int data) {
-        Node node = new Node(data, null);
+        Node node = new Node(data, null, null);
         if (head == null) {
             head = node;
             size++;
@@ -27,13 +30,14 @@ public class CustomLinkedList {
         }
 
         node.setNext(head);
+        //node.setPrevious(head);
         head = node;
         size++;
     }
 
     public void addIndex(int index, int data) {
         Node current = head;
-        Node node = new Node(data, null);
+        Node node = new Node(data, null, null);
         int count = 0;
         while (current != null) {
             if (index == 0) {
@@ -118,13 +122,48 @@ public class CustomLinkedList {
             current = current.getNext();
         }
         System.out.println("\n");
+
     }
 
     @Override
     public String toString() {
         return "CustomLinkedList{" +
-                "head=" + head;
+                "head=" + head +
+                '}';
     }
 
+    @Override
+    public Iterator<Node> iterator() {
+        return new MyIterator();
+    }
 
+    private class MyIterator implements Iterator<Node> {
+
+        @Override
+        public String toString() {
+            return "CustomLinkedList{" +
+                    "head=" + head;
+        }
+
+        @Override
+        public boolean hasNext() {
+            Node current = head;
+            if (current.getNext() != null) {
+                return true;
+            }
+            return false;
+        }
+
+        @Override
+        public Node next() {
+            Node current = head;
+            current = current.getNext();
+            return current;
+        }
+
+        @Override
+        public void remove() {
+            Iterator.super.remove();
+        }
+    }
 }
