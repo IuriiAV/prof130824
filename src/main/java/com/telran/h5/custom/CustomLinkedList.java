@@ -24,16 +24,19 @@ public class CustomLinkedList implements Iterable<Node>  {
     public void addFirst(int data) {
         Node node = new Node(data, null, null);
         if (head == null) {
-            head = node;
+            tail= node;
+            head = tail;
             size++;
             return;
         }
 
         node.setNext(head);
-        //node.setPrevious(head);
+        node.setPrev(tail);
         head = node;
         size++;
     }
+
+
 
     public void addIndex(int index, int data) {
         Node current = head;
@@ -148,10 +151,10 @@ public class CustomLinkedList implements Iterable<Node>  {
         @Override
         public boolean hasNext() {
             Node current = head;
-            if (current.getNext() != null) {
-                return true;
+            if (current.getNext() == null) {
+                return false;
             }
-            return false;
+            return true;
         }
 
         @Override

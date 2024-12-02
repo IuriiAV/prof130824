@@ -14,11 +14,11 @@ public class Node {
         this.prev = prev;
     }
 
-    public Node getPrevious() {
+    public Node getPrev() {
         return prev;
     }
 
-    public void setPrevious(Node previous) {
+    public void setPrev(Node prev) {
         this.prev = prev;
     }
 

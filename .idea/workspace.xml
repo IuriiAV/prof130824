@@ -71,7 +71,7 @@
     "Application.App.executor": "Run",
     "Application.ArrayListTaskExample.executor": "Run",
     "Application.CoffeApp.executor": "Run",
-    "Application.CustomListApp.executor": "Run",
+    "Application.CustomListApp.executor": "Debug",
     "Application.DealApp.executor": "Run",
     "Application.DealAppAdditional.executor": "Run",
     "Application.DonutApp.executor": "Run",
@@ -309,5 +309,21 @@
     <MESSAGE value="add start h5" />
     <MESSAGE value="add start h5 this is not end" />
     <option name="LAST_COMMIT_MESSAGE" value="add start h5 this is not end" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomListApp.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomListApp.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
