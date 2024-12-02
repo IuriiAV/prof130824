@@ -31,7 +31,7 @@ public class CustomLinkedList implements Iterable<Node>  {
         }
 
         node.setNext(head);
-        node.setPrev(tail);
+        head.setPrev(node);
         head = node;
         size++;
     }
