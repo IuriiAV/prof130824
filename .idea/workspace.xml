@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add start h5 this is not end">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomLinkedList.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h5">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/CustomListApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h5/custom/Node.java" afterDir="false" />
     </list>
@@ -71,7 +69,7 @@
     "Application.App.executor": "Run",
     "Application.ArrayListTaskExample.executor": "Run",
     "Application.CoffeApp.executor": "Run",
-    "Application.CustomListApp.executor": "Debug",
+    "Application.CustomListApp.executor": "Run",
     "Application.DealApp.executor": "Run",
     "Application.DealAppAdditional.executor": "Run",
     "Application.DonutApp.executor": "Run",
@@ -276,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732822178546</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add h5">
+      <option name="closed" value="true" />
+      <created>1733173730235</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733173730235</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,7 +314,8 @@
     <MESSAGE value="add lesson 8" />
     <MESSAGE value="add start h5" />
     <MESSAGE value="add start h5 this is not end" />
-    <option name="LAST_COMMIT_MESSAGE" value="add start h5 this is not end" />
+    <MESSAGE value="add h5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add h5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

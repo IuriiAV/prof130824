@@ -22,24 +22,24 @@ public class CustomListApp {
 
         list.addLast(43);
         list.print();
-//        System.out.println(list);
-//
-//        int element = list.get(4);
-//        System.out.println(element);
-//
-//        System.out.println("The size is = " + list.size());
-//
-//        list.removeFirst();
-//        list.print();
-//
-//        list.removeLast();
-//        list.print();
-//
-//        list.remove(4);
-//        list.print();
-//
-//        list.addIndex(2,31);
-//        list.print();
+        System.out.println(list);
+
+        int element = list.get(4);
+        System.out.println(element);
+
+        System.out.println("The size is = " + list.size());
+
+        list.removeFirst();
+        list.print();
+
+        list.removeLast();
+        list.print();
+
+        list.remove(4);
+        list.print();
+
+        list.addIndex(2,31);
+        list.print();
 
 //        Iterator<Node> iterator = list.iterator();
 //
