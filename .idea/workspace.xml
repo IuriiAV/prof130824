@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add start h5 this is not end">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary3/example/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary3/example/BookStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary3/example/ExampleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/EqalsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Example/ExampleApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Example/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/BookApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/CompareExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/SortByPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/SortByYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/SotrByTitle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -73,13 +81,16 @@
     "Application.AlphabetApp.executor": "Run",
     "Application.App.executor": "Run",
     "Application.ArrayListTaskExample.executor": "Run",
+    "Application.BookApp.executor": "Run",
     "Application.CoffeApp.executor": "Run",
+    "Application.CompareExample.executor": "Run",
     "Application.CustomListApp.executor": "Run",
     "Application.DealApp.executor": "Run",
     "Application.DealAppAdditional.executor": "Run",
     "Application.DonutApp.executor": "Run",
     "Application.EnumExample.executor": "Run",
     "Application.EnumExampleTwo.executor": "Run",
+    "Application.EqalsExample.executor": "Run",
     "Application.ExampleApp.executor": "Run",
     "Application.ExampleTreeSet.executor": "Run",
     "Application.IncorrectExample.executor": "Run",

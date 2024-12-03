@@ -1,0 +1,15 @@
+package com.telran.lesson10.compare;
+
+import java.util.Comparator;
+
+public class SotrByTitle implements Comparator<Book> {
+
+    @Override
+    public int compare(Book o1, Book o2) {
+        String o1Title = o1.getTitle();
+        String o2Title = o2.getTitle();
+
+        o1Title.compareTo(o2Title);
+        return 0;
+    }
+}
