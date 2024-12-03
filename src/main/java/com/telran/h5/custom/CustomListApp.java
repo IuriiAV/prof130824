@@ -24,12 +24,12 @@ public class CustomListApp {
         //list.print();
 
         int element = list.get(2);
-        //System.out.println("The element is = " + element);
+        System.out.println("The element is = " + element);
 
-        //System.out.println("The size is = " + list.size());
+        System.out.println("The size is = " + list.size());
 
         list.removeFirst();
-        //list.print();
+        list.print();
 
         list.removeLast();
         list.print();
