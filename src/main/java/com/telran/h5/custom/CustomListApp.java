@@ -40,10 +40,10 @@ public class CustomListApp {
         list.addIndex(2,31);
         list.print();
 
-        Iterator<Node> iterator = list.iterator();
+        Iterator<Integer> iterator = list.iterator();
 
         while (iterator.hasNext()) {
-            Node value = iterator.next();
+            Integer value = iterator.next();
             System.out.println(value);
         }
 

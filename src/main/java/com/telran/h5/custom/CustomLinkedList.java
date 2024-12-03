@@ -2,7 +2,7 @@ package com.telran.h5.custom;
 
 import java.util.Iterator;
 
-public class CustomLinkedList implements Iterable<Node> {
+public class CustomLinkedList implements Iterable<Integer> {
 
     private Node head;
 
@@ -148,29 +148,27 @@ public class CustomLinkedList implements Iterable<Node> {
     }
 
     @Override
-    public Iterator<Node> iterator() {
+    public Iterator<Integer> iterator() {
         return new MyIterator();
     }
 
-    private class MyIterator implements Iterator<Node> {
 
+    private class MyIterator implements Iterator<Integer> {
+
+        int count = -1;
 
         @Override
         public boolean hasNext() {
-            Node current = head;
-            return current.getNext() != null;
+            return count + 1 <size();
         }
 
         @Override
-        public Node next() {
-            Node current = head;
-
+        public Integer next() {
             if (!hasNext()) {
                 System.out.println("No more elements in the list.");
             }
-
-            current = current.getNext();
-            return current;
+            count++;
+            return get(count);
         }
 
         @Override
