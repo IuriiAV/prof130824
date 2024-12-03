@@ -2,7 +2,7 @@ package com.telran.h5.custom;
 
 import java.util.Iterator;
 
-public class CustomLinkedList implements Iterable<Node>  {
+public class CustomLinkedList implements Iterable<Node> {
 
     private Node head;
 
@@ -12,19 +12,32 @@ public class CustomLinkedList implements Iterable<Node>  {
 
     public void addLast(int data) {
         Node node = new Node(data, null, null);
-
-        Node current = head;
-        while (current.getNext() != null) {
-            current = current.getNext();
+        if (tail == null) {
+            tail = node;
+            head = node;
         }
+        Node current = tail;
+
         current.setNext(node);
+        node.setPrev(tail);
+        tail = node;
         size++;
     }
+//    public void addLast(int data) {
+//        Node node = new Node(data, null, null);
+//
+//        Node current = head;
+//        while (current.getNext() != null) {
+//            current = current.getNext();
+//        }
+//        current.setNext(node);
+//        size++;
+//    }
 
     public void addFirst(int data) {
         Node node = new Node(data, null, null);
         if (head == null) {
-            tail= node;
+            tail = node;
             head = tail;
             size++;
             return;
@@ -35,7 +48,6 @@ public class CustomLinkedList implements Iterable<Node>  {
         head = node;
         size++;
     }
-
 
 
     public void addIndex(int index, int data) {
@@ -142,24 +154,21 @@ public class CustomLinkedList implements Iterable<Node>  {
 
     private class MyIterator implements Iterator<Node> {
 
-        @Override
-        public String toString() {
-            return "CustomLinkedList{" +
-                    "head=" + head;
-        }
 
         @Override
         public boolean hasNext() {
             Node current = head;
-            if (current.getNext() == null) {
-                return false;
-            }
-            return true;
+            return current.getNext() != null;
         }
 
         @Override
         public Node next() {
             Node current = head;
+
+            if (!hasNext()) {
+                System.out.println("No more elements in the list.");
+            }
+
             current = current.getNext();
             return current;
         }

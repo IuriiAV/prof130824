@@ -14,39 +14,38 @@ public class CustomListApp {
         CustomLinkedList list = new CustomLinkedList();
 
         list.addFirst(7);
-        list.addFirst(25);
+        list.addLast(25);
         list.addFirst(4);
         list.addFirst(1);
         list.addFirst(10);
         list.addFirst(5);
 
         list.addLast(43);
-        list.print();
-//        System.out.println(list);
-//
-//        int element = list.get(4);
-//        System.out.println(element);
-//
-//        System.out.println("The size is = " + list.size());
-//
-//        list.removeFirst();
-//        list.print();
-//
-//        list.removeLast();
-//        list.print();
-//
-//        list.remove(4);
-//        list.print();
-//
-//        list.addIndex(2,31);
-//        list.print();
+        //list.print();
 
-//        Iterator<Node> iterator = list.iterator();
-//
-//        while (iterator.hasNext()) {
-//            Node value = iterator.next();
-//            System.out.println(value);
-//        }
+        int element = list.get(2);
+        //System.out.println("The element is = " + element);
+
+        //System.out.println("The size is = " + list.size());
+
+        list.removeFirst();
+        //list.print();
+
+        list.removeLast();
+        list.print();
+
+        list.remove(2);
+        list.print();
+
+        list.addIndex(2,31);
+        list.print();
+
+        Iterator<Node> iterator = list.iterator();
+
+        while (iterator.hasNext()) {
+            Node value = iterator.next();
+            System.out.println(value);
+        }
 
 
     }

@@ -2,6 +2,7 @@ package com.telran.h5.custom;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
@@ -43,9 +44,4 @@ public class Node {
 //        this.next = next;
 //    }
 
-    @Override
-    public String toString() {
-        return data +" "+
-                 next +" " + prev;
-    }
 }
