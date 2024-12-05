@@ -20,11 +20,9 @@ public class ExampleTreeSet {
         System.out.println("First element = " + set.first());
         System.out.println("Last element = " + set.last());
 
-
         // contains - check that element exists in set
         String e = "E";
         System.out.println("Set contains " + e + " ? " + set.contains(e));
-
 
         //remove - remove element
         set.remove("B");
@@ -35,18 +33,13 @@ public class ExampleTreeSet {
         for (String value : set) {
             System.out.print(value + " ");
 
-
-        }
         //2
-        System.out.println("\nUseIretor");
         Iterator<String> iterator = set.iterator();
         while (iterator.hasNext()) {
-            System.out.println(iterator.next() + " ");
         }
 
         //3
         System.out.println("\nUse foreach with lambda");
-        set.forEach(value -> System.out.println(value + " "));
 
         System.out.println();
 
@@ -58,10 +51,7 @@ public class ExampleTreeSet {
         System.out.println("Tail set : " + set.tailSet("D"));
         System.out.println("Head set : " + set.headSet("D"));
 
-        //Без компаратора тут не обойтись
         // SortedSet<Student> students = new TreeSet<>();
         //students.add(new Student());
-
-
     }
 }

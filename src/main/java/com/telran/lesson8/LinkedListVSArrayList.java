@@ -8,8 +8,6 @@ import java.util.Random;
 public class LinkedListVSArrayList {
 
     public static void main(String[] args) {
-        ArrayList<Integer> one = new ArrayList<>();
-        LinkedList<Integer> two = new LinkedList<>();
 
         long start = System.currentTimeMillis(); // from 01.01.1970 03-00
         createList(one);

@@ -1,14 +1,12 @@
 package com.telran.lesson11;
 
 /**
- *
  * Queue - FIFO, first input, first output
  * Первый пришел первый ушел
  * LinkedList, PriorityQueue
  * PriorityBlockingQueue
  *
  * Queue - интерфейс , его наследует интерфейс Deque
- * Deque - очередь которая двунаправленная
  * Queue - помещаем элементы с одной стороны, забираем с другой
  * Deque - можем помещать элементы и забирать с обоих сторон
  * Иерархия :
@@ -16,16 +14,9 @@ package com.telran.lesson11;
  * Реализации: LinkedList, ArrayDeque
  *
  *
- *
- *
- *
- *
- *
- * Основано на массивах: ArrayDeque
  * Основано на связном списке: LinkedList
  * Очередь с приоритетом: PriorityQueue
  */
-
 public class QueueTheory {
 
 }
