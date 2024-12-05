@@ -1,6 +1,10 @@
 package com.telran.lesson7;
 
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 public class IteratorExample {
 
     public static void main(String[] args) {
