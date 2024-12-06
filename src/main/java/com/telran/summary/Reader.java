@@ -14,11 +14,22 @@ public abstract class Reader implements Printer {
 
     private Book[] books;
 
+    private int currentId = 0;
+
     public Reader(String name, int readerId, ReaderType type, int limit) {
         this.name = name;
         this.readerId = readerId;
         this.type = type;
         this.books = new Book[limit];
+    }
+
+    public boolean addBook(Book book) {
+        if (books.length > currentId) {
+            books[currentId] = book;
+            currentId++;
+            return true;
+        }
+        return false;
     }
 
     @Override
