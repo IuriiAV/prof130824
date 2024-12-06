@@ -32,6 +32,8 @@ public abstract class Animal {
     //Абстрактный метод - метод без тела в абстрактном классе
     public abstract void drink();
 
+
+
     public String getName() {
         return name;
     }

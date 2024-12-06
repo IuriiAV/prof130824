@@ -18,4 +18,8 @@ public class Lion extends EarthAnimal {
     public void drink() {
         System.out.println("Lion driiink!");
     }
+
+
+
+
 }
