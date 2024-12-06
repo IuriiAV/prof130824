@@ -33,16 +33,16 @@ public class LibraryApp {
         Book bookThree = new NovellBook("BookThree", "AuthorThree", "789", Genre.ROMANCE);
 
         //1) Создаем набор библиотекарей
-        Librarian one = new AdultLibrarian("Anna", Department.ART);
-        Book[] oneBooks = one.getBooks();
+        Librarian adultLibrarianArt = new AdultLibrarian("Anna", Department.ART);
+        Book[] oneBooks = adultLibrarianArt.getBooks();
         oneBooks[0] = bookThree;
 
-        Librarian two = new AdultLibrarian("Maria", Department.HISTORICAL);
-        Book[] twoBooks = two.getBooks();
+        Librarian adultLibrarianHistorical = new AdultLibrarian("Maria", Department.HISTORICAL);
+        Book[] twoBooks = adultLibrarianHistorical.getBooks();
         twoBooks[0] = bookOne;
         twoBooks[1] = bookTwo;
 
-        Librarian[] librarians = {one, two};
+        Librarian[] librarians = {adultLibrarianArt, adultLibrarianHistorical};
         Reader readerOne = new AdultReader("Alex", 1, ReaderType.ADULT, 5);
 
         //1_1) Попросим пользователя показать какие книги у него есть
@@ -80,7 +80,7 @@ public class LibraryApp {
 
         //5)Попросим пользователя выбрать книгу из спика книг выведенных
         // их нужного департамента
-        System.out.println("Please choose a book : ");
+        System.out.println("Please choose a book by isbn: ");
         String isbn = scanner.next();
 
         //6)Скажем выбранному библиотекарю, который записан теперь
