@@ -8,14 +8,29 @@ public class HospitalApp {
 
         PriorityQueue<Patient> queue = new PriorityQueue<>();
 
-        Patient Wacho = new Patient("Nik", "Wacho", 36, Level.Intermediate);
-        Patient Acho = new Patient("Alex", "Acho", 40, Level.Lowest);
-        Patient Simer = new Patient("Nikolay", "Simer", 18, Level.Lowest);
-        Patient Minin = new Patient("Andrey", "Minin", 22, Level.Highest);
+        Patient wacho = new Patient("Nik", "Wacho", 36, Card.SILVER);
+        Patient acho = new Patient("Alex", "Acho", 40, Card.SILVER);
+        Patient moll = new Patient("moll", "frik", 40, Card.SILVER);
+        Patient simer = new Patient("Nikolay", "Simer", 18, Card.GOLD);
+        Patient maks = new Patient("Maks", "Smirnoff", 18, Card.GOLD);
+        Patient minin = new Patient("Andrey", "Minin", 22, Card.PLATINUM);
+        Patient danil = new Patient("Danil", "Danskoy", 48, Card.PLATINUM);
 
-        queue.offer(Acho);
-        queue.offer(Simer);
 
-        System.out.println(queue);
+        queue.offer(wacho);
+       // queue.offer(acho);
+        queue.offer(simer);
+        queue.offer(maks);
+     //   queue.offer(minin);
+//       queue.offer(danil);
+
+//        queue.offer(danil);
+
+
+
+
+
+       queue.forEach(System.out::println);
+
     }
 }
