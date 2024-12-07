@@ -1,10 +1,14 @@
 package com.telran.h6;
 
 import lombok.Getter;
+import lombok.ToString;
 
 import java.util.Comparator;
 
-public class Patient implements Comparator<Patient> {
+
+@Getter
+@ToString
+public class Patient implements Comparable<Patient> {
 
     private String name;
 
@@ -12,25 +16,24 @@ public class Patient implements Comparator<Patient> {
 
     private int age;
 
-    @Getter
-    private Level status;
+    private Card card;
 
-    public Patient(String name, String lastname, int age, Level status) {
-        this.name = name;
-        this.lastname = lastname;
+    public Patient(String lastname, String name,int age, Card card) {
+        this.card = card;
         this.age = age;
-        this.status = status;
+        this.lastname = lastname;
+        this.name = name;
     }
 
     @Override
-    public int compare(Patient o1, Patient o2) {
-        String status1 = o1.status;
-        Level status2 = o2.getStatus();
-
-        if (status1.equals(status2)){
-
+    public int compareTo(Patient o) {
+        if (this.getCard().getRang() > o.getCard().getRang()) {
+            return 1;
         }
-
+        if (this.getCard().getRang() < o.getCard().getRang()) {
+            return -1;
+        }
         return 0;
     }
+
 }

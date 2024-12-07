@@ -18,10 +18,10 @@ public class HospitalApp {
 
 
         queue.offer(wacho);
-       // queue.offer(acho);
+        queue.offer(acho);
         queue.offer(simer);
         queue.offer(maks);
-     //   queue.offer(minin);
+        queue.offer(minin);
 //       queue.offer(danil);
 
 //        queue.offer(danil);
