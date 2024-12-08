@@ -3,8 +3,6 @@ package com.telran.h6;
 import lombok.Getter;
 import lombok.ToString;
 
-import java.util.Comparator;
-
 
 @Getter
 @ToString
@@ -18,7 +16,7 @@ public class Patient implements Comparable<Patient> {
 
     private Card card;
 
-    public Patient(String lastname, String name,int age, Card card) {
+    public Patient(String lastname, String name, int age, Card card) {
         this.card = card;
         this.age = age;
         this.lastname = lastname;
@@ -27,13 +25,7 @@ public class Patient implements Comparable<Patient> {
 
     @Override
     public int compareTo(Patient o) {
-        if (this.getCard().getRang() > o.getCard().getRang()) {
-            return 1;
-        }
-        if (this.getCard().getRang() < o.getCard().getRang()) {
-            return -1;
-        }
-        return 0;
+        return Integer.compare(this.getCard().getRang(), o.getCard().getRang());
     }
 
 }

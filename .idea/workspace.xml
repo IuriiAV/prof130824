@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add summary 4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6/CalculatorStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h6/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h6/HospitalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6/HospitalApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h6/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h6/sortByLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6/sortByLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h6/sortByLevel.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +116,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.telran.h6" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn" />
@@ -256,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733428680954</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add summary 4">
+      <option name="closed" value="true" />
+      <created>1733611802425</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733611802425</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +301,7 @@
     <MESSAGE value="add lesson6" />
     <MESSAGE value="add lesson7" />
     <MESSAGE value="add lesson11" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson11" />
+    <MESSAGE value="add summary 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add summary 4" />
   </component>
 </project>
