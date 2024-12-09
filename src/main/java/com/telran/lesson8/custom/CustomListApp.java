@@ -8,8 +8,6 @@ public class CustomListApp {
         // head : 5
         // get(index), addFirst(int data), addLast(), toString
 
-        //to HW : get(index) , remove(index), add(index, data)
-        //removeFirst(), removeLast() , size()
         //* Add iterator, add second direction
 
         list.addFirst(7);
@@ -21,24 +19,17 @@ public class CustomListApp {
         // 5 -> 10- > 1-> 4-> 25 -> 7
         list.addLast(43);
         // 5 -> 10- > 1-> 4-> 25 -> 7 -> 43
+        list.add(7, 99);
+        System.out.println("Size = " + list.size());
+        list.print();
+        list.removeFirst();
+        list.removeLast();
+        System.out.println();
         list.print();
 
-
-//        // 5 -> 10 -> 1 -> null
-//        Node three = new Node(1, null);
-//        Node two = new Node(10, three);
-//        Node one = new Node(5, two);
-
-//        Node one = new Node(5, null);
-//        Node two = new Node(10, null);
-//        Node three = new Node(1, null);
-//        one.setNext(two);
-//        two.setNext(three);
-
-//        Node current = one;
-//        while (current != null) {
-//            System.out.print("" + current.getData() + "->");
-//            current = current.getNext();
-//        }
+        System.out.println();
+        System.out.println(list.remove(4));
+        System.out.println("Size = " + list.size());
+        list.print();
     }
 }
