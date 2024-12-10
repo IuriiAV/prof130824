@@ -10,6 +10,7 @@ import java.util.List;
 public class Deck {
 
     private final Card[] cards;
+    private int currentIndex = 0;
 
     public Deck() {
         cards = new Card[Suit.values().length * Rank.values().length];
@@ -36,4 +37,12 @@ public class Deck {
     public Card[] getCards() {
         return cards;
     }
+
+    public void giveCard(Player player) {
+        boolean isTook = player.takeCard(cards[currentIndex]);
+        if (isTook){
+            cards[currentIndex++] = null;
+        }
+    }
 }
+

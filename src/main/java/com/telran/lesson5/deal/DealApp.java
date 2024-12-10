@@ -13,5 +13,14 @@ public class DealApp {
         deck.initialize();
         Card[] cards = deck.getCards();
         System.out.println(Arrays.toString(cards));
+        Player player = new Player("Roman");
+        deck.giveCard(player);
+        deck.giveCard(player);
+        deck.giveCard(player);
+        deck.giveCard(player);
+        deck.giveCard(player);
+        deck.giveCard(player);
+        player.printCards();
     }
+
 }
