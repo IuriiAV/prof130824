@@ -18,6 +18,9 @@ public class Deck {
             }
         }
     }
+    public void shuffleDeck(Deck deck) {
+        Collections.shuffle(cards);
+    }
 
 
 //    public Card getCard() {

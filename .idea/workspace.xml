@@ -6,29 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/DealApp/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/DealApp/DealAppAdditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/DealApp/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/DealApp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/DealApp/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/DealApp/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Rank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/DealApp/Suit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Suit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/AdultLibrarian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/AdultReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/Const.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/Genre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/Librarian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/LibraryApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/NonFictionBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/NovelBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/NovellBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/Reader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/library/ReaderType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/homework/homework_051124/task_1/task_2/PhoneApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,31 +62,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlphabetApp.executor": "Run",
-    "Application.App.executor": "Run",
-    "Application.CoffeApp.executor": "Run",
-    "Application.DealApp.executor": "Run",
-    "Application.DealAppAdditional.executor": "Run",
-    "Application.DonutApp.executor": "Run",
-    "Application.EnumExample.executor": "Run",
-    "Application.EnumExampleTwo.executor": "Run",
-    "Application.LibraryApp.executor": "Run",
-    "Application.ListExample.executor": "Run",
-    "Application.ListExampleTwo.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PatterThree.executor": "Run",
-    "Application.PatterTwo.executor": "Run",
-    "Application.PatternOne.executor": "Run",
-    "Application.SeasonAPP.executor": "Run",
-    "Application.Test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SierikovKonstantin__h6__Pasyans",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/Algoritm/AlcoRythm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlphabetApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoffeApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DealApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DealAppAdditional.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DonutApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumExampleTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListExampleTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatterThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatterTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeasonAPP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SierikovKonstantin__h6__Pasyans&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IT/Algoritm/AlcoRythm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.PasyansApp.Main" />

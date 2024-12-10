@@ -14,8 +14,8 @@ public class DealAppAdditional {
        Player kostya = new Player("Kostya");
 
 
-        kostya.shuffleDeck(deck);
-//        System.out.println(deck);
+       kostya.shufflePlayerDeck(deck);
+        System.out.println(deck);
 //
 //        Player[] players = {kostya,ivan};
 //        for (Player player : players) {
