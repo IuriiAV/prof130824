@@ -1,4 +1,4 @@
-package com.telran.DealApp;
+package com.telran.PasyansApp;
 
 public class Main {
 

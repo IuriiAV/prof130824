@@ -1,4 +1,4 @@
-package com.telran.DealApp;
+package com.telran.PasyansApp;
 
 public class Card {
 
@@ -11,7 +11,6 @@ public class Card {
         this.rank = rank;
     }
 
-    public Card() {}
 
 
     @Override
