@@ -7,7 +7,7 @@ public class HospitalApp {
 
     public static void main(String[] args) {
 
-        PriorityQueue<Patient> queue = new PriorityQueue<>();
+        PriorityQueue<Patient> queue = new PriorityQueue<>(10);
 
         Patient wacho = new Patient("Nik", "Wacho", 12, Card.SILVER);
         //Patient acho = new Patient("Alex", "Acho", 40, Card.SILVER);
@@ -22,13 +22,15 @@ public class HospitalApp {
         queue.offer(simer);
         queue.offer(minin);
 
+    while (!queue.isEmpty()){
+        System.out.println(queue.poll());
+    }
 
 
 
 
 
 
-       queue.forEach(System.out::println);
 
     }
 }
