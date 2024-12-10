@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add test1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h6/CalculatorStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6/CalculatorStack.java" afterDir="false" />
-    </list>
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add test1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -276,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733678466468</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add test1">
+      <option name="closed" value="true" />
+      <created>1733846937388</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733846937388</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +313,7 @@
     <MESSAGE value="add lesson11" />
     <MESSAGE value="add summary 4" />
     <MESSAGE value="add test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test" />
+    <MESSAGE value="add test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test1" />
   </component>
 </project>
