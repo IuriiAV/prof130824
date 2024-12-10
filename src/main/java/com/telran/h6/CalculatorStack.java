@@ -1,7 +1,5 @@
 package com.telran.h6;
 
-import lombok.ToString;
-
 import java.util.*;
 
 public class CalculatorStack {
@@ -11,63 +9,65 @@ public class CalculatorStack {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите выражение в формате 1+2*3 :\n");
-        String exp = "2+(1*3)";
+        String exp = "2*2+5";
 
 
-        Queue<Integer> queueNum = new LinkedList<>();
+        Stack<Integer> queueNum = new Stack<>();
 
-        Queue<Character> queueSimbol = new LinkedList<>();
+        Stack<Character> queueSimbol = new Stack<>();
 
         Stack<Integer> stackRes = new Stack<>();
 
-        for (int i = 0; i < exp.length(); i++) {
+        for (int i = exp.length()-1; i >= 0; i--) {
             char ch = exp.charAt(i);
 
             if (ch == ')' || ch == '(' || ch == '+' || ch == '-' || ch == '*' || ch == '/') {
-                queueSimbol.add(ch);
+                queueSimbol.push(ch);
             }
 
             if (Character.isDigit(ch)) {
-                queueNum.add(ch - '0');
+                queueNum.push(ch - '0');
             }
         }
 
         while (!queueSimbol.isEmpty()) {
-            stackRes.push(queueNum.poll());
 
-            int result = 0;
-
-            if (queueSimbol.poll() == '('){
-
+            if (queueSimbol.peek() == ')' || queueSimbol.peek() == '(' ){
+               queueSimbol.pop();
             }
-
-            if (stackRes.size() == 2) {
-                switch (queueSimbol.poll()) {
-                    case '+':
-                        result = stackRes.pop() + stackRes.pop();
-                        stackRes.push(result);
-                        break;
-                    case '-':
-                        int num1 = stackRes.pop();
-                        int num2 = stackRes.pop();
-                        result = num2 - num1;
-                        stackRes.push(result);
-                        break;
-                    case '*':
-                        result = stackRes.pop() * stackRes.pop();
-                        stackRes.push(result);
-                        break;
-                    case '/':
-                        int num4 = stackRes.pop();
-                        int num3 = stackRes.pop();
-                        result = num3 / num4;
-                        stackRes.push(result);
-                }
-            }
+            stackRes.push(queueNum.pop());
+            extractedResult(stackRes, queueSimbol);
         }
         System.out.println(queueNum);
         System.out.println(queueSimbol);
         System.out.println("Ваше выражение " + exp + " = " + stackRes);
+    }
+
+    private static void extractedResult(Stack<Integer> stackRes, Stack<Character> queueSimbol) {
+        int result;
+        if (stackRes.size() == 2) {
+            switch (queueSimbol.pop()) {
+                case '+':
+                    result = stackRes.pop() + stackRes.pop();
+                    stackRes.push(result);
+                    break;
+                case '-':
+                    int num1 = stackRes.pop();
+                    int num2 = stackRes.pop();
+                    result = num2 - num1;
+                    stackRes.push(result);
+                    break;
+                case '*':
+                    result = stackRes.pop() * stackRes.pop();
+                    stackRes.push(result);
+                    break;
+                case '/':
+                    int num4 = stackRes.pop();
+                    int num3 = stackRes.pop();
+                    result = num3 / num4;
+                    stackRes.push(result);
+            }
+        }
     }
 }
 
