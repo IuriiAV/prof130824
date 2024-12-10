@@ -10,14 +10,13 @@ public class CalculatorStack {
 
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите выражение в формате 1+2*3= :\n");
-        String exp = "3+5-1";
-        System.out.println("Ваше выражение : " + exp);
+        System.out.println("Введите выражение в формате 1+2*3 :\n");
+        String exp = "2+(1*3)";
 
 
-        LinkedList<Integer> stackNum = new LinkedList<>();
+        Queue<Integer> queueNum = new LinkedList<>();
 
-        LinkedList<Character> stackSimbol = new LinkedList<>();
+        Queue<Character> queueSimbol = new LinkedList<>();
 
         Stack<Integer> stackRes = new Stack<>();
 
@@ -25,89 +24,50 @@ public class CalculatorStack {
             char ch = exp.charAt(i);
 
             if (ch == ')' || ch == '(' || ch == '+' || ch == '-' || ch == '*' || ch == '/') {
-                stackSimbol.addLast(ch);
+                queueSimbol.add(ch);
             }
 
             if (Character.isDigit(ch)) {
-                stackNum.addLast(ch - '0');
+                queueNum.add(ch - '0');
             }
         }
 
-        int count = 0;
-        int size = stackSimbol.size();
+        while (!queueSimbol.isEmpty()) {
+            stackRes.push(queueNum.poll());
 
-//        while (count != size) {
-//
-//            stackRes.push(stackNum.pop());
-//
-//            if (stackRes.size() == 2) {
-//                int result = 0;
-//                switch (stackSimbol.pop()) {
-//                    case '+':
-//                        result = stackRes.pop() + stackRes.pop();
-//                        stackRes.push(result);
-//                        break;
-//                    case '-':
-//                        result = stackRes.pop() - stackRes.pop();
-//                        stackRes.push(result);
-//                        break;
-//                    case '*':
-//                        result = stackRes.pop() * stackRes.pop();
-//                        stackRes.push(result);
-//                        break;
-//                    case '/':
-//                        result = stackRes.pop() / stackRes.pop();
-//                        stackRes.push(result);
-//                }
-//                break;
-//            }
-//            count++;
-//
-//        char levelOper = '1';
-//        while (levelOper != '=') {
-//            int input = scanner.nextInt();
-//            char inputOper = scanner.next().charAt(0);
-//            // for (int i = 0; i < expression.length(); i++) {
-//            if (inputOper == ')' || inputOper == '(' || inputOper == '+' || inputOper == '-' || inputOper == '*' || inputOper == '/') {
-//                stackSimbol.push(inputOper);
-//            }
-//
-//            stackNum.push(input);
-//
-//            if (stackNum.size() == 2) {
-//                int result = 0;
-//                switch (stackSimbol.pop()) {
-//                    case '+':
-//                        result = stackNum.pop() + stackNum.pop();
-//                        stackNum.push(result);
-//                        break;
-//                    case '-':
-//                        result = stackNum.pop() - stackNum.pop();
-//                        stackNum.push(result);
-//                        break;
-//                    case '*':
-//                        result = stackNum.pop() * stackNum.pop();
-//                        stackNum.push(result);
-//                        break;
-//                    case '/':
-//                        result = stackNum.pop() / stackNum.pop();
-//                        stackNum.push(result);
-//                }
-//                break;
-//            }
-//
-//            if (inputOper == '=') {
-//                levelOper = inputOper;
-//            }
-//
-//
-//
+            int result = 0;
 
-            System.out.println(stackSimbol);
-            System.out.println(stackNum);
-            System.out.println("Result = " + stackRes);
+            if (queueSimbol.poll() == '('){
 
+            }
+
+            if (stackRes.size() == 2) {
+                switch (queueSimbol.poll()) {
+                    case '+':
+                        result = stackRes.pop() + stackRes.pop();
+                        stackRes.push(result);
+                        break;
+                    case '-':
+                        int num1 = stackRes.pop();
+                        int num2 = stackRes.pop();
+                        result = num2 - num1;
+                        stackRes.push(result);
+                        break;
+                    case '*':
+                        result = stackRes.pop() * stackRes.pop();
+                        stackRes.push(result);
+                        break;
+                    case '/':
+                        int num4 = stackRes.pop();
+                        int num3 = stackRes.pop();
+                        result = num3 / num4;
+                        stackRes.push(result);
+                }
+            }
         }
+        System.out.println(queueNum);
+        System.out.println(queueSimbol);
+        System.out.println("Ваше выражение " + exp + " = " + stackRes);
     }
-//}
+}
 
