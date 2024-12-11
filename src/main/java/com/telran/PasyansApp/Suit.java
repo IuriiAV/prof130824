@@ -1,8 +1,8 @@
 package com.telran.PasyansApp;
 
 public enum Suit {
-    CLUBS,
+    CLUBS,//kresta
     DIAMONDS,
     HEARTS,
-    SPADES;
+    SPADES;//pika
 }

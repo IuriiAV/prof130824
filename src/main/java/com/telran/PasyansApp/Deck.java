@@ -1,26 +1,29 @@
 package com.telran.PasyansApp;
 
 
+import lombok.Getter;
 import lombok.ToString;
 
 import java.util.*;
 
 @ToString
+@Getter
 public class Deck {
 
-    private final List<Card> cards = new ArrayList<>();
+    private final Stack<Card> cards = new Stack<>();
+
 
     public void fillCards() {
         for (Suit suit : Suit.values()) {
             for (Rank rank : Rank.values()) {
                 Card card = new Card(suit, rank);
-                cards.add(card) ;
+                cards.push(card);
             }
         }
     }
-    public void shuffleDeck(Deck deck) {
-        Collections.shuffle(cards);
-    }
+
+
+
 
 
 //    public Card getCard() {

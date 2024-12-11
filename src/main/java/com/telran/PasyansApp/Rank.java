@@ -6,7 +6,7 @@ public enum Rank {
     FOUR,
     FIVE,
     SIX,
-    SEWEN,
+    SEVEN,
     EIGHT,
     NINE,
     TEN,

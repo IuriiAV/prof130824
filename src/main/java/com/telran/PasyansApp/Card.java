@@ -1,5 +1,11 @@
 package com.telran.PasyansApp;
 
+import lombok.Getter;
+import lombok.ToString;
+
+
+@ToString
+@Getter
 public class Card {
 
     private Suit suit;
@@ -11,7 +17,9 @@ public class Card {
         this.rank = rank;
     }
 
-
+    public Card(Suit suit) {
+        this.suit = suit;
+    }
 
     @Override
     public String toString() {

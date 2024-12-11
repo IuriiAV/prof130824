@@ -5,10 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
-import java.util.List;
+
 
 @AllArgsConstructor
 @ToString
@@ -18,8 +16,11 @@ public class Player {
     private  String name;
 
     public void shufflePlayerDeck(Deck deck) {
-        deck.shuffleDeck(deck);
+        Collections.shuffle(deck.getCards());
+
     }
+
+
 //
 //    public void takeCard(Card card) {
 //        for (int i = 0; i < playerCards.length; i++) {

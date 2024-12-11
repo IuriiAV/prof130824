@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson6">
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h6_Pasyans start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealManeger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Suit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Suit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732018650989</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add h6_Pasyans start">
+      <option name="closed" value="true" />
+      <created>1733873412189</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733873412189</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +250,7 @@
     <MESSAGE value="add DealApp" />
     <MESSAGE value="add Library 17.11.2024" />
     <MESSAGE value="add lesson6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson6" />
+    <MESSAGE value="add h6_Pasyans start" />
+    <option name="LAST_COMMIT_MESSAGE" value="add h6_Pasyans start" />
   </component>
 </project>
