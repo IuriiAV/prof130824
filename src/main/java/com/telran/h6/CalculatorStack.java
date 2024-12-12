@@ -8,39 +8,44 @@ public class CalculatorStack {
 
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите выражение в формате 1+2*3 :\n");
-        String exp = "2*2+5";
+        String out = "y";
+        while (out.equals("y")) {
+            System.out.println("Введите выражение в формате 1+2*3 :\n");
+            String exp = scanner.nextLine();
 
 
-        Stack<Integer> queueNum = new Stack<>();
+            Stack<Integer> queueNum = new Stack<>();
 
-        Stack<Character> queueSimbol = new Stack<>();
+            Stack<Character> queueSimbol = new Stack<>();
 
-        Stack<Integer> stackRes = new Stack<>();
+            Stack<Integer> stackRes = new Stack<>();
 
-        for (int i = exp.length()-1; i >= 0; i--) {
-            char ch = exp.charAt(i);
+            for (int i = exp.length() - 1; i >= 0; i--) {
+                char ch = exp.charAt(i);
 
-            if (ch == ')' || ch == '(' || ch == '+' || ch == '-' || ch == '*' || ch == '/') {
-                queueSimbol.push(ch);
+                if (ch == ')' || ch == '(' || ch == '+' || ch == '-' || ch == '*' || ch == '/') {
+                    queueSimbol.push(ch);
+                }
+
+                if (Character.isDigit(ch)) {
+                    queueNum.push(ch - '0');
+                }
             }
 
-            if (Character.isDigit(ch)) {
-                queueNum.push(ch - '0');
+            while (!queueSimbol.isEmpty()) {
+
+                if (queueSimbol.peek() == ')' || queueSimbol.peek() == '(') {
+                    queueSimbol.pop();
+                }
+                stackRes.push(queueNum.pop());
+                extractedResult(stackRes, queueSimbol);
             }
+
+            System.out.println("Ваше выражение " + exp + " = " + stackRes);
+            System.out.println("Хотите ввести выражение ещё раз?  y/n");
+            out = scanner.nextLine();
         }
 
-        while (!queueSimbol.isEmpty()) {
-
-            if (queueSimbol.peek() == ')' || queueSimbol.peek() == '(' ){
-               queueSimbol.pop();
-            }
-            stackRes.push(queueNum.pop());
-            extractedResult(stackRes, queueSimbol);
-        }
-        System.out.println(queueNum);
-        System.out.println(queueSimbol);
-        System.out.println("Ваше выражение " + exp + " = " + stackRes);
     }
 
     private static void extractedResult(Stack<Integer> stackRes, Stack<Character> queueSimbol) {
