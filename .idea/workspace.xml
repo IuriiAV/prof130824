@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson12/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson12/Task1.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h6_Pasyans start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/BSTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/BTreeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/TreeUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +71,7 @@
     "Application.AlphabetApp.executor": "Run",
     "Application.App.executor": "Run",
     "Application.ArrayListTaskExample.executor": "Run",
+    "Application.BTreeApp.executor": "Run",
     "Application.BookApp.executor": "Run",
     "Application.CoffeApp.executor": "Run",
     "Application.CompareExample.executor": "Run",
