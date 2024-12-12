@@ -1,7 +1,5 @@
 package com.telran.summary;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -36,15 +34,15 @@ public class LibraryApp {
 
         //1) Создаем набор библиотекарей
         Librarian one = new AdultLibrarian("Anna", Department.ART);
-        List<Book> oneBooks = one.getBooks();
-        oneBooks.add(bookThree);
+        Book[] oneBooks = one.getBooks();
+        oneBooks[0] = bookThree;
 
         Librarian two = new AdultLibrarian("Maria", Department.HISTORICAL);
-        List<Book> twoBooks = two.getBooks();
-        twoBooks.add(bookOne);
-        twoBooks.add(bookTwo);
+        Book[] twoBooks = two.getBooks();
+        twoBooks[0] = bookOne;
+        twoBooks[1] = bookTwo;
 
-        List<Librarian> librarians = List.of(one, two);
+        Librarian[] librarians = {one, two};
         Reader readerOne = new AdultReader("Alex", 1, ReaderType.ADULT, 5);
 
         //1_1) Попросим пользователя показать какие книги у него есть
@@ -71,8 +69,8 @@ public class LibraryApp {
         //к конкретному департаменту по полю department в классе Librarian
         Librarian ourLibrarian = null;
         System.out.println("Books from this department : ");
-        for (int i = 0; i < librarians.size(); i++) {
-            Librarian librarian = librarians.get(i);
+        for (int i = 0; i < librarians.length; i++) {
+            Librarian librarian = librarians[i];
             if (department == librarian.getDepartment()) {
                 //found suitable librarian
                 librarian.printBooks();
