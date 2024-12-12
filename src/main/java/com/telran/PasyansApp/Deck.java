@@ -21,22 +21,4 @@ public class Deck {
             }
         }
     }
-
-
-
-
-
-//    public Card getCard() {
-//        Card card = new Card();
-//        for (int i = 0; i < cards.length; i++) {
-//            if (cards[i] != null) {
-//                card = cards[i];
-//                cards[i] = null;
-//                break;
-//            }
-//        }
-//        return card;
-//    }
-
-
 }

@@ -21,6 +21,10 @@ public class Card {
         this.suit = suit;
     }
 
+    public Card() {
+
+    }
+
     @Override
     public String toString() {
         return "Card: " + suit + " " + rank;

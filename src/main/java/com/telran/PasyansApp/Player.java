@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.ToString;
 
 import java.util.Collections;
+import java.util.Scanner;
+import java.util.Stack;
 
 
 @AllArgsConstructor
@@ -17,8 +19,13 @@ public class Player {
 
     public void shufflePlayerDeck(Deck deck) {
         Collections.shuffle(deck.getCards());
-
     }
+
+    public void drawFromDeck(DealManager s){
+        s.getStackMainTwo().push(s.getStackMain().pop());
+    }
+
+
 
 
 //
