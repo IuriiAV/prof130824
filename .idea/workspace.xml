@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h6_Pasyans start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/BSTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/BTreeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/InfoStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/LanguageStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/MenuApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/ProductStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +97,7 @@
     "Application.ListIteratorExample.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MapExample.executor": "Run",
+    "Application.MenuApp.executor": "Run",
     "Application.Messenger.executor": "Run",
     "Application.PatterThree.executor": "Run",
     "Application.PatterTwo.executor": "Run",
@@ -129,13 +133,26 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MenuApp">
     <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.lesson12.MapExample" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.telran.lesson12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.summary5.MenuApp" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.summary5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenuApp" />
         <item itemvalue="Application.MapExample" />
         <item itemvalue="Application.TestApp" />
       </list>
