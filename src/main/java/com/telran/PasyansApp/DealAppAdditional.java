@@ -9,17 +9,23 @@ public class DealAppAdditional {
         DealManager alex = new DealManager("Alex");
         Deck deck = new Deck();
         deck.fillCards();
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Enter your name");
-//        String name = scanner.nextLine();
-        Player kostya = new Player("Kostya");
+        System.out.println("You start playing solitaire. Enter your name ");
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        Player one = new Player(name);
+        System.out.println("Your name is " + name);
+        System.out.println("Do you want to shuffle the cards  y/n");
 
-        kostya.shufflePlayerDeck(deck);
+        String choice = scanner.nextLine();
+        while (!choice.equalsIgnoreCase("y") && !choice.equalsIgnoreCase("n")){
+            one.shufflePlayerDeck(deck);
+        }
+
 
         alex.dealCards(deck);
         alex.printApp();
 
-        kostya.drawFromDeck(alex);
+        one.drawFromDeck(alex);
         alex.putCardsInFinish();
 
 

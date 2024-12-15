@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h6_Pasyans start">
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h6_Soliter finish  Pasyans not.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/SoliterApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/Suit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealManeger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,20 +86,39 @@
     "Application.PatterTwo.executor": "Run",
     "Application.PatternOne.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
+    "Application.SoliterApp.executor": "Run",
     "Application.Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SierikovKonstantin__h6__Pasyans",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/Algoritm/AlcoRythm"
+    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.telran.h6_Solitaire" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SoliterApp">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.PasyansApp.Main" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.PasyansApp.*" />
+          <option name="PATTERN" value="com.telran.h6_Solitaire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoliterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h6_Solitaire.SoliterApp" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h6_Solitaire.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SoliterApp" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -248,6 +272,7 @@
     <MESSAGE value="add Library 17.11.2024" />
     <MESSAGE value="add lesson6" />
     <MESSAGE value="add h6_Pasyans start" />
-    <option name="LAST_COMMIT_MESSAGE" value="add h6_Pasyans start" />
+    <MESSAGE value="add h6_Soliter finish  Pasyans not." />
+    <option name="LAST_COMMIT_MESSAGE" value="add h6_Soliter finish  Pasyans not." />
   </component>
 </project>

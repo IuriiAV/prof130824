@@ -76,29 +76,13 @@ public class DealManager {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите карту которую хотите поместить в колоду(Первая карта должна быть 'ACE' ): 1  2  3  4  5  6  7");
         switch (sc.nextLine()){
-            case "1" -> {
-                choicesStack(stackOne);
-            }
-            case "2" -> {
-                choicesStack(stackTwo);
-            }
-            case "3" -> {
-                choicesStack(stackThree);
-            }
-            case "4" -> {
-                choicesStack(stackFour);
-            }
-            case "5" -> {
-                choicesStack(stackFive);
-            }
-            case "6" -> {
-                choicesStack(stackSix);
-            }
-            case "7" -> {
-                choicesStack(stackSeven);
-            }
-
-
+           case "1" -> choicesStack(stackOne);
+           case "2" ->  choicesStack(stackTwo);
+           case "3" ->  choicesStack(stackThree);
+           case "4" ->  choicesStack(stackFour);
+           case "5" ->  choicesStack(stackFive);
+           case "6" ->  choicesStack(stackSix);
+           case "7" ->  choicesStack(stackSeven);
         }
     }
 
