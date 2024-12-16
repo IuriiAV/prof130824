@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h8 start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary3/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary3/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary3/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary3/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary3/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h8/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary3/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h8/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +128,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MenuApp">
+  <component name="RunManager" selected="Application.Task1">
     <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.lesson12.MapExample" />
       <module name="pro130824" />
@@ -148,6 +148,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.telran.summary5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h8.Task1" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.TestApp" />
         <item itemvalue="Application.MenuApp" />
         <item itemvalue="Application.MapExample" />
         <item itemvalue="Application.TestApp" />
-        <item itemvalue="Application.MenuApp" />
       </list>
     </recent_temporary>
   </component>
@@ -335,5 +348,20 @@
     <MESSAGE value="add lesson7" />
     <MESSAGE value="add h8 start" />
     <option name="LAST_COMMIT_MESSAGE" value="add h8 start" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/telran/h8/Task1.java</url>
+          <line>46</line>
+          <properties class="com.telran.h8.Task1" method="breadthFirstSearchNumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

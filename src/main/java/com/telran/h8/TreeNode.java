@@ -1,4 +1,4 @@
-package com.telran.summary3;
+package com.telran.h8;
 
 import lombok.Getter;
 import lombok.Setter;
