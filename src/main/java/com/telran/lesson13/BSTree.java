@@ -61,22 +61,14 @@ public class BSTree {
         return false;
     }
 
-    private static void inorderDepthFirstSearch(TreeNode root) {
-        if (root == null) {
-            return;
-        }
 
-        inorderDepthFirstSearch(root.getLeft());
-        System.out.print(root.getValue() + " ");
-        inorderDepthFirstSearch(root.getRight());
-    }
 
 
 
     public static void main(String[] args) {
         TreeNode root = TreeUtils.getSampleBSTree();
 
-        inorderDepthFirstSearch(root);
+
         System.out.println("\n");
 
         BSTree bstree = new BSTree();
