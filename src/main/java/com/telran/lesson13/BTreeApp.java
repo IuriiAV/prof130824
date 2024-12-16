@@ -23,7 +23,7 @@ import java.util.Queue;
 public class BTreeApp {
 
     public static void main(String[] args) {
-        TreeNode root = TreeUtils.getSampleTree();
+        TreeNodee root = TreeUtils.getSampleTree();
         breadthFirstSearch(root);
         System.out.println("\n");
         breadthFirstSearchWithLevelPrint(root);
@@ -43,7 +43,7 @@ public class BTreeApp {
      * 12 1 9 2 4 5 6 7 3 8
      * Корень в конце, после левого и правого
      */
-    private static void postorderDepthFirstSearch(TreeNode root) {
+    private static void postorderDepthFirstSearch(TreeNodee root) {
         if (root == null) {
             return;
         }
@@ -59,7 +59,7 @@ public class BTreeApp {
      * 8 4 1 12 2 9 3 5 7 6
      * Корень сразу, перед левым и правым
      */
-    private static void preorderDepthFirstSearch(TreeNode root) {
+    private static void preorderDepthFirstSearch(TreeNodee root) {
         if (root == null) {
             return;
         }
@@ -76,7 +76,7 @@ public class BTreeApp {
      * 12 1 4 2 9 8 5 3 7 6
      * Корень между левым и правым
      */
-    private static void inorderDepthFirstSearch(TreeNode root) {
+    private static void inorderDepthFirstSearch(TreeNodee root) {
         if (root == null) {
             return;
         }
@@ -86,14 +86,14 @@ public class BTreeApp {
         inorderDepthFirstSearch(root.getRight());
     }
 
-    private static void breadthFirstSearch(TreeNode root) {
+    private static void breadthFirstSearch(TreeNodee root) {
         if (root == null) {
             return;
         }
-        Queue<TreeNode> queue = new LinkedList<>(); // q:
+        Queue<TreeNodee> queue = new LinkedList<>(); // q:
         queue.add(root); // q: 8
         while (!queue.isEmpty()) {
-            TreeNode node = queue.poll(); // 8 4 3 1 2 5 7 12 9 6// q:
+            TreeNodee node = queue.poll(); // 8 4 3 1 2 5 7 12 9 6// q:
             System.out.print(node.getValue() + " "); // 8 4 3 1 2 5 7 12 9 6
             //Add left node to queue
             if (node.getLeft() != null) {
@@ -106,17 +106,17 @@ public class BTreeApp {
         }
     }
 
-    private static void breadthFirstSearchWithLevelPrint(TreeNode root) {
+    private static void breadthFirstSearchWithLevelPrint(TreeNodee root) {
         if (root == null) {
             return;
         }
-        Queue<TreeNode> queue = new LinkedList<>(); // q:
+        Queue<TreeNodee> queue = new LinkedList<>(); // q:
         queue.add(root); // q: 8
 
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
-                TreeNode node = queue.poll(); // 8 4 3 1 2 5 7 12 9 6// q:
+                TreeNodee node = queue.poll(); // 8 4 3 1 2 5 7 12 9 6// q:
                 System.out.print(node.getValue() + " "); // 8 4 3 1 2 5 7 12 9 6
                 //Add left node to queue
                 if (node.getLeft() != null) {

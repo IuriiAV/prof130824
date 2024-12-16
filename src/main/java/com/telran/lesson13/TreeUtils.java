@@ -11,17 +11,17 @@ package com.telran.lesson13;
  */
 public class TreeUtils {
 
-    public static TreeNode getSampleTree() {
-        TreeNode root = new TreeNode(8);
-        TreeNode four = new TreeNode(4);
-        TreeNode three = new TreeNode(3);
-        TreeNode one = new TreeNode(1);
-        TreeNode two = new TreeNode(2);
-        TreeNode five = new TreeNode(5);
-        TreeNode seven = new TreeNode(7);
-        TreeNode twelve = new TreeNode(12);
-        TreeNode nine = new TreeNode(9);
-        TreeNode six = new TreeNode(6);
+    public static TreeNodee getSampleTree() {
+        TreeNodee root = new TreeNodee(8);
+        TreeNodee four = new TreeNodee(4);
+        TreeNodee three = new TreeNodee(3);
+        TreeNodee one = new TreeNodee(1);
+        TreeNodee two = new TreeNodee(2);
+        TreeNodee five = new TreeNodee(5);
+        TreeNodee seven = new TreeNodee(7);
+        TreeNodee twelve = new TreeNodee(12);
+        TreeNodee nine = new TreeNodee(9);
+        TreeNodee six = new TreeNodee(6);
 
         root.setLeft(four);
         root.setRight(three);
@@ -40,24 +40,24 @@ public class TreeUtils {
         return root;
     }
 
-    public static TreeNode getSampleBSTree() {
-        TreeNode root = new TreeNode(14);
+    public static TreeNodee getSampleBSTree() {
+        TreeNodee root = new TreeNodee(14);
 
-        TreeNode six = new TreeNode(6);
-        TreeNode eighteen = new TreeNode(18);
+        TreeNodee six = new TreeNodee(6);
+        TreeNodee eighteen = new TreeNodee(18);
 
-        TreeNode five = new TreeNode(5);
-        TreeNode seven = new TreeNode(7);
+        TreeNodee five = new TreeNodee(5);
+        TreeNodee seven = new TreeNodee(7);
 
-        TreeNode sixteen = new TreeNode(16);
-        TreeNode twentytwo = new TreeNode(22);
+        TreeNodee sixteen = new TreeNodee(16);
+        TreeNodee twentytwo = new TreeNodee(22);
 
-        TreeNode four = new TreeNode(4);
-        TreeNode eight = new TreeNode(8);
+        TreeNodee four = new TreeNodee(4);
+        TreeNodee eight = new TreeNodee(8);
 
-        TreeNode fifteen = new TreeNode(15);
-        TreeNode twenty = new TreeNode(20);
-        TreeNode twentyfour = new TreeNode(24);
+        TreeNodee fifteen = new TreeNodee(15);
+        TreeNodee twenty = new TreeNodee(20);
+        TreeNodee twentyfour = new TreeNodee(24);
 
         root.setLeft(six);
         root.setRight(eighteen);
