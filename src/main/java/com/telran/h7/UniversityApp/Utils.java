@@ -1,4 +1,4 @@
-package com.telran.h7;
+package com.telran.h7.UniversityApp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -135,6 +135,5 @@ public class Utils {
         }
 
     }
-
 
 }

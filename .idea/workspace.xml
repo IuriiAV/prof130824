@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h7_UniversityApp start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/Utils.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h7_UniversityApp finish">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/Task3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h7/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp/UniversityApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h7/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,60 +67,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AlphabetApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListTaskExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BTreeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CoffeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomListApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DealApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DealAppAdditional.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DonutApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqalsExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleTreeSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IncorrectExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LibraryApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListVsArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListIteratorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MenuApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Messenger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatterThree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatterTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatternOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RetrievingElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeasonAPP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StorageApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniversityApp.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven..executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pro130824 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;SierikovKonstantin__h7&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IT/JAVA PRO/Lesson&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlphabetApp.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.ArrayListTaskExample.executor": "Run",
+    "Application.BTreeApp.executor": "Run",
+    "Application.BookApp.executor": "Run",
+    "Application.CoffeApp.executor": "Run",
+    "Application.CompareExample.executor": "Run",
+    "Application.CustomListApp.executor": "Run",
+    "Application.DealApp.executor": "Run",
+    "Application.DealAppAdditional.executor": "Run",
+    "Application.DonutApp.executor": "Run",
+    "Application.EnumExample.executor": "Run",
+    "Application.EnumExampleTwo.executor": "Run",
+    "Application.EqalsExample.executor": "Run",
+    "Application.ExampleApp.executor": "Run",
+    "Application.ExampleTreeSet.executor": "Run",
+    "Application.IncorrectExample.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.IteratorExampleTwo.executor": "Run",
+    "Application.LibraryApp.executor": "Run",
+    "Application.LinkedListVsArrayList.executor": "Run",
+    "Application.ListExample.executor": "Run",
+    "Application.ListExampleTwo.executor": "Run",
+    "Application.ListIteratorExample.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MapExample.executor": "Run",
+    "Application.MenuApp.executor": "Run",
+    "Application.Messenger.executor": "Run",
+    "Application.PatterThree.executor": "Run",
+    "Application.PatterTwo.executor": "Run",
+    "Application.PatternOne.executor": "Run",
+    "Application.QueueExample.executor": "Run",
+    "Application.RetrievingElements.executor": "Run",
+    "Application.SeasonAPP.executor": "Run",
+    "Application.StackExample.executor": "Run",
+    "Application.StorageApp.executor": "Run",
+    "Application.Task.executor": "Run",
+    "Application.Task1.executor": "Run",
+    "Application.Task2.executor": "Run",
+    "Application.Task3.executor": "Run",
+    "Application.TaskExample.executor": "Run",
+    "Application.TestApp.executor": "Run",
+    "Application.UniApp.executor": "Run",
+    "Application.UniversityApp.executor": "Run",
+    "Maven. [clean].executor": "Run",
+    "Maven..executor": "Run",
+    "Maven.pro130824 [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "SierikovKonstantin__h7",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.telran.summary4" />
@@ -129,7 +134,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.UniversityApp">
+  <component name="RunManager" selected="Application.Task3">
     <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.lesson12.MapExample" />
       <module name="pro130824" />
@@ -156,12 +161,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.summary4.TestApp" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h7.Task2" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.summary4.*" />
+          <option name="PATTERN" value="com.telran.h7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h7.Task3" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +188,11 @@
       </method>
     </configuration>
     <configuration name="UniversityApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.h7.UniversityApp" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h7.UniversityApp.UniversityApp" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.h7.*" />
+          <option name="PATTERN" value="com.telran.h7.UniversityApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,10 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.Task2" />
         <item itemvalue="Application.UniversityApp" />
         <item itemvalue="Application.MenuApp" />
         <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.TestApp" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734361095213</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add h7_UniversityApp finish">
+      <option name="closed" value="true" />
+      <created>1734365670486</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734365670486</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,6 +382,7 @@
     <MESSAGE value="add lesson6" />
     <MESSAGE value="add lesson7" />
     <MESSAGE value="add h7_UniversityApp start" />
-    <option name="LAST_COMMIT_MESSAGE" value="add h7_UniversityApp start" />
+    <MESSAGE value="add h7_UniversityApp finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="add h7_UniversityApp finish" />
   </component>
 </project>

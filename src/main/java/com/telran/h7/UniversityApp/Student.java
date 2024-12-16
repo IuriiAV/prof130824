@@ -1,4 +1,4 @@
-package com.telran.h7;
+package com.telran.h7.UniversityApp;
 
 import lombok.Getter;
 import lombok.Setter;
