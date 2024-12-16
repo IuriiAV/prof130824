@@ -3,22 +3,22 @@ package com.telran.lesson13;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/**
- *               8
- *             /   \
- *           4       3
- *         /  \    /  \
- *        1   2    5   7
- *      /      \         \
- *    12        9         6
- *
- *    BFS - Breadth First Search - поиск в ширину (горизонтальный поиск), обход дерева
- *    по уровням (итеративный подход)
- *
- *    DFS - Depth First Search - поиск в глубину (вертикальный поиск), обход по веткам,
- *    (рекурсивный подход) (Inorder, Preorder, Postorder)
- *
- */
+////**
+// *               8
+//         *             /   \
+//         *           4       3
+//         *         /  \    /  \
+//         *        1   2    5   7
+//         *      /      \         \
+//         *    12        9         6
+//         *
+//         *    BFS - Breadth First Search - поиск в ширину (горизонтальный поиск), обход дерева
+// *    по уровням (итеративный подход)
+// *
+//         *    DFS - Depth First Search - поиск в глубину (вертикальный поиск), обход по веткам,
+// *    (рекурсивный подход) (Inorder, Preorder, Postorder)
+//        *
+//        */
 
 public class BTreeApp {
 

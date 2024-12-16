@@ -6,7 +6,7 @@ public class TreeNode {
 
     private TreeNode left;
 
-    private  TreeNode right;
+    private TreeNode right;
 
     public TreeNode(int value) {
         this.value = value;
