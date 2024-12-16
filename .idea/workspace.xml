@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h7_UniversityApp start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp.java" afterDir="false" />
     </list>
@@ -316,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734351328909</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add h7_UniversityApp start">
+      <option name="closed" value="true" />
+      <created>1734361095213</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734361095213</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
