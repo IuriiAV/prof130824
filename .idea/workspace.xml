@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h2/Test.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h7_UniversityApp finish">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/Task3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h7/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp/UniversityApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h7/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h7/UniversityApp/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +27,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/SierikovKnstantin" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -64,28 +71,135 @@
   "keyToString": {
     "Application.AlphabetApp.executor": "Run",
     "Application.App.executor": "Run",
+    "Application.ArrayListTaskExample.executor": "Run",
+    "Application.BTreeApp.executor": "Run",
+    "Application.BookApp.executor": "Run",
     "Application.CoffeApp.executor": "Run",
+    "Application.CompareExample.executor": "Run",
+    "Application.CustomListApp.executor": "Run",
     "Application.DealApp.executor": "Run",
     "Application.DealAppAdditional.executor": "Run",
     "Application.DonutApp.executor": "Run",
     "Application.EnumExample.executor": "Run",
     "Application.EnumExampleTwo.executor": "Run",
+    "Application.EqalsExample.executor": "Run",
+    "Application.ExampleApp.executor": "Run",
+    "Application.ExampleTreeSet.executor": "Run",
+    "Application.IncorrectExample.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.IteratorExampleTwo.executor": "Run",
     "Application.LibraryApp.executor": "Run",
+    "Application.LinkedListVsArrayList.executor": "Run",
     "Application.ListExample.executor": "Run",
     "Application.ListExampleTwo.executor": "Run",
+    "Application.ListIteratorExample.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MapExample.executor": "Run",
+    "Application.MenuApp.executor": "Run",
+    "Application.Messenger.executor": "Run",
     "Application.PatterThree.executor": "Run",
     "Application.PatterTwo.executor": "Run",
     "Application.PatternOne.executor": "Run",
+    "Application.QueueExample.executor": "Run",
+    "Application.RetrievingElements.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
-    "Application.Test.executor": "Run",
+    "Application.StackExample.executor": "Run",
+    "Application.StorageApp.executor": "Run",
+    "Application.Task.executor": "Run",
+    "Application.Task1.executor": "Run",
+    "Application.Task2.executor": "Run",
+    "Application.Task3.executor": "Run",
+    "Application.TaskExample.executor": "Run",
+    "Application.TestApp.executor": "Run",
+    "Application.UniApp.executor": "Run",
+    "Application.UniversityApp.executor": "Run",
+    "Maven. [clean].executor": "Run",
+    "Maven..executor": "Run",
+    "Maven.pro130824 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SierikovKonstantin__h2",
+    "git-widget-placeholder": "SierikovKonstantin__h7",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/Algoritm/AlcoRythm"
+    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.telran.summary4" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Task3">
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.lesson12.MapExample" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.lesson12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.summary5.MenuApp" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.summary5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h7.Task2" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h7.Task3" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversityApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h7.UniversityApp.UniversityApp" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h7.UniversityApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Lesson" />
       <method v="2">
@@ -99,6 +213,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.UniversityApp" />
+        <item itemvalue="Application.MenuApp" />
+        <item itemvalue="Application.MapExample" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -189,7 +312,47 @@
       <option name="project" value="LOCAL" />
       <updated>1732018650989</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add lesson7">
+      <option name="closed" value="true" />
+      <created>1732264493376</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732264493376</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add lesson7">
+      <option name="closed" value="true" />
+      <created>1732264558805</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732264558805</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add h7_UniversityApp start">
+      <option name="closed" value="true" />
+      <created>1734351328909</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734351328909</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add h7_UniversityApp start">
+      <option name="closed" value="true" />
+      <created>1734361095213</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734361095213</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add h7_UniversityApp finish">
+      <option name="closed" value="true" />
+      <created>1734365670486</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734365670486</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +380,9 @@
     <MESSAGE value="add DealApp" />
     <MESSAGE value="add Library 17.11.2024" />
     <MESSAGE value="add lesson6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson6" />
+    <MESSAGE value="add lesson7" />
+    <MESSAGE value="add h7_UniversityApp start" />
+    <MESSAGE value="add h7_UniversityApp finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="add h7_UniversityApp finish" />
   </component>
 </project>
