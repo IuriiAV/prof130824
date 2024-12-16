@@ -1,5 +1,8 @@
-package com.telran.lesson13;
+package com.telran.homeworks.homework7;
 
+import lombok.Setter;
+
+@Setter
 public class TreeNode {
 
     private int value;
@@ -10,14 +13,6 @@ public class TreeNode {
 
     public TreeNode(int value) {
         this.value = value;
-    }
-
-    public void setLeft(TreeNode left) {
-        this.left = left;
-    }
-
-    public void setRight(TreeNode right) {
-        this.right = right;
     }
 
     public int getValue() {
