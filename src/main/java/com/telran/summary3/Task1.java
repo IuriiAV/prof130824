@@ -1,6 +1,6 @@
-package com.telran.summary2;
+package com.telran.summary3;
 
-public class Example {
+public class Task1 {
 
     public static void main(String[] args) {
 
