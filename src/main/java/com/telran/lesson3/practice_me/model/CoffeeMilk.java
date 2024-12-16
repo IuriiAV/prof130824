@@ -18,8 +18,7 @@ public abstract class CoffeeMilk extends Coffee {
 
     @Override
     public String toString() {
-        return "CoffeeMilk{" +
-                "milk=" + milk +
-                '}';
+        String title = super.toString();
+        return title + " " + milk;
     }
 }
