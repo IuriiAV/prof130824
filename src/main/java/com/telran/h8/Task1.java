@@ -1,7 +1,5 @@
 package com.telran.h8;
 
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class Task1 {
 
@@ -39,28 +37,29 @@ public class Task1 {
         six.setRight(eleven);
 
 
-        int number = 20;
-        breadthFirstSearchNumber(number, root);
+        int number = 15;
+        searchElement(root, number);
 
     }
 
-    private static void breadthFirstSearchNumber(int number, TreeNode root) {
+    private static void searchElement(TreeNode root, int number) {
         if (root == null) {
             return;
         }
-        Queue<TreeNode> queue = new LinkedList<>(); // q:
-        queue.add(root); // q: 8
-        while (!queue.isEmpty()) {
-            TreeNode node = queue.poll(); // 8 4 3 1 2 5 7 12 9 6// q:
-            System.out.print(node.getValue() + " "); // 8 4 3 1 2 5 7 12 9 6
-            //Add left node to queue
-            if (node.getLeft() != null && node.getLeft().getValue() > node.getRight().getValue() && node.getLeft().getValue() <= number) {
-                queue.add(node.getLeft());  // q:
+        TreeNode current = root;
+        System.out.print("Path :");
+        while (current != null) {
+            System.out.println(current.getValue() + "->");
+            if (current.getValue() == number){
+                System.out.println("Element " + number +" found");
+                break;
             }
-            //Add right node to queue
-            if (node.getRight() != null && node.getRight().getValue() > node.getLeft().getValue() && node.getRight().getValue() <= number) {
-                queue.add(node.getRight());  // q:
+            if (current.getValue() > number){
+                current = current.getLeft();
+            }else {
+                current = current.getRight();
             }
+
         }
     }
 }
