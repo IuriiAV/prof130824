@@ -4,90 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h6_Pasyans start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/GraphExample.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson 14">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/NumberOfIslands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/MenuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/MenuApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/DogApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/StudentApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/practice/Passport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/practice/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/practice/PersonApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/practice/PersonAppThree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/practice/PersonAppTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/BigDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/DogApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/SmallDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examples/ExampleApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examples/One.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examples/Three.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examples/Two.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/Banana.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/Fruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/FruitApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/Lemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/Pear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/PineApple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/exampletwo/BritishCat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/exampletwo/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/exampletwo/CatApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/AbstractExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Bug.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/EarthAnimal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Flyable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Horse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Lion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Rabbit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/WaterAnimal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Whale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/ZooExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/ZooExampleTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/CanEat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/CanJump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/CanSwim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Horse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Rabbit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Shark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Ship.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Whale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/CoffeApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/CoffeeMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/Coffee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeAmericano.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeBlack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeCappuccino.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeEspresso.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeLatte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeMilk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeStandard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/Cup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/Milk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/Water.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/CoffeeApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/CoffeeMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/Coffee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeAmericano.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeBlack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeCappuccino.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeEspresso.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeLatte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeMilk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeStandard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/Cup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/Milk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/Water.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/GraphExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/GraphExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,59 +65,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AlphabetApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListTaskExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BTreeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CoffeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomListApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DealApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DealAppAdditional.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DonutApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqalsExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleTreeSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IncorrectExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LibraryApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListVsArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListIteratorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MenuApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Messenger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatterThree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatterTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatternOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RetrievingElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeasonAPP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StorageApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniApp.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven..executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pro130824 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;SierikovKonstantin&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IT/JAVA PRO/Lesson&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlphabetApp.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.ArrayListTaskExample.executor": "Run",
+    "Application.BTreeApp.executor": "Run",
+    "Application.BookApp.executor": "Run",
+    "Application.CoffeApp.executor": "Run",
+    "Application.CompareExample.executor": "Run",
+    "Application.CustomListApp.executor": "Run",
+    "Application.DealApp.executor": "Run",
+    "Application.DealAppAdditional.executor": "Run",
+    "Application.DonutApp.executor": "Run",
+    "Application.EnumExample.executor": "Run",
+    "Application.EnumExampleTwo.executor": "Run",
+    "Application.EqalsExample.executor": "Run",
+    "Application.ExampleApp.executor": "Run",
+    "Application.ExampleTreeSet.executor": "Run",
+    "Application.GraphExample.executor": "Run",
+    "Application.IncorrectExample.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.IteratorExampleTwo.executor": "Run",
+    "Application.LibraryApp.executor": "Run",
+    "Application.LinkedListVsArrayList.executor": "Run",
+    "Application.ListExample.executor": "Run",
+    "Application.ListExampleTwo.executor": "Run",
+    "Application.ListIteratorExample.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MapExample.executor": "Run",
+    "Application.MenuApp.executor": "Run",
+    "Application.Messenger.executor": "Run",
+    "Application.PatterThree.executor": "Run",
+    "Application.PatterTwo.executor": "Run",
+    "Application.PatternOne.executor": "Run",
+    "Application.QueueExample.executor": "Run",
+    "Application.RetrievingElements.executor": "Run",
+    "Application.SeasonAPP.executor": "Run",
+    "Application.StackExample.executor": "Run",
+    "Application.StorageApp.executor": "Run",
+    "Application.Task.executor": "Run",
+    "Application.Task1.executor": "Run",
+    "Application.TaskExample.executor": "Run",
+    "Application.TestApp.executor": "Run",
+    "Application.UniApp.executor": "Run",
+    "Maven. [clean].executor": "Run",
+    "Maven..executor": "Run",
+    "Maven.pro130824 [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "SierikovKonstantin",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.telran.summary4" />
@@ -208,7 +130,20 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MenuApp">
+  <component name="RunManager" selected="Application.GraphExample">
+    <configuration name="GraphExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.lesson14.GraphExample" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.lesson14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.lesson12.MapExample" />
       <module name="pro130824" />
@@ -263,6 +198,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphExample" />
         <item itemvalue="Application.MenuApp" />
         <item itemvalue="Application.MapExample" />
         <item itemvalue="Application.TestApp" />
@@ -374,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732264558805</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add lesson 14">
+      <option name="closed" value="true" />
+      <created>1734433157037</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734433157037</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,6 +347,7 @@
     <MESSAGE value="add Library 17.11.2024" />
     <MESSAGE value="add lesson6" />
     <MESSAGE value="add lesson7" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson7" />
+    <MESSAGE value="add lesson 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson 14" />
   </component>
 </project>

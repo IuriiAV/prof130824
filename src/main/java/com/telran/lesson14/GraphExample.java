@@ -17,7 +17,8 @@ public class GraphExample {
         edges.add(new Edge(4,5));
         edges.add(new Edge(5,4));
 
-        Graph graph = new Graph(edges);
 
+        Graph graph = new Graph(edges);
+        graph.print();
     }
 }
