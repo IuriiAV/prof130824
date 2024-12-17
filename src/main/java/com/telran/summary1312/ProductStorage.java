@@ -2,13 +2,12 @@ package com.telran.summary1312;
 
 import com.telran.summary1312.model.Product;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
 public class ProductStorage {
 
-    private Map<Integer, Product> productMap = new HashMap<>();
+    private final Map<Integer, Product> productMap = new HashMap<>();
 
     public ProductStorage() {
         init();
