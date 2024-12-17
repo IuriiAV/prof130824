@@ -5,11 +5,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h6_Pasyans start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/GraphExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/InfoStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/InfoStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/MenuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/MenuApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary5/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/DogApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/StudentApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/practice/Passport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/practice/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/practice/PersonApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/practice/PersonAppThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson1/practice/PersonAppTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/BigDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/DogApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/SmallDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examples/ExampleApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examples/One.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examples/Three.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examples/Two.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/Banana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/FruitApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/Lemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/Pear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/examplethree/PineApple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/exampletwo/BritishCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/exampletwo/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson2/exampletwo/CatApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/AbstractExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Bug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/EarthAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Flyable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Horse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Lion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Rabbit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/WaterAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/Whale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/ZooExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/ZooExampleTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/CanEat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/CanJump.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/CanSwim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Horse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Rabbit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Shark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/interfaceexample/Whale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/CoffeApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/CoffeeMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/Coffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeAmericano.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeBlack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeCappuccino.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeEspresso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeLatte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeMilk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/CoffeeStandard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/Cup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/Milk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/mypractice/model/Water.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/CoffeeApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/CoffeeMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/Coffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeAmericano.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeBlack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeCappuccino.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeEspresso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeLatte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeMilk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/CoffeeStandard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/Cup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/Milk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/telran/lesson3/practice/model/Water.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

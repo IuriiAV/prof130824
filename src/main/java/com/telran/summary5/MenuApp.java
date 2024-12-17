@@ -1,11 +1,10 @@
 package com.telran.summary5;
 
-import com.telran.summary5.model.Product;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
+
 
 public class MenuApp {
 
