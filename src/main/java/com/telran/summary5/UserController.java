@@ -6,6 +6,11 @@ import java.util.Scanner;
 
 public class UserController {
 
+    public UserController(LanguageStorage languageStorage, ProductStorage productStorage, InfoStorage infoStorage) {
+
+
+    }
+
     public void start(){
 
         LanguageStorage languageStorage = new LanguageStorage();
@@ -27,6 +32,6 @@ public class UserController {
 
         String description = infoStorage.getDiscription(product, language);
         System.out.println("Description : " + description );
-        sc.close();
+
     }
 }

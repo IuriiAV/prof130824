@@ -49,6 +49,7 @@ public class InfoStorage {
 
         Map<String, String> template = new HashMap<>();
         Map<String, String> descMap = infoMap.getOrDefault(product, template);
+        infoMap.put(product,descMap);
 
 
     }

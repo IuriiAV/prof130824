@@ -9,6 +9,10 @@ import java.util.Scanner;
 
 public class AdminController {
 
+    public AdminController(LanguageStorage languageStorage, ProductStorage productStorage, InfoStorage infoStorage) {
+
+    }
+
     @SneakyThrows
     public void start(){
         System.out.println("Choices your language : ");
@@ -17,7 +21,7 @@ public class AdminController {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String data = reader.readLine();
         String language = languageStorage.getLanguage(Integer.parseInt(data));
-        //scanner.close();
+
 
 
         System.out.println("Input product title :");
@@ -33,6 +37,7 @@ public class AdminController {
         InfoStorage infoStorage = new InfoStorage();
         infoStorage.addDescription(product,language,descr);
 
-        reader.close();
+
+
     }
 }
