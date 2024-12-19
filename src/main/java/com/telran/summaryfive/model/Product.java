@@ -5,10 +5,9 @@ import lombok.Getter;
 import java.util.Objects;
 
 @Getter
-
 public class Product {
 
-    private  int id;
+    private int id;
 
     private String title;
 
@@ -27,6 +26,6 @@ public class Product {
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(id);
+        return Objects.hash(id);
     }
 }

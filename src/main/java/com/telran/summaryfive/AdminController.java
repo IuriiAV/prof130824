@@ -4,28 +4,30 @@ import com.telran.summaryfive.model.Product;
 import lombok.SneakyThrows;
 
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.Scanner;
+
 
 public class AdminController {
 
-    private LanguageStorage languageStorage;
+    private final LanguageStorage languageStorage;
 
-    private ProductStorage productStorage;
+    private final ProductStorage productStorage;
 
-    private InfoStorage infoStorage;
+    private final InfoStorage infoStorage;
 
-    public AdminController(LanguageStorage languageStorage, ProductStorage productStorage, InfoStorage infoStorage) {
+    private final BufferedReader reader;
+
+    public AdminController(LanguageStorage languageStorage, ProductStorage productStorage,
+                           InfoStorage infoStorage, BufferedReader reader) {
         this.languageStorage = languageStorage;
         this.productStorage = productStorage;
         this.infoStorage = infoStorage;
+        this.reader = reader;
     }
 
     @SneakyThrows
     public void start() {
         System.out.println("Choose language : ");
         languageStorage.printLanguages();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String data = reader.readLine();
 
         String language = languageStorage.getLanguage(Integer.parseInt(data));
@@ -39,7 +41,5 @@ public class AdminController {
         String descr = reader.readLine();
 
         infoStorage.addDescription(product, language, descr);
-
-        reader.close();
     }
 }

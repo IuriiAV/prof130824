@@ -1,29 +1,35 @@
 package com.telran.summaryfive;
 
 import com.telran.summaryfive.model.Product;
+import lombok.SneakyThrows;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+
 
 public class UserController {
 
-    private LanguageStorage languageStorage;
+    private final LanguageStorage languageStorage;
 
-    private ProductStorage productStorage;
+    private final ProductStorage productStorage;
 
-    private InfoStorage infoStorage;
+    private final InfoStorage infoStorage;
 
-    public UserController(LanguageStorage languageStorage, ProductStorage productStorage, InfoStorage infoStorage) {
+    private final BufferedReader reader;
+
+    public UserController(LanguageStorage languageStorage, ProductStorage productStorage,
+                          InfoStorage infoStorage, BufferedReader reader) {
         this.languageStorage = languageStorage;
         this.productStorage = productStorage;
         this.infoStorage = infoStorage;
+        this.reader = reader;
     }
 
+    @SneakyThrows
     public void start() {
 
         System.out.println("Please choose your language : ");
         languageStorage.printLanguages();
-        Scanner scanner = new Scanner(System.in);
-        int userLanguage = scanner.nextInt();
+        int userLanguage = Integer.parseInt(reader.readLine());
 
         String language = languageStorage.getLanguage(userLanguage);
 
@@ -31,15 +37,13 @@ public class UserController {
 
         System.out.println("Choose your product : ");
         productStorage.printProducts();
-        int userProduct = scanner.nextInt();
+        int userProduct = Integer.parseInt(reader.readLine());
 
         Product product = productStorage.getProduct(userProduct);
 
         System.out.println("Ok.Your product is " + product.getTitle());
 
-
         String description = infoStorage.getDescription(product, language);
         System.out.println("Description : " + description);
-        scanner.close();
     }
 }
