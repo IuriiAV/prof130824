@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson 14">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/NumberOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/AnonymousExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/FunctionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/PreinterImplem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/PrinterAddItional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/SoetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/SortByAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/basefi/ConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/exampels/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/exampels/CalculatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/exampels/CalculatorTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/GraphExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/GraphExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +34,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -72,6 +81,7 @@
     "Application.ArrayListTaskExample.executor": "Run",
     "Application.BTreeApp.executor": "Run",
     "Application.BookApp.executor": "Run",
+    "Application.CalculatorExample.executor": "Run",
     "Application.CoffeApp.executor": "Run",
     "Application.CompareExample.executor": "Run",
     "Application.CustomListApp.executor": "Run",
@@ -102,6 +112,7 @@
     "Application.QueueExample.executor": "Run",
     "Application.RetrievingElements.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
+    "Application.SoetExample.executor": "Run",
     "Application.StackExample.executor": "Run",
     "Application.StorageApp.executor": "Run",
     "Application.Task.executor": "Run",
@@ -115,7 +126,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SierikovKonstantin",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson",
+    "last_opened_file_path": "C:/IT/JAVA PRO/LessonPractic1",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
@@ -130,7 +141,20 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.GraphExample">
+  <component name="RunManager" selected="Application.CalculatorExample">
+    <configuration name="CalculatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.lesson15.exampels.CalculatorExample" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.lesson15.exampels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GraphExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.lesson14.GraphExample" />
       <module name="pro130824" />
@@ -170,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.summary4.TestApp" />
+    <configuration name="SoetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.lesson15.SoetExample" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.summary4.*" />
+          <option name="PATTERN" value="com.telran.lesson15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,10 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorExample" />
+        <item itemvalue="Application.SoetExample" />
         <item itemvalue="Application.GraphExample" />
         <item itemvalue="Application.MenuApp" />
         <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.TestApp" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734433157037</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add lesson 14">
+      <option name="closed" value="true" />
+      <created>1734436578099</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734436578099</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
