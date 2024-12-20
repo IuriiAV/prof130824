@@ -73,13 +73,14 @@ public class Task1 {
         }
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
+        int level = 0;
         while (!queue.isEmpty()) {
             int size = queue.size();
             int res = 0;
+
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
                 res = res + node.getValue();
-                System.out.print(node.getValue() + " ");
 
                 if (node.getLeft() != null) {
                     queue.add(node.getLeft());
@@ -87,34 +88,11 @@ public class Task1 {
                 if (node.getRight() != null) {
                     queue.add(node.getRight());
                 }
-
-            }
-            System.out.println();
-        }
-    }
-
-    private static void bFs2(TreeNode root) {
-        if (root == null) {
-            return;
-        }
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            int res = 0;
-
-                TreeNode node = queue.poll();
-                res = res + node.getValue();
-                System.out.print(res + " ");
-                if (node.getLeft() != null) {
-                    queue.add(node.getLeft());
-                }
-                if (node.getRight() != null) {
-                    queue.add(node.getRight());
-                }
-
             }
 
-
+            level++;
+            System.out.println("Sum of level " + level + " elements = " + res);
+        }
     }
 }
+
