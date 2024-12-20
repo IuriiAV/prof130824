@@ -40,9 +40,9 @@ public class Task1 {
 
 
         int number = 15;
-        //searchElement(root, number);
+        searchElement(root, number);
 
-        //getSumLevel(root);
+        getSumLevel(root);
 
         reversPrintTree(root);
     }
@@ -54,9 +54,9 @@ public class Task1 {
         TreeNode current = root;
         System.out.print("Path :");
         while (current != null) {
-            System.out.println(current.getValue() + "->");
+            System.out.print(current.getValue() + "->");
             if (current.getValue() == number) {
-                System.out.println("Element " + number + " found");
+                System.out.println("\nElement " + number + " found\n");
                 break;
             }
             if (current.getValue() > number) {
@@ -81,6 +81,7 @@ public class Task1 {
 
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
+                assert node != null;
                 res = res + node.getValue();
                 System.out.print(node.getValue() + " ");
                 if (node.getLeft() != null) {
@@ -107,6 +108,7 @@ public class Task1 {
 
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
+                assert node != null;
                 listReversValue.add(node.getValue());
                 if (node.getLeft() != null) {
                     queue.add(node.getLeft());
@@ -117,7 +119,7 @@ public class Task1 {
             }
         }
         Collections.reverse(listReversValue);
-        System.out.print(listReversValue);
+        System.out.print("\n" + listReversValue);
      }
 
 }
