@@ -1,6 +1,9 @@
 package com.telran.h8;
 
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Task1 {
 
     public static void main(String[] args) {
@@ -38,8 +41,9 @@ public class Task1 {
 
 
         int number = 15;
-        searchElement(root, number);
+        //searchElement(root, number);
 
+        bFs(root);
     }
 
     private static void searchElement(TreeNode root, int number) {
@@ -60,6 +64,30 @@ public class Task1 {
                 current = current.getRight();
             }
 
+        }
+    }
+
+    private static void bFs(TreeNode root){
+        if(root == null){
+            return;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            int size = queue.size();
+
+            for (int i = 0; i < size; i++) {
+            TreeNode node = queue.poll();
+                System.out.print(node.getValue() + " ");
+                if (node.getLeft() != null) {
+                    queue.add(node.getLeft());
+                }
+                if (node.getRight() != null) {
+                    queue.add(node.getRight());
+                }
+
+            }
+            System.out.println();
         }
     }
 }
