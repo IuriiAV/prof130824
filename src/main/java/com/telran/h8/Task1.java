@@ -3,6 +3,7 @@ package com.telran.h8;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 public class Task1 {
 
@@ -43,7 +44,7 @@ public class Task1 {
         int number = 15;
         //searchElement(root, number);
 
-        bFs(root);
+        getSumLevel(root);
     }
 
     private static void searchElement(TreeNode root, int number) {
@@ -67,7 +68,7 @@ public class Task1 {
         }
     }
 
-    private static void bFs(TreeNode root) {
+    private static void getSumLevel(TreeNode root) {
         if (root == null) {
             return;
         }
@@ -81,7 +82,7 @@ public class Task1 {
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
                 res = res + node.getValue();
-
+                System.out.print(node.getValue() + " ");
                 if (node.getLeft() != null) {
                     queue.add(node.getLeft());
                 }
@@ -91,8 +92,27 @@ public class Task1 {
             }
 
             level++;
-            System.out.println("Sum of level " + level + " elements = " + res);
+            System.out.println("\nSum of level " + level + " elements = " + res);
         }
     }
+
+    private static void reversPrintTree(TreeNode root){
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()){
+            TreeNode node = stack.pop();
+            System.out.print(node.getValue() + " ");
+            if (node.getLeft() != null) {
+                stack.push(node.getLeft());
+            }
+            if (node.getRight() != null) {
+                stack.push(node.getRight());
+            }
+        }
+     }
+
 }
 
