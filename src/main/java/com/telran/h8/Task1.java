@@ -54,31 +54,33 @@ public class Task1 {
         System.out.print("Path :");
         while (current != null) {
             System.out.println(current.getValue() + "->");
-            if (current.getValue() == number){
-                System.out.println("Element " + number +" found");
+            if (current.getValue() == number) {
+                System.out.println("Element " + number + " found");
                 break;
             }
-            if (current.getValue() > number){
+            if (current.getValue() > number) {
                 current = current.getLeft();
-            }else {
+            } else {
                 current = current.getRight();
             }
 
         }
     }
 
-    private static void bFs(TreeNode root){
-        if(root == null){
+    private static void bFs(TreeNode root) {
+        if (root == null) {
             return;
         }
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             int size = queue.size();
-
+            int res = 0;
             for (int i = 0; i < size; i++) {
-            TreeNode node = queue.poll();
+                TreeNode node = queue.poll();
+                res = res + node.getValue();
                 System.out.print(node.getValue() + " ");
+
                 if (node.getLeft() != null) {
                     queue.add(node.getLeft());
                 }
@@ -89,5 +91,30 @@ public class Task1 {
             }
             System.out.println();
         }
+    }
+
+    private static void bFs2(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            int res = 0;
+
+                TreeNode node = queue.poll();
+                res = res + node.getValue();
+                System.out.print(res + " ");
+                if (node.getLeft() != null) {
+                    queue.add(node.getLeft());
+                }
+                if (node.getRight() != null) {
+                    queue.add(node.getRight());
+                }
+
+            }
+
+
     }
 }
