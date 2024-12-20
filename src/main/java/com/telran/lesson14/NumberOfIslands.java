@@ -1,12 +1,13 @@
 package com.telran.lesson14;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 1  1  0  0  0
- * 0  1  0  0  1
- * 1  0  0  1  1
+ * 1  1  0  0  0                        1 1
+ * 0  1  0  0  1                          1
+ * 1  0  0  1  1                        1
  * 0  0  0  0  0
  * 1  0  1  0  1
  */
@@ -28,7 +29,6 @@ public class NumberOfIslands {
                 }
             }
         }
-
         System.out.println("Number of islands = " + count);
     }
 
@@ -47,10 +47,10 @@ public class NumberOfIslands {
             }
             array[row][col] = 0;
 
-            queue.add(new int[]{i, j + 1});
-            queue.add(new int[]{i, j - 1});
-            queue.add(new int[]{i + 1, j});
-            queue.add(new int[]{i - 1, j});
+            queue.add(new int[]{row, col + 1});
+            queue.add(new int[]{row, col - 1});
+            queue.add(new int[]{row + 1, col});
+            queue.add(new int[]{row - 1, col});
         }
     }
 }
