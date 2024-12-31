@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h2/Test.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h6_Soliter finish  Pasyans not.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/SoliterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/SoliterApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="SierikovKonstantin" />
+        <entry key="$PROJECT_DIR$" value="SierikovKonstantin_h4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,14 +80,46 @@
     "Application.PatterTwo.executor": "Run",
     "Application.PatternOne.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
+    "Application.SoliterApp.executor": "Run",
     "Application.Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SierikovKonstantin__h2",
+    "git-widget-placeholder": "#43 on SierikovKonstantin__h6__Pasyans",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/Algoritm/AlcoRythm"
+    "last_opened_file_path": "C:/IT/JAVA PRO/Lesson"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.telran.h6_Solitaire" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SoliterApp">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.PasyansApp.Main" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h6_Solitaire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoliterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h6_Solitaire.SoliterApp" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h6_Solitaire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Lesson" />
       <method v="2">
@@ -99,6 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SoliterApp" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -189,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732018650989</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add h6_Pasyans start">
+      <option name="closed" value="true" />
+      <created>1733873412189</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733873412189</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +265,8 @@
     <MESSAGE value="add DealApp" />
     <MESSAGE value="add Library 17.11.2024" />
     <MESSAGE value="add lesson6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson6" />
+    <MESSAGE value="add h6_Pasyans start" />
+    <MESSAGE value="add h6_Soliter finish  Pasyans not." />
+    <option name="LAST_COMMIT_MESSAGE" value="add h6_Soliter finish  Pasyans not." />
   </component>
 </project>
