@@ -72,7 +72,7 @@ public class DealManager {
         return card.getSuit().equals(Suit.HEARTS) || card.getSuit().equals(Suit.DIAMONDS);
     }
 
-    public void putCardsInFinish(){
+    public void putCardsInFinishStack(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите карту которую хотите поместить в колоду(Первая карта должна быть 'ACE' ): 1  2  3  4  5  6  7");
         switch (sc.nextLine()){

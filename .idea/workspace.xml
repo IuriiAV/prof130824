@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h6_Soliter finish  Pasyans not.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/SoliterApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/Suit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealAppAdditional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/DealManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/PasyansApp/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/SoliterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h6_Solitaire/SoliterApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
     "Application.SoliterApp.executor": "Run",
     "Application.Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SierikovKonstantin__h6__Pasyans",
+    "git-widget-placeholder": "#43 on SierikovKonstantin__h6__Pasyans",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/IT/JAVA PRO/Lesson"
   }
