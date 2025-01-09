@@ -42,6 +42,8 @@ import java.util.stream.Stream;
  * collect - collect elements to Collection, String ... etc
  * foreach(consumer) - any action for every element
  * findFirst() - get first element (optional type)
+ * findAny() - get any (optional)
+ * max(comparator), min (comparator) - return (optional type)
  */
 
 public class StreamApiExampleTwo {
