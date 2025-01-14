@@ -37,6 +37,9 @@ import java.util.stream.Collectors;
  * count() - count elements in stream
  * collect() - позволяют собирать стрим в коллекцию, строку и т.д
  * foreach(Consumer)
+ * findFirst - get first element (optional type)
+ * findAny - get any (optional)
+ * max(comparator), min(comparator)
  */
 
 public class StreamApiExampleTwo {
