@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson 14">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson16/StreamApiExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson16/StreamApiMamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson16/TaskExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson16/studentApp/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson16/studentApp/StudentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson18/FileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson18/InputOutputExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson18/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +84,7 @@
     "Application.EqalsExample.executor": "Run",
     "Application.ExampleApp.executor": "Run",
     "Application.ExampleTreeSet.executor": "Run",
+    "Application.FileExample.executor": "Run",
     "Application.GraphExample.executor": "Run",
     "Application.IncorrectExample.executor": "Run",
     "Application.IteratorExample.executor": "Run",
@@ -137,13 +136,13 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamApiMamExample">
-    <configuration name="ExampleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.summary6.ExampleApp" />
+  <component name="RunManager" selected="Application.FileExample">
+    <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson18.FileExample" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.summary6.*" />
+          <option name="PATTERN" value="lesson18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileExample" />
         <item itemvalue="Application.StreamApiMamExample" />
         <item itemvalue="Application.StudentApp" />
         <item itemvalue="Application.TaskExample" />
         <item itemvalue="Application.StreamApiExample" />
-        <item itemvalue="Application.ExampleApp" />
       </list>
     </recent_temporary>
   </component>
