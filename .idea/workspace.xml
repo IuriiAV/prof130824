@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson 14">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson18/FileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson18/InputOutputExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson18/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/CustomPrintStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h9/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,7 @@
     "Maven..executor": "Run",
     "Maven.pro130824 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SierikovKonstantin",
+    "git-widget-placeholder": "SierikovKonstantin__h9",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/IT/JAVA PRO/LessonPractic1",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"

@@ -9,6 +9,8 @@ public class Task1 {
 
     public static void main(String[] args) {
 
+        System.setOut(new CustomPrintStream(System.out));
+
 
     }
 }
