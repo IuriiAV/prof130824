@@ -11,6 +11,7 @@ public class Task1 {
 
         System.setOut(new CustomPrintStream(System.out));
 
+        System.out.println("kostya as 23239");
 
     }
 }
