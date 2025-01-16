@@ -1,4 +1,4 @@
-package lesson18;
+package com.telran.lesson18;
 
 public class InputOutputExample {
 
