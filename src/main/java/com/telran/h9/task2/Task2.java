@@ -1,7 +1,11 @@
 package com.telran.h9.task2;
 
 import java.io.File;
+import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.Arrays;
 
 /**
@@ -22,14 +26,81 @@ public class Task2 {
     private static void copyDirectoryFile(String dirPath, String dirPathNew) {
         File fileWithPath = new File(dirPath);
         File[] allFiles = fileWithPath.listFiles();
+        System.out.println(Arrays.toString(allFiles));
 
-        File[] copy = new File[allFiles.length];
-        System.arraycopy(allFiles,0,copy,0,allFiles.length);
-        System.out.println(Arrays.toString(copy));
+        for (int i = 0; i < allFiles.length; i++) {
+            Path pathOld = Paths.get(dirPath);
+            Path pathNew = Paths.get(dirPathNew);
+            try {
+                Files.copy(pathOld,pathNew, StandardCopyOption.REPLACE_EXISTING);
 
-        for (int i = 0; i < copy.length; i++) {
-            Files.c
+            } catch (IOException e) {
+                e.getStackTrace();
+            }
         }
+        System.out.println("Файлы успешно скопированы!");
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   private static void copyDirectoryFile(String sourceDir, String targetDir) {
+//        File sourceFolder = new File(sourceDir);
+//        File targetFolder = new File(targetDir);
+//
+//        if (!sourceFolder.exists()) {
+//            System.out.println("Источник не найден: " + sourceDir);
+//            return;
+//        }
+//
+//        if (!targetFolder.exists()) {
+//            targetFolder.mkdirs(); // Создать целевую папку, если она не существует
+//        }
+//
+//        File[] files = sourceFolder.listFiles();
+//        if (files != null) {
+//            for (File file : files) {
+//                Path sourcePath = file.toPath();
+//                Path targetPath = Paths.get(targetFolder.getPath(), file.getName());
+//                try {
+//                    if (file.isDirectory()) {
+//                        copyDirectoryFile(file.getAbsolutePath(), targetPath.toString());  // Рекурсивный вызов для папок
+//                    } else {
+//                        Files.copy(sourcePath, targetPath, StandardCopyOption.REPLACE_EXISTING);
+//                    }
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        }
+//        System.out.println("Файлы успешно скопированы!");
+//    }
