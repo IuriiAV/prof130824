@@ -1,4 +1,4 @@
-package com.telran.h9;
+package com.telran.h9.task1;
 
 /**
  * 1) Сделать так, что все что передается в System.out - выводилось

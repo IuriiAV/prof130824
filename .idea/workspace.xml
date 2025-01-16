@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h9">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/task2/resource/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/task2/resource/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h9/CustomPrintStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/CustomPrintStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h9/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h9/CustomPrintStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/task1/CustomPrintStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h9/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/task1/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +114,7 @@
     "Application.StudentApp.executor": "Run",
     "Application.Task.executor": "Run",
     "Application.Task1.executor": "Run",
+    "Application.Task2.executor": "Run",
     "Application.TaskExample.executor": "Run",
     "Application.TestApp.executor": "Run",
     "Application.UniApp.executor": "Run",
@@ -136,7 +139,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task1">
+  <component name="RunManager">
     <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson18.FileExample" />
       <module name="pro130824" />
@@ -177,11 +180,11 @@
       </method>
     </configuration>
     <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.h9.Task1" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h9.task1.Task1" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.h9.*" />
+          <option name="PATTERN" value="com.telran.h9.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,10 +221,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.FileExample" />
-        <item itemvalue="Application.StreamApiMamExample" />
-        <item itemvalue="Application.StudentApp" />
         <item itemvalue="Application.TaskExample" />
+        <item itemvalue="Application.StudentApp" />
+        <item itemvalue="Application.StreamApiMamExample" />
+        <item itemvalue="Application.FileExample" />
       </list>
     </recent_temporary>
   </component>

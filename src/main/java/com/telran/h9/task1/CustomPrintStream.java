@@ -1,8 +1,7 @@
-package com.telran.h9;
+package com.telran.h9.task1;
 
 import java.io.OutputStream;
 import java.io.PrintStream;
-import java.util.Arrays;
 
 public class CustomPrintStream extends PrintStream {
 
