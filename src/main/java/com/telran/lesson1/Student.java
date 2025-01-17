@@ -1,7 +1,7 @@
 package com.telran.lesson1;
 
 
-public class Student {
+public class Student  {
 
     String name;
 

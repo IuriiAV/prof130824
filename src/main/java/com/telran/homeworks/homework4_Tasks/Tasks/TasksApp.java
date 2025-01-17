@@ -11,7 +11,6 @@ public class TasksApp {
         List<Integer> nums = Arrays.asList(1, 2, 3, 4, 5);
         List<String> strings = Arrays.asList("apple", "banana", "cherry", "pineapple", "pear", "apple");
 
-
         System.out.println("Doubled values: " + multiplyTwo(nums));
 
         System.out.println("String lengths: " + getStringLengths(strings));
@@ -25,12 +24,11 @@ public class TasksApp {
 
         System.out.println("Concatenate string: " + concatenateString(strings));
 
-
         System.out.println("Max value: " + findMax(nums));
         System.out.println("Min value: " + findMin(nums));
 
         System.out.println("Max string length: " + findMaxLength(strings));
     }
 
-    }
+}
 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31178578-64ae-4cbc-8bd3-7a325dd9a382" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../homework2/DonutApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/DonutMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/ApricotDonut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/CherryDonut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/ChocoDonuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/ChocoRaisinDonut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/ChocolateDonut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/Donut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/DonutPack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/EmptyDonut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/JamDonuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/Raisin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework2/model/StrawberryDonut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Cup.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Cup.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../../../.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SerhiiKurlykin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IuriiAV/prof130824.git&quot;,
+    &quot;accountId&quot;: &quot;f5f5ffad-878a-4277-976c-f9b0ede3a745&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2offxSbV2YTAbL3Sh8NgYGFyHc5" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CoffeeApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "serhii-kurlykin-homework2",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Starta/Java/prof130824/src/main/java/com/telran/homework2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31178578-64ae-4cbc-8bd3-7a325dd9a382" name="Changes" comment="" />
+      <created>1731265797314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731265797314</updated>
+    </task>
+    <servers />
+  </component>
+</project>

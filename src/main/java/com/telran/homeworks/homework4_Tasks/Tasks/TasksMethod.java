@@ -19,7 +19,8 @@ public class TasksMethod {
     }
 
     /*
-    2.у вас есть список значений String , и вы должны вернуть список длины каждого из этих значений String .
+    2.у вас есть список значений String ,
+     и вы должны вернуть список длины каждого из этих значений String .
      */
 
     public static List<Integer> getStringLengths(List<String> strings) {
@@ -30,7 +31,8 @@ public class TasksMethod {
         return lengths;
     }
 
-    /*3.у вас есть список значений int и вы должны вернуть список,
+    /*3.у вас есть список значений
+    int и вы должны вернуть список,
     содержащий только нечетные числа
      */
 
@@ -45,7 +47,8 @@ public class TasksMethod {
     }
 
     /*
-    4.у вас есть список значений String , и вы должны вернуть
+    4.у вас есть список значений String ,
+    и вы должны вернуть
     список этих значений без каких-либо дубликатов.
      */
     public static List<String> removeDuplicates(List<String> strings) {
