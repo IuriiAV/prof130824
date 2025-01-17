@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson 14">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson19/FileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson19/TryCatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson19/task/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson19/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson19/tryWithResoursesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/CustomFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/CustomFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/DictionaryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/english.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/german.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/spanish.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson18/FileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson18/FileExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson18/InputOutputExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson18/InputOutputExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson18/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson18/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -64,6 +66,7 @@
 }</component>
   <component name="ProjectId" id="2oYoS498a9RtTgJq8jlLIcajIsi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -83,6 +86,7 @@
     "Application.CustomListApp.executor": "Run",
     "Application.DealApp.executor": "Run",
     "Application.DealAppAdditional.executor": "Run",
+    "Application.DictionaryApp.executor": "Run",
     "Application.DonutApp.executor": "Run",
     "Application.EnumExample.executor": "Run",
     "Application.EnumExampleTwo.executor": "Run",
@@ -136,6 +140,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.telran.summary4" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IT\JAVA PRO\Lesson\src\main\java\com\telran\summary7\translator" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -143,7 +150,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.telran.lesson19.FileExample">
+  <component name="RunManager">
     <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.lesson18.FileExample" />
       <module name="pro130824" />
