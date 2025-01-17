@@ -1,4 +1,4 @@
-package com.telran.summery1701.translator;
+package com.telran.summary1701.translator;
 
 public enum Language {
     ENGLISH("english.txt"),
