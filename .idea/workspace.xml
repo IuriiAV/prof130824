@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h9">
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add summary 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h9/task2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/task2/Task2.java" afterDir="false" />
     </list>
@@ -35,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="SierikovKonstantin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +57,7 @@
 }</component>
   <component name="ProjectId" id="2oYoS498a9RtTgJq8jlLIcajIsi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -216,8 +217,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.TaskExample" />
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.StudentApp" />
         <item itemvalue="Application.StreamApiMamExample" />
         <item itemvalue="Application.FileExample" />

@@ -26,11 +26,10 @@ public class Task2 {
     private static void copyDirectoryFile(String dirPath, String dirPathNew) {
         File fileWithPath = new File(dirPath);
         File[] allFiles = fileWithPath.listFiles();
-        System.out.println(Arrays.toString(allFiles));
 
         for (int i = 0; i < allFiles.length; i++) {
-            Path pathOld = Paths.get(dirPath);
-            Path pathNew = Paths.get(dirPathNew);
+            Path pathOld = Paths.get(dirPath,allFiles[i].getName());
+            Path pathNew = Paths.get(dirPathNew, allFiles[i].getName());
             try {
                 Files.copy(pathOld,pathNew, StandardCopyOption.REPLACE_EXISTING);
 
@@ -38,7 +37,7 @@ public class Task2 {
                 e.getStackTrace();
             }
         }
-        System.out.println("Файлы успешно скопированы!");
+        System.out.println("The files were successfully copied to the directory " + dirPathNew);
 
     }
 }
