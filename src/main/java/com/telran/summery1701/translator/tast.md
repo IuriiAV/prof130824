@@ -14,3 +14,7 @@ CustomFileWriter
 writeDictionary()
 writeTranslatedFile()
 
+Dictionary
+update(original,translate,language)
+getTranslate(language,original,translate)
+

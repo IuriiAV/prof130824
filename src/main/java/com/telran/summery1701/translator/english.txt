@@ -2,3 +2,4 @@
 пока:bye
 цветок:flower
 город:city
+дверь:door
