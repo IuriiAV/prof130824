@@ -3,3 +3,5 @@
 цветок:flower
 город:city
 дверь:door
+дверь:door
+кот:cat
