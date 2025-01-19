@@ -133,7 +133,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task2">
+  <component name="RunManager" selected="Application.Task1">
     <configuration name="StreamApiMamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.lesson16.StreamApiMamExample" />
       <module name="pro130824" />
@@ -214,9 +214,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.TaskExample" />
-        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.StudentApp" />
         <item itemvalue="Application.StreamApiMamExample" />
       </list>
