@@ -1,9 +1,0 @@
-привет:hello
-пока:bye
-дверь:door
-дверь:door
-дверь:door
-дверь:door
-дверь:door
-дверь:door
-дверь:door
