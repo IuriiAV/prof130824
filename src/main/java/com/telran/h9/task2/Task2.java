@@ -6,7 +6,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-import java.util.Arrays;
 
 /**
  * 2) Написать программу для копирования файлов из одной директории в другую
@@ -16,7 +15,6 @@ import java.util.Arrays;
 public class Task2 {
 
     public static void main(String[] args) {
-
         String dirPath = "C:\\IT\\JAVA PRO\\Lesson\\src\\main\\java\\com\\telran\\h9\\task2\\resource";
         String dirPathNew = "C:\\IT\\JAVA PRO\\Lesson\\src\\main\\java\\com\\telran\\h9\\task2\\resourceNew";
 
@@ -27,11 +25,12 @@ public class Task2 {
         File fileWithPath = new File(dirPath);
         File[] allFiles = fileWithPath.listFiles();
 
-        for (int i = 0; i < allFiles.length; i++) {
-            Path pathOld = Paths.get(dirPath,allFiles[i].getName());
-            Path pathNew = Paths.get(dirPathNew, allFiles[i].getName());
+        assert allFiles != null;
+        for (File allFile : allFiles) {
+            Path pathOld = Paths.get(dirPath, allFile.getName());
+            Path pathNew = Paths.get(dirPathNew, allFile.getName());
             try {
-                Files.copy(pathOld,pathNew, StandardCopyOption.REPLACE_EXISTING);
+                Files.copy(pathOld, pathNew, StandardCopyOption.REPLACE_EXISTING);
 
             } catch (IOException e) {
                 e.getStackTrace();
@@ -41,65 +40,3 @@ public class Task2 {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//   private static void copyDirectoryFile(String sourceDir, String targetDir) {
-//        File sourceFolder = new File(sourceDir);
-//        File targetFolder = new File(targetDir);
-//
-//        if (!sourceFolder.exists()) {
-//            System.out.println("Источник не найден: " + sourceDir);
-//            return;
-//        }
-//
-//        if (!targetFolder.exists()) {
-//            targetFolder.mkdirs(); // Создать целевую папку, если она не существует
-//        }
-//
-//        File[] files = sourceFolder.listFiles();
-//        if (files != null) {
-//            for (File file : files) {
-//                Path sourcePath = file.toPath();
-//                Path targetPath = Paths.get(targetFolder.getPath(), file.getName());
-//                try {
-//                    if (file.isDirectory()) {
-//                        copyDirectoryFile(file.getAbsolutePath(), targetPath.toString());  // Рекурсивный вызов для папок
-//                    } else {
-//                        Files.copy(sourcePath, targetPath, StandardCopyOption.REPLACE_EXISTING);
-//                    }
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//            }
-//        }
-//        System.out.println("Файлы успешно скопированы!");
-//    }

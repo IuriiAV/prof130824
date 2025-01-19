@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add summary 7">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h9/task2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h9/task2/Task2.java" afterDir="false" />
-    </list>
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h_9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,20 +133,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson18.FileExample" />
-      <module name="pro130824" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task2">
     <configuration name="StreamApiMamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.lesson16.StreamApiMamExample" />
       <module name="pro130824" />
@@ -189,6 +173,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h9.task2.Task2" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h9.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaskExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.lesson16.TaskExample" />
       <module name="pro130824" />
@@ -217,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2" />
         <item itemvalue="Application.TaskExample" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.StudentApp" />
         <item itemvalue="Application.StreamApiMamExample" />
-        <item itemvalue="Application.FileExample" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736951820955</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add h_9">
+      <option name="closed" value="true" />
+      <created>1737126757510</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737126757510</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,6 +390,7 @@
     <MESSAGE value="add lesson7" />
     <MESSAGE value="add lesson 14" />
     <MESSAGE value="add h9" />
-    <option name="LAST_COMMIT_MESSAGE" value="add h9" />
+    <MESSAGE value="add h_9" />
+    <option name="LAST_COMMIT_MESSAGE" value="add h_9" />
   </component>
 </project>
