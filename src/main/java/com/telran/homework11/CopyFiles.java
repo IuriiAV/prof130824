@@ -15,12 +15,34 @@ public class CopyFiles {
     }
 
     private static void copy(Path pathOut, Path pathInto) {
-        try {
-            List<Path> files = Files.list(pathOut).map(f -> f.getFileName()).toList();
-            System.out.println(files);
-            for (int i = 0; i < files.size(); i++) {
-                Files.copy(Path.of(pathOut + "/" + files.get(i)), pathInto.resolve(files.get(i)));
+        if (!Files.exists(pathOut) || !Files.isDirectory(pathOut)) {
+            System.out.println("The paths is incorrect or doesn't exist. Please, check. " + pathOut);
+            return;
+        }
+        if (!Files.exists(pathInto)) {
+            try {
+                Files.createDirectories(pathInto);
+                System.out.println("The directory was created. " + pathOut);
+            } catch (IOException e) {
+                System.out.println("Failed to create the directory " + pathInto);
+                e.printStackTrace();
+                return;
             }
+        }
+
+        List<Path> files = null;
+        try {
+            files = Files.list(pathOut).map(f -> f.getFileName()).toList();
+        } catch (IOException e) {
+            System.out.println("List with paths is not created");
+            e.printStackTrace();
+            return;
+        }
+        try {
+            for (int i = 0; i < files.size(); i++) {
+                Files.copy(pathOut.resolve(files.get(i)), pathInto.resolve(files.get(i)));
+            }
+            System.out.println("The copied files: " + files);
         } catch (IOException e) {
             e.printStackTrace();
         }
