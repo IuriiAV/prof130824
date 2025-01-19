@@ -2,3 +2,5 @@
 пока:bye
 цветок:flower
 город:city
+цвет:color
+цвет:color
