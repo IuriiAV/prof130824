@@ -1,6 +1,7 @@
 package com.telran.lesson7.uni;
 
 import java.util.List;
+import java.util.Objects;
 
 public class Student {
 
@@ -30,9 +31,20 @@ public class Student {
     public List<PhoneNumber> getNumbers() {
         return numbers;
     }
-    public boolean equals(Student student){
-        return this.name.equals(student.name) && this.age==student.getAge();
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return age == student.age && Objects.equals(name, student.name);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
+    }
+
     public void addRate(int points){
         this.rate+=points;
     }

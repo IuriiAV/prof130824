@@ -44,10 +44,9 @@ public class University {
     public void removeStudents(List<Student> studentsToRemove) {
         for (Student currentStudent : studentsToRemove) {
             boolean hasStudent = false;
-            for (Student currentStu:
-                 ) {
-                
-            }
+           if (students.contains(currentStudent)){
+               students.remove(currentStudent);
+           }
             
             if (!blackListStudents.contains(currentStudent)) {
                 blackListStudents.add(currentStudent);
