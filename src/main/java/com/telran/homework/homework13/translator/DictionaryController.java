@@ -1,8 +1,7 @@
 package com.telran.homework.homework13.translator;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
+import java.nio.file.Paths;
 
 public class DictionaryController {
 
@@ -18,12 +17,14 @@ public class DictionaryController {
                 What would you like to do?
                 [0] -> exit
                 [1] -> Translate a word
-                [2] -> Add a new word into the dictionary""");
+                [2] -> Add a new word into the dictionary
+                [3] -> Translate text""");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         try {
             int i = Integer.parseInt(reader.readLine());
             switch (i) {
-                case 0 -> {break;}
+                case 0 -> {
+                }
                 case 1 -> {
                     try {
                         translate(reader);
@@ -40,12 +41,22 @@ public class DictionaryController {
                         update(reader);
                     }
                 }
+
+                case 3 -> {
+                    try {
+                        translateText(reader);
+                    } catch (IllegalArgumentException e) {
+                        System.err.println("Non-existent language\nPlease correct your choice.");
+                        translateText(reader);
+                    }
+                }
                 default -> {
                     System.err.println("Please be sure that you've entered right number.");
                     start();
                 }
             }
         } catch (BackToMenuException e) {
+            System.out.println(e.getMessage());
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -69,10 +80,10 @@ public class DictionaryController {
         backToMenu(translate);
         dictionary.update(original, translate, language);
         System.out.println("You've added the word " + original.toUpperCase() + " to the dictionary");
-        addWord(reader, language);
+        addWord(reader, language); // IMPORTANT: how to avoid this
     }
 
-    private void messageInputCurrentOption (String option) {
+    private void messageInputCurrentOption(String option) {
         System.out.println("Input " + option + "\n[0] -> back to main menu");
     }
 
@@ -104,19 +115,44 @@ public class DictionaryController {
             return;
         }
         requestWord(reader, language);
-        translate(reader);
     }
 
-    private String requestWord(BufferedReader reader, Language language) throws IOException {
+    private void requestWord(BufferedReader reader, Language language) throws IOException {
         messageInputCurrentOption("the word you need to translate");
         String requestedWord = reader.readLine();
         backToMenu(requestedWord);
         String translatedWord = dictionary.translate(language, requestedWord);
         System.out.println(translatedWord);
-        return translatedWord;
+        requestWord(reader, language);// IMPORTANT: how to avoid this
     }
 
-    private void repeatAction() {
+    private void translateText(BufferedReader reader) throws IOException {
+        System.out.println("Paste a path to the file with text you want to translate:");
+        String pathFrom = reader.readLine();
+        Language language = chooseLanguage(reader);
+        File fileFrom = new File(pathFrom);
+        String pathTo = Paths.get(fileFrom.getParent(), fileFrom.getName() + "_" + language.getFileName()).toString();
+        try (
+                BufferedReader textReader = new BufferedReader(new InputStreamReader(new FileInputStream(pathFrom)));
+                BufferedWriter textWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(pathTo)))) {
+            while (textReader.ready()) {
+                for (String word : textReader.readLine().split(" ")) {
+                    String cleanedWord = word.replaceAll("[^a-zA-Zа-яА-Я]", "").toLowerCase();
+                    String translatedWord = dictionary.translate(language, cleanedWord);
+                    textWriter.write(translatedWord + " ");
+                }
+                textWriter.write("\n");
+            }
+        } catch (FileNotFoundException e) {
+            System.err.println("You've paste wrong path to the file. Try again:");
+            translateText(reader);
+        } catch (IOException e) {
+            System.err.println("Error while reading or writing file: " + e.getMessage());
+        }
+        System.out.println("Translation saved to: " + pathTo);
+    }
+
+    private void repeatAction() { // IMPORTANT: Is it possible to pass a method as an argument?
 
     }
 }
