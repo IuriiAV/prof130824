@@ -1,6 +1,10 @@
 package com.telran.homework.homework13;
 
-import com.telran.summary.summary19.translator.*;
+
+import com.telran.homework.homework13.translator.Dictionary;
+import com.telran.homework.homework13.translator.DictionaryController;
+import com.telran.homework.homework13.translator.TranslatorFileReader;
+import com.telran.homework.homework13.translator.TranslatorFileWriter;
 
 public class App {
 

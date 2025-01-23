@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class TranslatorFileReader {
 
-    private static final String PATH = "/Users/dogoda/java/pro_01/src/main/java/com/telran/summary/summary19/dictionary";
+    private static final String PATH = "/Users/dogoda/java/prof130824/src/main/java/com/telran/homework/homework13/dictionary";
 
     public Map<String, String> readDictionary(Language language) {
         String path = PATH + File.separator + language.getFileName();

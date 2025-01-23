@@ -5,7 +5,7 @@ public enum Language {
     GERMAN("german.txt"),
     SPANISH("spain.txt");
 
-    private String fileName;
+    private final String fileName;
 
     Language(String fileName) {
         this.fileName = fileName;

@@ -5,8 +5,8 @@ import java.util.Map;
 
 public class Dictionary {
 
-    private TranslatorFileWriter writer;
-    private TranslatorFileReader reader;
+    private final TranslatorFileWriter writer;
+    private final TranslatorFileReader reader;
 
     public Dictionary(TranslatorFileWriter writer, TranslatorFileReader reader) {
         this.writer = writer;
