@@ -1,6 +1,5 @@
 package com.telran.homework.homework13.translator;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;

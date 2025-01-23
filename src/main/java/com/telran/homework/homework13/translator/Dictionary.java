@@ -19,7 +19,7 @@ public class Dictionary {
         writer.writeDictionary(language, words);
     }
 
-    public String getTranslate(Language language, String original) {
+    public String translate(Language language, String original) {
         Map<String, String> map = reader.readDictionary(language);
         return map.getOrDefault(original, original);
     }
