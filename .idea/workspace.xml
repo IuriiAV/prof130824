@@ -5,17 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson 14">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/CustomFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/CustomFileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/DictionaryApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/DictionaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/english.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/german.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/spanish.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/GenericExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/GenericTwoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/TestAppExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/TestInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/TestObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/TestTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/example/Convertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/CatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/GenericController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/AbstractProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/Donut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/DonutStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/StorageApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +109,8 @@
     "Application.ExampleApp.executor": "Run",
     "Application.ExampleTreeSet.executor": "Run",
     "Application.FileExample.executor": "Run",
+    "Application.GenericExample.executor": "Run",
+    "Application.GenericTwoExample.executor": "Run",
     "Application.GraphExample.executor": "Run",
     "Application.IncorrectExample.executor": "Run",
     "Application.IteratorExample.executor": "Run",
@@ -123,6 +140,7 @@
     "Application.Task1.executor": "Run",
     "Application.TaskExample.executor": "Run",
     "Application.TestApp.executor": "Run",
+    "Application.TestAppExample.executor": "Run",
     "Application.TryCatchExample.executor": "Run",
     "Application.UniApp.executor": "Run",
     "Application.com.telran.lesson19.FileExample.executor": "Run",
@@ -143,20 +161,24 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IT\JAVA PRO\Lesson\src\main\java\com\telran\summary7\translator" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.telran.lesson20.stotageApp" />
+      <recent name="com.telran.lesson20.exampleTwo" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn" />
       <command value="mvn clean" />
+      <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.lesson18.FileExample" />
+  <component name="RunManager" selected="Application.StorageApp">
+    <configuration name="GenericExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.lesson20.GenericExample" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.lesson18.*" />
+          <option name="PATTERN" value="com.telran.lesson20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamApiMamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.lesson16.StreamApiMamExample" />
+    <configuration name="GenericTwoExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.lesson20.GenericTwoExample" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.lesson16.*" />
+          <option name="PATTERN" value="com.telran.lesson20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.lesson19.task.Task" />
+    <configuration name="StorageApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.lesson20.stotageApp.StorageApp" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.lesson19.task.*" />
+          <option name="PATTERN" value="com.telran.lesson20.stotageApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.lesson19.TryCatchExample" />
+    <configuration name="TestAppExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.lesson20.TestAppExample" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.lesson19.task.*" />
+          <option name="PATTERN" value="com.telran.lesson20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StorageApp" />
+        <item itemvalue="Application.GenericTwoExample" />
+        <item itemvalue="Application.TestAppExample" />
+        <item itemvalue="Application.GenericExample" />
         <item itemvalue="Application.com.telran.lesson19.FileExample" />
-        <item itemvalue="Application.Task" />
-        <item itemvalue="Application.TryCatchExample" />
-        <item itemvalue="Application.FileExample" />
-        <item itemvalue="Application.StreamApiMamExample" />
       </list>
     </recent_temporary>
   </component>
