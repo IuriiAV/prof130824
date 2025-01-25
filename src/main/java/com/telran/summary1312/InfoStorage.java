@@ -9,7 +9,7 @@ public class InfoStorage {
     //language -> description
     //productId -> en-descr, ge -descr, fr-descr
 
-    private Map<Product, Map<String, String>> infoMap = new HashMap<>();
+    private final Map<Product, Map<String, String>> infoMap = new HashMap<>();
 
     public InfoStorage() {
         init();
@@ -51,5 +51,6 @@ public class InfoStorage {
         Map<String, String> template = new HashMap<>();
         Map<String, String> descMap = infoMap.getOrDefault(product, template);
         descMap.put(language, description);
+        infoMap.put(product, descMap);
     }
 }
