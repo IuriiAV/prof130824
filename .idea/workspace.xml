@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson 14">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h10/task3/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h10/task3/answer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h10/task3/expression.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h10/task1/AppTask1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h10/task1/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/h10/task1/UnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h10/task1/Task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h10/task2/Task2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,7 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -120,10 +124,16 @@
     "Application.TryCatchExample.executor": "Run",
     "Application.UniApp.executor": "Run",
     "Application.com.telran.lesson19.FileExample.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
     "Maven. [clean].executor": "Run",
     "Maven..executor": "Run",
     "Maven.pro130824 [clean].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "SierikovKonstantin__h10",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/IT/JAVA PRO/LessonPractic1",
@@ -137,6 +147,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IT\JAVA PRO\Lesson\src\main\java\com\telran\summary7\translator" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.telran.h10.task1" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -144,7 +160,20 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.AppTask1">
+    <configuration name="AppTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h10.task1.AppTask1" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h10.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.h10.task3.Calculator" />
       <module name="pro130824" />
@@ -164,19 +193,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.telran.lesson19.task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.h10.task1.Task1" />
-      <module name="pro130824" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.h10.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,8 +241,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppTask1" />
         <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.com.telran.lesson19.FileExample" />
         <item itemvalue="Application.Task" />
         <item itemvalue="Application.TryCatchExample" />
@@ -384,6 +400,7 @@
     <MESSAGE value="add lesson6" />
     <MESSAGE value="add lesson7" />
     <MESSAGE value="add lesson 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson 14" />
+    <MESSAGE value="h10 test start" />
+    <option name="LAST_COMMIT_MESSAGE" value="h10 test start" />
   </component>
 </project>

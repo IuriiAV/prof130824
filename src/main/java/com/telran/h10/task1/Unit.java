@@ -1,30 +1,21 @@
 package com.telran.h10.task1;
 
-import java.io.*;
-import java.nio.file.*;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
 
+public class Unit {
 
-
-public class Task1 {
-
-    public static void main(String[] args) {
-        String originalTextFile = "C:\\IT\\JAVA PRO\\Lesson\\src\\main\\java\\com\\telran\\h10\\task1\\originalText.txt";
-        Path pathCodedText = Paths.get("C:\\IT\\JAVA PRO\\Lesson\\src\\main\\java\\com\\telran\\h10\\task1\\codedText.txt");
-        Path pathDeCodedText = Paths.get("C:\\IT\\JAVA PRO\\Lesson\\src\\main\\java\\com\\telran\\h10\\task1\\decoded.txt");
-
-        encoder(originalTextFile, pathCodedText);
-
-        decoder(pathCodedText, pathDeCodedText);
-
-
-    }
-
-    private static void decoder(Path pathCodedText, Path pathDeCodedText) {
+    public void decoder(Path pathCodedText, Path pathDeCodedText) {
         try {
             String codedText = Files.readString(pathCodedText);
             String[] codedArray = codedText.split(" ");
             StringBuilder sb = new StringBuilder();
-            for (String code: codedArray ){
+            for (String code : codedArray) {
                 int charCode = Integer.parseInt(code);
                 sb.append((char) charCode);
             }
@@ -35,8 +26,8 @@ public class Task1 {
         }
     }
 
-    private static void encoder(String originalTextFile, Path pathCodedText) {
-        try ( BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(originalTextFile)))) {
+    public void encoder(String originalTextFile, Path pathCodedText) {
+        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(originalTextFile)))) {
             StringBuilder sb = new StringBuilder();
             while (bufferedReader.ready()) {
                 int read = bufferedReader.read();
