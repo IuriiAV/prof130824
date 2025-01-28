@@ -11,9 +11,8 @@ public class TestAppExample {
         String obj1 = testString.getObj();
         System.out.println("String obj " + obj1);
 
-
         TestObject testObject = new TestObject(5.20);
-        Object obj2 = testObject.getObj();
+        Double obj2 = (Double)testObject.getObj();
         System.out.println("Double obj " + obj2);
 
         Test<Boolean> testBoolean = new Test<>(Boolean.TRUE);
@@ -23,11 +22,7 @@ public class TestAppExample {
         Test<String> stringTest = new Test<>("Hello");
         String obj4 = stringTest.getObj();
 
-
-
-
-        TestTwo<Integer, String> testTwo = new TestTwo<>(1,"Hello", "Java");
+        TestTwo<Integer, String> testTwo = new TestTwo<>(1, "Hello", "Java");
         System.out.println(testTwo);
-
     }
 }

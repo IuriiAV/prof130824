@@ -29,24 +29,26 @@ public class TryCatchExample {
 //        }
 
         String path = "D:\\Starta\\Java\\prof130824\\src\\main\\java\\com\\telran\\lesson19\\test.txt";
-        FileInputStream fileInputStream = null;
+        readFile(path, new CustomFileInputStream(path));
+        readFile(path, new FileInputStream(path));
+    }
+
+    private static void readFile(String path, FileInputStream fileInputStream) throws IOException {
         try {
-            fileInputStream = new CustomFileInputStream(path);
             int read = fileInputStream.read();
-            throw new FileNotFoundException();
+            fileInputStream.close();
         } catch (IOException e) {
-            System.out.println("File with path " + path + " not found " + e.getMessage());
+            System.out.println("File with path " + path + " not found " +
+                    e.getMessage());
             //throw new RuntimeException();
-            // System.exit(0);
+            //System.exit(0);
         } finally {
             if (fileInputStream != null) {
                 fileInputStream.close();
-
             }
-
             System.out.println("End of program");
-
         }
+
         System.out.println();
     }
 }
