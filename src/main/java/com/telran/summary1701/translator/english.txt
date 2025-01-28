@@ -1,0 +1,5 @@
+привет:hello
+пока:bye
+цветок:flower
+город:city
+дверь:door
