@@ -8,6 +8,6 @@ public class CoffeeController {
     private View view;
 
     public void runApp(){
-        coffeeView.listAll();
+        //coffeeView.listAll();
     }
 }
