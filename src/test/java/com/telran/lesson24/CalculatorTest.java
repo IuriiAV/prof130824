@@ -34,6 +34,7 @@ class CalculatorTest {
         assertEquals(-2, calculator.findMax(arr));
     }
 
+
     @ParameterizedTest
     @NullAndEmptySource
     public void testFindMaxWhenArrayIsEmptyOrNull(int[] arr) {
