@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson21">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson24/CalcApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson24/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson24/Multiplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson24/StringFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/lesson24/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/lesson24/MultiplierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/lesson24/StringFormatterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson24">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary8/BookStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/summary8/asasa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/base/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/base/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/controller/CoffeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/controller/CoffeeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +26,8 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,90 +66,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlphabetApp.executor": "Run",
-    "Application.App.executor": "Run",
-    "Application.ArrayListTaskExample.executor": "Run",
-    "Application.BTreeApp.executor": "Run",
-    "Application.BookApp.executor": "Run",
-    "Application.CalcApp.executor": "Run",
-    "Application.CalculatorExample.executor": "Run",
-    "Application.CoffeApp.executor": "Run",
-    "Application.CompareExample.executor": "Run",
-    "Application.CustomListApp.executor": "Run",
-    "Application.DealApp.executor": "Run",
-    "Application.DealAppAdditional.executor": "Run",
-    "Application.DictionaryApp.executor": "Run",
-    "Application.DonutApp.executor": "Run",
-    "Application.EnumExample.executor": "Run",
-    "Application.EnumExampleTwo.executor": "Run",
-    "Application.EqalsExample.executor": "Run",
-    "Application.ExampleApp.executor": "Run",
-    "Application.ExampleTreeSet.executor": "Run",
-    "Application.FileExample.executor": "Run",
-    "Application.GenericExample.executor": "Run",
-    "Application.GenericTwoExample.executor": "Run",
-    "Application.GraphExample.executor": "Run",
-    "Application.IncorrectExample.executor": "Run",
-    "Application.IteratorExample.executor": "Run",
-    "Application.IteratorExampleTwo.executor": "Run",
-    "Application.LibraryApp.executor": "Run",
-    "Application.LinkedListVsArrayList.executor": "Run",
-    "Application.ListExample.executor": "Run",
-    "Application.ListExampleTwo.executor": "Run",
-    "Application.ListIteratorExample.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MapExample.executor": "Run",
-    "Application.MenuApp.executor": "Run",
-    "Application.Messenger.executor": "Run",
-    "Application.PatterThree.executor": "Run",
-    "Application.PatterTwo.executor": "Run",
-    "Application.PatternOne.executor": "Run",
-    "Application.QueueExample.executor": "Run",
-    "Application.RetrievingElements.executor": "Run",
-    "Application.SeasonAPP.executor": "Run",
-    "Application.SoetExample.executor": "Run",
-    "Application.StackExample.executor": "Run",
-    "Application.StorageApp.executor": "Run",
-    "Application.StreamApiExample.executor": "Run",
-    "Application.StreamApiMamExample.executor": "Run",
-    "Application.StudentApp.executor": "Run",
-    "Application.Task.executor": "Run",
-    "Application.Task1.executor": "Run",
-    "Application.TaskExample.executor": "Run",
-    "Application.TestApp.executor": "Run",
-    "Application.TestAppExample.executor": "Run",
-    "Application.TryCatchExample.executor": "Run",
-    "Application.UniApp.executor": "Run",
-    "Application.VehicleApp.executor": "Run",
-    "Application.com.telran.lesson19.FileExample.executor": "Run",
-    "JUnit.CalculatorTest.executor": "Run",
-    "JUnit.CalculatorTest.testFindMax.executor": "Run",
-    "JUnit.CalculatorTest.testFindMaxWhenArrayIsEmpty.executor": "Run",
-    "JUnit.CalculatorTest.testFindMaxWhenArrayIsEmptyOrNull.executor": "Run",
-    "JUnit.CalculatorTest.testFindMaxWhenArrayIsNegative.executor": "Run",
-    "JUnit.CalculatorTest.testFindMaxWhenArrayIsNull.executor": "Run",
-    "JUnit.CalculatorTest.testSub.executor": "Run",
-    "JUnit.CalculatorTest.testSum.executor": "Run",
-    "JUnit.MultiplierTest.multiplierTest.executor": "Run",
-    "JUnit.StringFormatterTest.testReversStringWhenStringInLowerCase.executor": "Run",
-    "JUnit.StringFormatterTest.testReversStringWhenStringInUpperCase.executor": "Run",
-    "JUnit.StringFormatterTest.testReversStringWhenStringIsCorrect.executor": "Run",
-    "JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1).executor": "Run",
-    "JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty.executor": "Run",
-    "Maven. [clean].executor": "Run",
-    "Maven..executor": "Run",
-    "Maven.pro130824 [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "SierikovKonstantin",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/JAVA PRO/LessonPractic1",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlphabetApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListTaskExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BTreeApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalcApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculatorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoffeApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomListApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DealApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DealAppAdditional.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DictionaryApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DonutApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumExampleTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqalsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleTreeSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericTwoExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraphExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncorrectExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IteratorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IteratorExampleTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListVsArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListExampleTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIteratorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Messenger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatterThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatterTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RetrievingElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeasonAPP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SoetExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StorageApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamApiExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamApiMamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAppExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryCatchExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VehicleApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.telran.lesson19.FileExample.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMax.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsEmptyOrNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsNegative.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testSub.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testSum.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MultiplierTest.multiplierTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringFormatterTest.testReversStringWhenStringInLowerCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringFormatterTest.testReversStringWhenStringInUpperCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringFormatterTest.testReversStringWhenStringIsCorrect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven..executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pro130824 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SierikovKonstantin&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IT/JAVA PRO/LessonPractic1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.telran.summary4" />
@@ -183,7 +174,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1)">
+  <component name="RunManager">
     <configuration name="StringFormatterTest.testReversStringWhenStringInLowerCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro130824" />
       <extension name="coverage">
@@ -424,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738226042014</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add lesson24">
+      <option name="closed" value="true" />
+      <created>1738842341453</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738842341453</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -455,6 +454,7 @@
     <MESSAGE value="add lesson7" />
     <MESSAGE value="add lesson 14" />
     <MESSAGE value="add lesson21" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson21" />
+    <MESSAGE value="add lesson24" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson24" />
   </component>
 </project>
