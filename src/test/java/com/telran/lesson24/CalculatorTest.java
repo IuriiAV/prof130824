@@ -2,10 +2,14 @@ package com.telran.lesson24;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.NullAndEmptySource;
-import org.junit.jupiter.params.provider.ValueSource;
 
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.stream.Stream;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class CalculatorTest {
 
@@ -16,6 +20,22 @@ class CalculatorTest {
         int result = calculator.sum(2, 3);
         assertEquals(5, result);
     }
+
+    @ParameterizedTest
+    @MethodSource("provideIntsForSub")
+    public void testSub(int inputFirst, int inputSecond, int expected){
+        assertEquals(expected,calculator.sub(inputFirst,inputSecond));
+    }
+
+    private static Stream<Arguments> provideIntsForSub() {
+        return Stream.of(
+                Arguments.of(5, 3, 2),
+                Arguments.of(3, 5, -2),
+                Arguments.of(3, 0, 3),
+                Arguments.of(0, 3, -3)
+        );
+    }
+
 
     //TODO HW :
     //Write test on sub method
