@@ -7,3 +7,4 @@
 дверь:door
 дверь:door
 дверь:door
+Привет:Hello
