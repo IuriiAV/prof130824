@@ -5,3 +5,4 @@
 дверь:door
 дверь:door
 кот:cat
+Привет:Hello
