@@ -20,4 +20,15 @@ public class Calculator {
         }
         return max;
     }
+
+    public int findMin(int arr[]) {
+        if (arr == null || arr.length == 0) {
+            throw new IllegalArgumentException("Input array is empty");
+        }
+        int min = arr[0];
+        for (int value : arr) {
+            min = Math.min(min, value);
+        }
+        return min;
+    }
 }
