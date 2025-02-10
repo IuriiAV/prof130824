@@ -2,12 +2,16 @@ package com.telran.lesson24;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.NullAndEmptySource;
-import org.junit.jupiter.params.provider.ValueSource;
 
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.stream.Stream;
 
-class CalculatorTest {
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+class MyCalculatorTest {
 
     private Calculator calculator = new Calculator();
 
@@ -32,6 +36,18 @@ class CalculatorTest {
     public void testFindMaxWhenArrayIsNegative() {
         int[] arr = {-3, -5, -4, -2};
         assertEquals(-2, calculator.findMax(arr));
+    }
+
+    @ParameterizedTest
+    @MethodSource("generateData")
+    public void testFindMaxWhenArrayIsCorrect(int[] arr, int result) {
+        assertEquals(result, calculator.findMax(arr));
+    }
+
+    private static Stream<Arguments> generateData() {
+        return Stream.of(Arguments.of(new int[]{-3, -5, -4, -2}, -2),
+                Arguments.of(new int[]{1, -98, -99, -2}, 1))
+        ;
     }
 
     @ParameterizedTest
