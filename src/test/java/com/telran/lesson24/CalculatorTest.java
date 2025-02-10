@@ -21,13 +21,15 @@ class CalculatorTest {
         assertEquals(5, result);
     }
 
+    //TODO HW :
+    //Write test on sub method
     @ParameterizedTest
-    @MethodSource("provideIntsForSub")
-    public void testSub(int inputFirst, int inputSecond, int expected){
-        assertEquals(expected,calculator.sub(inputFirst,inputSecond));
+    @MethodSource("provideDataForSub")
+    public void testSub(int inputFirst, int inputSecond, int expected) {
+        assertEquals(expected, calculator.sub(inputFirst, inputSecond));
     }
 
-    private static Stream<Arguments> provideIntsForSub() {
+    private static Stream<Arguments> provideDataForSub() {
         return Stream.of(
                 Arguments.of(5, 3, 2),
                 Arguments.of(3, 5, -2),
@@ -36,10 +38,29 @@ class CalculatorTest {
         );
     }
 
-
-    //TODO HW :
-    //Write test on sub method
     //Write test on findMin method
+    @ParameterizedTest
+    @MethodSource("providePositiveDataForFindMin")
+    public void testFindMinPositive(int[] arr, int expected) {
+        assertEquals(expected, calculator.findMin(arr));
+    }
+
+    private static Stream<Arguments> providePositiveDataForFindMin() {
+        return Stream.of(
+                Arguments.of(new int[]{1, 2, 3, 4, 5, 6}, 1),
+                Arguments.of(new int[]{11, 10, 9, 8}, 8),
+                Arguments.of(new int[]{0, 0, -77, 77, 2}, -77),
+                Arguments.of(new int[]{33, 33, 33}, 33),
+                Arguments.of(new int[]{1234}, 1234)
+        );
+    }
+
+    @ParameterizedTest
+    @NullAndEmptySource
+    public void testFindMinWhenArrayIsEmptyOrNull(int[] arr) {
+        assertThrows(IllegalArgumentException.class, () -> calculator.findMin(arr));
+    }
+
 
     @Test
     public void testFindMaxWhenArrayIsPositive() {
