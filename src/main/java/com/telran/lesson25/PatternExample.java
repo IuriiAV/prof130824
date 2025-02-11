@@ -1,0 +1,19 @@
+package com.telran.lesson25;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class PatternExample {
+
+    public static void main(String[] args) {
+        String regex = ".*www.*";
+        String actual = "www.telran.de";
+/// 1 способ - все вхождения
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(actual);
+        System.out.println("actual string contains regex " + matcher.matches());
+/// 2 способ
+        System.out.println(Pattern.matches(regex,actual));
+
+    }
+}
