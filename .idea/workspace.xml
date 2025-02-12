@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h2/Test.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h11 finish+-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h11/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h11/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h11/CheckPhoneNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h11/CheckPhoneNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/h11/CheckPhoneNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/h11/CheckPhoneNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +28,12 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/SierikovKnstantin" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -54,6 +60,7 @@
 }</component>
   <component name="ProjectId" id="2oYoS498a9RtTgJq8jlLIcajIsi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -64,28 +71,190 @@
   "keyToString": {
     "Application.AlphabetApp.executor": "Run",
     "Application.App.executor": "Run",
+    "Application.ArrayListTaskExample.executor": "Run",
+    "Application.BTreeApp.executor": "Run",
+    "Application.BookApp.executor": "Run",
+    "Application.CalcApp.executor": "Run",
+    "Application.CalculatorExample.executor": "Run",
     "Application.CoffeApp.executor": "Run",
+    "Application.CompareExample.executor": "Run",
+    "Application.CustomListApp.executor": "Run",
+    "Application.DataExample.executor": "Run",
     "Application.DealApp.executor": "Run",
     "Application.DealAppAdditional.executor": "Run",
+    "Application.DictionaryApp.executor": "Run",
     "Application.DonutApp.executor": "Run",
     "Application.EnumExample.executor": "Run",
     "Application.EnumExampleTwo.executor": "Run",
+    "Application.EqalsExample.executor": "Run",
+    "Application.ExampleApp.executor": "Run",
+    "Application.ExampleTreeSet.executor": "Run",
+    "Application.FileExample.executor": "Run",
+    "Application.GenericExample.executor": "Run",
+    "Application.GenericTwoExample.executor": "Run",
+    "Application.GraphExample.executor": "Run",
+    "Application.IncorrectExample.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.IteratorExampleTwo.executor": "Run",
     "Application.LibraryApp.executor": "Run",
+    "Application.LinkedListVsArrayList.executor": "Run",
     "Application.ListExample.executor": "Run",
     "Application.ListExampleTwo.executor": "Run",
+    "Application.ListIteratorExample.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MapExample.executor": "Run",
+    "Application.MenuApp.executor": "Run",
+    "Application.Messenger.executor": "Run",
     "Application.PatterThree.executor": "Run",
     "Application.PatterTwo.executor": "Run",
     "Application.PatternOne.executor": "Run",
+    "Application.QueueExample.executor": "Run",
+    "Application.RetrievingElements.executor": "Run",
     "Application.SeasonAPP.executor": "Run",
-    "Application.Test.executor": "Run",
+    "Application.SoetExample.executor": "Run",
+    "Application.StackExample.executor": "Run",
+    "Application.StorageApp.executor": "Run",
+    "Application.StreamApiExample.executor": "Run",
+    "Application.StreamApiMamExample.executor": "Run",
+    "Application.StudentApp.executor": "Run",
+    "Application.Task.executor": "Run",
+    "Application.Task1.executor": "Run",
+    "Application.TaskExample.executor": "Run",
+    "Application.TestApp.executor": "Run",
+    "Application.TestAppExample.executor": "Run",
+    "Application.TryCatchExample.executor": "Run",
+    "Application.UniApp.executor": "Run",
+    "Application.VehicleApp.executor": "Run",
+    "Application.com.telran.lesson19.FileExample.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.CalculatorTest.testFindMax.executor": "Run",
+    "JUnit.CalculatorTest.testFindMaxWhenArrayIsCorrect.executor": "Run",
+    "JUnit.CalculatorTest.testFindMaxWhenArrayIsEmpty.executor": "Run",
+    "JUnit.CalculatorTest.testFindMaxWhenArrayIsEmptyOrNull.executor": "Run",
+    "JUnit.CalculatorTest.testFindMaxWhenArrayIsNegative.executor": "Run",
+    "JUnit.CalculatorTest.testFindMaxWhenArrayIsNull.executor": "Run",
+    "JUnit.CalculatorTest.testSub.executor": "Run",
+    "JUnit.CalculatorTest.testSum.executor": "Run",
+    "JUnit.CheckPhoneNumbersTest.testCheckAll.executor": "Run",
+    "JUnit.DictionaryTest.executor": "Run",
+    "JUnit.MultiplierTest.multiplierTest.executor": "Run",
+    "JUnit.StringFormatterTest.testReversStringWhenStringInLowerCase.executor": "Run",
+    "JUnit.StringFormatterTest.testReversStringWhenStringInUpperCase.executor": "Run",
+    "JUnit.StringFormatterTest.testReversStringWhenStringIsCorrect.executor": "Run",
+    "JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1).executor": "Run",
+    "JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty.executor": "Run",
+    "Maven. [clean].executor": "Run",
+    "Maven..executor": "Run",
+    "Maven.pro130824 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SierikovKonstantin__h2",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "SierikovKonstantin__h11",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/Algoritm/AlcoRythm"
+    "last_opened_file_path": "C:/IT/JAVA PRO/LessonPractic1",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.telran.summary4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IT\JAVA PRO\Lesson\src\main\java\com\telran\summary7\translator" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.telran.h11" />
+      <recent name="com.telran.summary7.translator" />
+      <recent name="com.telran.lesson24" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.telran.lesson20.stotageApp" />
+      <recent name="com.telran.lesson20.exampleTwo" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CheckPhoneNumbersTest">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h11.App" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.lesson25.DataExample" />
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.lesson25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckPhoneNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.h11" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h11.CheckPhoneNumbersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckPhoneNumbersTest.testCheckAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.h11" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h11.CheckPhoneNumbersTest" />
+      <option name="METHOD_NAME" value="testCheckAll(java.lang.String,boolean)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckPhoneNumbersTest.testPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.h11" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h11.CheckPhoneNumbersTest" />
+      <option name="METHOD_NAME" value="testPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Lesson" />
       <method v="2">
@@ -99,6 +268,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CheckPhoneNumbersTest" />
+        <item itemvalue="JUnit.CheckPhoneNumbersTest.testCheckAll" />
+        <item itemvalue="JUnit.CheckPhoneNumbersTest.testPassword" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.DataExample" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -189,7 +367,79 @@
       <option name="project" value="LOCAL" />
       <updated>1732018650989</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add lesson7">
+      <option name="closed" value="true" />
+      <created>1732264493376</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732264493376</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add lesson7">
+      <option name="closed" value="true" />
+      <created>1732264558805</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732264558805</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add lesson 14">
+      <option name="closed" value="true" />
+      <created>1734433157037</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734433157037</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add lesson 14">
+      <option name="closed" value="true" />
+      <created>1734436578099</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734436578099</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add lesson21">
+      <option name="closed" value="true" />
+      <created>1738064724875</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738064724875</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add lesson21">
+      <option name="closed" value="true" />
+      <created>1738226042014</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738226042014</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add lesson24">
+      <option name="closed" value="true" />
+      <created>1738842341453</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738842341453</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add lesson 25">
+      <option name="closed" value="true" />
+      <created>1739274365849</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739274365849</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add h11 finish+-">
+      <option name="closed" value="true" />
+      <created>1739374889413</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739374889413</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +467,12 @@
     <MESSAGE value="add DealApp" />
     <MESSAGE value="add Library 17.11.2024" />
     <MESSAGE value="add lesson6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson6" />
+    <MESSAGE value="add lesson7" />
+    <MESSAGE value="add lesson 14" />
+    <MESSAGE value="add lesson21" />
+    <MESSAGE value="add lesson24" />
+    <MESSAGE value="add lesson 25" />
+    <MESSAGE value="add h11 finish+-" />
+    <option name="LAST_COMMIT_MESSAGE" value="add h11 finish+-" />
   </component>
 </project>
