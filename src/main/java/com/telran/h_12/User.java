@@ -6,16 +6,11 @@ public class User {
 
     private int Age;
 
-    public User(String name, int age) {
+    public User(String name, int age) throws InvalidAgeException {
         this.name = name;
 
         if (age < 18) {
-            try {
                 throw new InvalidAgeException("InvalidAgeException,  age < 18.");
-            } catch (InvalidAgeException e) {
-                throw new RuntimeException(e);
-            }
-
         } else {
             Age = age;
         }

@@ -4,315 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add lesson24">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_12/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_12/InvalidAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_12/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h1/Alphabet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h1/AlphabetApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h1/AlphabetDeu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h1/AlphabetEng.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h1/AlphabetRus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h1/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h1/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h1/Phone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h2/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/DogApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/StudentApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/practice/Passport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/practice/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/practice/PersonApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/practice/PersonAppThree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson1/practice/PersonAppTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/EqalsExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Example/ExampleApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Example/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/Example/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/BookApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/CompareExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/Passport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/SortByPages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/SortByYear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson10/compare/SotrByTitle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson11/QueueExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson11/StackExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson11/TaskExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson11/hw6/HWTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson11/hw6/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson12/MapExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson12/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/BSTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/BTreeApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson13/TreeUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/Edge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/GraphExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson14/NumberOfIslands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/AnonymousExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/FunctionalExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/PreinterImplem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/PrinterAddItional.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/SoetExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/SortByAge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/basefi/ConsumerExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/exampels/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/exampels/CalculatorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson15/exampels/CalculatorTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson16/StreamApiExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson16/StreamApiMamExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson16/TaskExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson16/studentApp/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson16/studentApp/StudentApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson18/FileExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson18/InputOutputExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson18/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson19/FileExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson19/TryCatchExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson19/task/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson19/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson19/tryWithResoursesExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/BigDog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/DogApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/SmallDog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examples/ExampleApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examples/One.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examples/Three.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examples/Two.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examplethree/Apple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examplethree/Banana.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examplethree/Fruit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examplethree/FruitApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examplethree/Lemon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examplethree/Pear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/examplethree/PineApple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/exampletwo/BritishCat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/exampletwo/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson2/exampletwo/CatApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/GenericExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/GenericTwoExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/TestAppExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/TestInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/TestObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/TestString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/TestTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/example/Convertor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/AbstractService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/CatService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/GenericController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/PersonController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/exampleTwo/PersonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/AbstractProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/Burger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/Donut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/DonutStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/Storage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson20/stotageApp/StorageApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/SOLID.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/lsp/Bicycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/lsp/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/lsp/Manual.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/lsp/Motorized.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/lsp/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/lsp/VehicleApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/srp/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/srp/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/srp/OrderSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson21/srp/OrderStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/base/CoffeeStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/base/Storage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/controller/CoffeeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/model/AbstractProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/model/Cake.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/model/Coffee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/view/CoffeeView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson22/mvc/view/View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson24/CalcApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson24/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson24/Multiplier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson24/StringFormatter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson25/DataExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/AbstractExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/Bird.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/Bug.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/EarthAnimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/Flyable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/Horse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/Lion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/Rabbit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/WaterAnimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/Whale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/ZooExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/ZooExampleTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/interfaceexample/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/interfaceexample/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/interfaceexample/CanEat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/interfaceexample/CanJump.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/interfaceexample/CanSwim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/interfaceexample/Horse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/interfaceexample/Rabbit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/interfaceexample/Shark.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/interfaceexample/Ship.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/interfaceexample/Whale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/CoffeApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/CoffeeMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/Coffee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/CoffeeAmericano.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/CoffeeBlack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/CoffeeCappuccino.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/CoffeeEspresso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/CoffeeLatte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/CoffeeMilk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/CoffeeStandard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/Cup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/Milk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/mypractice/model/Water.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/CoffeeApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/CoffeeMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/Coffee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/CoffeeAmericano.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/CoffeeBlack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/CoffeeCappuccino.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/CoffeeEspresso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/CoffeeLatte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/CoffeeMilk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/CoffeeStandard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/Cup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/Milk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson3/practice/model/Water.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/Baby.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/Child.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/Parent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/PolyDynamicExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/PolyStaticExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/example/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/example/PersonApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/passbyvalue/PrimitiveExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/passbyvalue/ReferenceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson4/passbyvalue/StackExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Connection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Day.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Days.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/EnumExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/EnumExampleTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/PersonApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Season.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/SeasonApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/Suitable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/SwitchCaseExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/UserApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/DealApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Deck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/DealAppAdditional.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Deck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Rank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson5/deal/add/Suit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson6/ListExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson6/ListExampleTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson6/PatterThree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson6/PatterTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson6/PatternOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/IteratorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/IteratorExampleTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/ListIteratorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/RetrievingElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Phone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/UniApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson7/uni/University.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/LinkedExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/LinkedListAndArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/LinkedListVsArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/custom/CustomLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/custom/CustomListApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson8/custom/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/ExampleTreeSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/IncorrectExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/lesson9/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/AdultLibrarian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/AdultReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Const.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Genre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Librarian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/LibraryApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/NonFictionBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/NovelBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/NovellBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/Reader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary/ReaderType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary2/ArrayListTaskExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary2/Example.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/MessageBroker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/Messege.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary2/broker/Messenger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary2/storage/RequestStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary2/storage/StorageApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary3/example/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary3/example/BookStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary3/example/ExampleApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/Author.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/BookApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/Genre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/SortByAuthor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/SortByCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/SortByGenre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/SortByTitle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/SortByYear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary4/TestApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/AdminController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/InfoStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/LanguageStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/MenuApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/ProductStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary5/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary6/ExampleApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary6/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary7/task.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/CustomFileReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/CustomFileWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/Dictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/DictionaryApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/DictionaryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/Language.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/english.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/german.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/summary7/translator/spanish.txt" beforeDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h12 start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_12/bank/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_12/bank/BankApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_12/bank/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_12/bank/NegativeDepositException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/h_12/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h_12/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_12/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h_12/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_12/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/lesson24/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/lesson24/MultiplierTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/lesson24/StringFormatterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/summary7/translator/DictionaryTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,6 +81,7 @@
     "Application.App.executor": "Run",
     "Application.ArrayListTaskExample.executor": "Run",
     "Application.BTreeApp.executor": "Run",
+    "Application.BankApp.executor": "Run",
     "Application.BookApp.executor": "Run",
     "Application.CalcApp.executor": "Run",
     "Application.CalculatorExample.executor": "Run",
@@ -446,6 +151,9 @@
     "JUnit.StringFormatterTest.testReversStringWhenStringIsCorrect.executor": "Run",
     "JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1).executor": "Run",
     "JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty.executor": "Run",
+    "JUnit.UserTest.executor": "Run",
+    "JUnit.UserTest.testInvalidAge.executor": "Run",
+    "JUnit.UserTest.testValidAge.executor": "Run",
     "Maven. [clean].executor": "Run",
     "Maven..executor": "Run",
     "Maven.pro130824 [clean].executor": "Run",
@@ -469,6 +177,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.telran.h_12" />
       <recent name="com.telran.summary7.translator" />
       <recent name="com.telran.lesson24" />
     </key>
@@ -483,13 +192,13 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.BankApp">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.h_12.App" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.h_12.*" />
+          <option name="PATTERN" value="com.telran.h_12.bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -497,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.lesson25.DataExample" />
+    <configuration name="BankApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.telran.h_12.bank.BankApp" />
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.lesson25.*" />
+          <option name="PATTERN" value="com.telran.h_12.bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -510,48 +219,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testFindMaxWhenArrayIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.lesson24.*" />
+          <option name="PATTERN" value="com.telran.h_12.bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.lesson24" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.lesson24.CalculatorTest" />
-      <option name="METHOD_NAME" value="testFindMaxWhenArrayIsCorrect(int[],int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro130824" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.summary7.translator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.summary7.translator" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.summary7.translator.DictionaryTest" />
+      <option name="PACKAGE_NAME" value="com.telran.h_12" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h_12.UserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringFormatterTest.testReversStringWhenStringIsEmpty (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.testInvalidAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.lesson24.*" />
+          <option name="PATTERN" value="com.telran.h_12.bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.lesson24" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.lesson24.StringFormatterTest" />
-      <option name="METHOD_NAME" value="testReversStringWhenStringIsEmpty(java.lang.String)" />
+      <option name="PACKAGE_NAME" value="com.telran.h_12" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h_12.UserTest" />
+      <option name="METHOD_NAME" value="testInvalidAge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testValidAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h_12.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.h_12" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h_12.UserTest" />
+      <option name="METHOD_NAME" value="testValidAge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -572,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankApp" />
+        <item itemvalue="JUnit.UserTest" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.DataExample" />
-        <item itemvalue="JUnit.DictionaryTest" />
-        <item itemvalue="JUnit.CalculatorTest.testFindMaxWhenArrayIsCorrect" />
-        <item itemvalue="JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1)" />
+        <item itemvalue="JUnit.UserTest.testValidAge" />
+        <item itemvalue="JUnit.UserTest.testInvalidAge" />
       </list>
     </recent_temporary>
   </component>
@@ -725,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738842341453</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add h12 start">
+      <option name="closed" value="true" />
+      <created>1739378049257</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739378049257</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -757,6 +474,7 @@
     <MESSAGE value="add lesson 14" />
     <MESSAGE value="add lesson21" />
     <MESSAGE value="add lesson24" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson24" />
+    <MESSAGE value="add h12 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="add h12 start" />
   </component>
 </project>
