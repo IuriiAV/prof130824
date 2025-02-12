@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h11 finish">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/h11/CheckPhoneNumbersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h11/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h11/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h11/CheckPhoneNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h11/CheckPhoneNumbers.java" afterDir="false" />
@@ -26,8 +27,8 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -66,93 +67,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AlphabetApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListTaskExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BTreeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalcApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CoffeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomListApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DealApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DealAppAdditional.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DictionaryApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DonutApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqalsExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleTreeSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericTwoExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GraphExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IncorrectExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LibraryApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListVsArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListIteratorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MenuApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Messenger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatterThree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatterTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatternOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RetrievingElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeasonAPP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SoetExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StorageApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamApiExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamApiMamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestAppExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryCatchExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VehicleApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.telran.lesson19.FileExample.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.testFindMax.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsCorrect.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsEmpty.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsEmptyOrNull.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsNegative.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsNull.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.testSub.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculatorTest.testSum.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DictionaryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MultiplierTest.multiplierTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StringFormatterTest.testReversStringWhenStringInLowerCase.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StringFormatterTest.testReversStringWhenStringInUpperCase.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StringFormatterTest.testReversStringWhenStringIsCorrect.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven..executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pro130824 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;SierikovKonstantin__h11&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IT/JAVA PRO/LessonPractic1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlphabetApp.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.ArrayListTaskExample.executor": "Run",
+    "Application.BTreeApp.executor": "Run",
+    "Application.BookApp.executor": "Run",
+    "Application.CalcApp.executor": "Run",
+    "Application.CalculatorExample.executor": "Run",
+    "Application.CoffeApp.executor": "Run",
+    "Application.CompareExample.executor": "Run",
+    "Application.CustomListApp.executor": "Run",
+    "Application.DataExample.executor": "Run",
+    "Application.DealApp.executor": "Run",
+    "Application.DealAppAdditional.executor": "Run",
+    "Application.DictionaryApp.executor": "Run",
+    "Application.DonutApp.executor": "Run",
+    "Application.EnumExample.executor": "Run",
+    "Application.EnumExampleTwo.executor": "Run",
+    "Application.EqalsExample.executor": "Run",
+    "Application.ExampleApp.executor": "Run",
+    "Application.ExampleTreeSet.executor": "Run",
+    "Application.FileExample.executor": "Run",
+    "Application.GenericExample.executor": "Run",
+    "Application.GenericTwoExample.executor": "Run",
+    "Application.GraphExample.executor": "Run",
+    "Application.IncorrectExample.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.IteratorExampleTwo.executor": "Run",
+    "Application.LibraryApp.executor": "Run",
+    "Application.LinkedListVsArrayList.executor": "Run",
+    "Application.ListExample.executor": "Run",
+    "Application.ListExampleTwo.executor": "Run",
+    "Application.ListIteratorExample.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MapExample.executor": "Run",
+    "Application.MenuApp.executor": "Run",
+    "Application.Messenger.executor": "Run",
+    "Application.PatterThree.executor": "Run",
+    "Application.PatterTwo.executor": "Run",
+    "Application.PatternOne.executor": "Run",
+    "Application.QueueExample.executor": "Run",
+    "Application.RetrievingElements.executor": "Run",
+    "Application.SeasonAPP.executor": "Run",
+    "Application.SoetExample.executor": "Run",
+    "Application.StackExample.executor": "Run",
+    "Application.StorageApp.executor": "Run",
+    "Application.StreamApiExample.executor": "Run",
+    "Application.StreamApiMamExample.executor": "Run",
+    "Application.StudentApp.executor": "Run",
+    "Application.Task.executor": "Run",
+    "Application.Task1.executor": "Run",
+    "Application.TaskExample.executor": "Run",
+    "Application.TestApp.executor": "Run",
+    "Application.TestAppExample.executor": "Run",
+    "Application.TryCatchExample.executor": "Run",
+    "Application.UniApp.executor": "Run",
+    "Application.VehicleApp.executor": "Run",
+    "Application.com.telran.lesson19.FileExample.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.CalculatorTest.testFindMax.executor": "Run",
+    "JUnit.CalculatorTest.testFindMaxWhenArrayIsCorrect.executor": "Run",
+    "JUnit.CalculatorTest.testFindMaxWhenArrayIsEmpty.executor": "Run",
+    "JUnit.CalculatorTest.testFindMaxWhenArrayIsEmptyOrNull.executor": "Run",
+    "JUnit.CalculatorTest.testFindMaxWhenArrayIsNegative.executor": "Run",
+    "JUnit.CalculatorTest.testFindMaxWhenArrayIsNull.executor": "Run",
+    "JUnit.CalculatorTest.testSub.executor": "Run",
+    "JUnit.CalculatorTest.testSum.executor": "Run",
+    "JUnit.CheckPhoneNumbersTest.testCheckAll.executor": "Run",
+    "JUnit.DictionaryTest.executor": "Run",
+    "JUnit.MultiplierTest.multiplierTest.executor": "Run",
+    "JUnit.StringFormatterTest.testReversStringWhenStringInLowerCase.executor": "Run",
+    "JUnit.StringFormatterTest.testReversStringWhenStringInUpperCase.executor": "Run",
+    "JUnit.StringFormatterTest.testReversStringWhenStringIsCorrect.executor": "Run",
+    "JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1).executor": "Run",
+    "JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty.executor": "Run",
+    "Maven. [clean].executor": "Run",
+    "Maven..executor": "Run",
+    "Maven.pro130824 [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "SierikovKonstantin__h11",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/IT/JAVA PRO/LessonPractic1",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.telran.summary4" />
@@ -164,6 +166,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.telran.h11" />
       <recent name="com.telran.summary7.translator" />
       <recent name="com.telran.lesson24" />
     </key>
@@ -178,7 +181,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.CheckPhoneNumbersTest.testCheckAll">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.h11.App" />
       <module name="pro130824" />
@@ -221,6 +224,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckPhoneNumbersTest.testCheckAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.h11" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h11.CheckPhoneNumbersTest" />
+      <option name="METHOD_NAME" value="testCheckAll(java.lang.String,boolean)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro130824" />
       <extension name="coverage">
@@ -232,22 +251,6 @@
       <option name="PACKAGE_NAME" value="com.telran.summary7.translator" />
       <option name="MAIN_CLASS_NAME" value="com.telran.summary7.translator.DictionaryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringFormatterTest.testReversStringWhenStringIsEmpty (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro130824" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.lesson24.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.lesson24" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.lesson24.StringFormatterTest" />
-      <option name="METHOD_NAME" value="testReversStringWhenStringIsEmpty(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckPhoneNumbersTest.testCheckAll" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.DataExample" />
         <item itemvalue="JUnit.DictionaryTest" />
         <item itemvalue="JUnit.CalculatorTest.testFindMaxWhenArrayIsCorrect" />
-        <item itemvalue="JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1)" />
       </list>
     </recent_temporary>
   </component>

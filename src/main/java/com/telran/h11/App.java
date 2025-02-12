@@ -24,5 +24,8 @@ public class App {
         boolean b3 = check.checkPhoneNumbersThree(textNumberThree);
         System.out.println("Phone number Three is " + b3);
 
+        String password = "Ann@mail";
+        boolean b4 = check.checkPassword(password);
+        System.out.println("Password is " + b4);
     }
 }
