@@ -13,12 +13,16 @@ public class App {
 
         String textNumberOne = "1234567";
         CheckPhoneNumbers check = new CheckPhoneNumbers();
-        boolean b = check.checkPhoneNumbers(textNumberOne);
-        System.out.println("Phone number is " + b);
+        boolean b = check.checkPhoneNumbersOne(textNumberOne);
+        System.out.println("Phone number One is " + b);
 
         String textNumberTwo = "123-4567";
-        boolean b2 = check.checkPhoneNumbers(textNumberTwo);
-        System.out.println("Phone number is " + b2);
+        boolean b2 = check.checkPhoneNumbersTwo(textNumberTwo);
+        System.out.println("Phone number Two is " + b2);
+
+        String textNumberThree = "123 5678";
+        boolean b3 = check.checkPhoneNumbersThree(textNumberThree);
+        System.out.println("Phone number Three is " + b3);
 
     }
 }
