@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h11 finish">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/h11/CheckPhoneNumbersTest.java" afterDir="false" />
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h11 finish+-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h11/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h11/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h11/CheckPhoneNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telran/h11/CheckPhoneNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/h11/CheckPhoneNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/h11/CheckPhoneNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +181,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckPhoneNumbersTest.testCheckAll">
+  <component name="RunManager" selected="JUnit.CheckPhoneNumbersTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.telran.h11.App" />
       <module name="pro130824" />
@@ -208,18 +208,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testFindMaxWhenArrayIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckPhoneNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.lesson24.*" />
+          <option name="PATTERN" value="com.telran.h11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.lesson24" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.lesson24.CalculatorTest" />
-      <option name="METHOD_NAME" value="testFindMaxWhenArrayIsCorrect(int[],int)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.telran.h11" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h11.CheckPhoneNumbersTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,17 +239,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckPhoneNumbersTest.testPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.summary7.translator.*" />
+          <option name="PATTERN" value="com.telran.h11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.summary7.translator" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.summary7.translator.DictionaryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.telran.h11" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h11.CheckPhoneNumbersTest" />
+      <option name="METHOD_NAME" value="testPassword" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckPhoneNumbersTest" />
         <item itemvalue="JUnit.CheckPhoneNumbersTest.testCheckAll" />
+        <item itemvalue="JUnit.CheckPhoneNumbersTest.testPassword" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.DataExample" />
-        <item itemvalue="JUnit.DictionaryTest" />
-        <item itemvalue="JUnit.CalculatorTest.testFindMaxWhenArrayIsCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739274365849</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add h11 finish+-">
+      <option name="closed" value="true" />
+      <created>1739374889413</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739374889413</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,6 +472,7 @@
     <MESSAGE value="add lesson21" />
     <MESSAGE value="add lesson24" />
     <MESSAGE value="add lesson 25" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson 25" />
+    <MESSAGE value="add h11 finish+-" />
+    <option name="LAST_COMMIT_MESSAGE" value="add h11 finish+-" />
   </component>
 </project>

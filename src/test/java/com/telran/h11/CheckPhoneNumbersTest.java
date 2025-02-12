@@ -1,6 +1,6 @@
 package com.telran.h11;
 
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -13,10 +13,6 @@ class CheckPhoneNumbersTest {
 
     CheckPhoneNumbers check = new CheckPhoneNumbers();
 
-    @BeforeAll
-    public static void start() {
-
-    }
 
     @ParameterizedTest
     @MethodSource(value = "data")
@@ -25,9 +21,15 @@ class CheckPhoneNumbersTest {
     }
 
     private static Stream<Arguments> data() {
-        Arguments textNumberOne = Arguments.of(new String("1234567"), true);
+        Arguments textNumberOne = Arguments.of("1234567", true);
+        Arguments textNumberTwo = Arguments.of("123-4567", true);
+        Arguments textNumberThree = Arguments.of("123 5678", true);
+        return Stream.of(textNumberOne, textNumberTwo, textNumberThree);
+    }
 
-        return Stream.of(textNumberOne);
+    @Test
+    public void testPassword() {
+        assertTrue(check.checkPassword("Ann@mail"));
     }
 
 }
