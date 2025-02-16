@@ -1,5 +1,7 @@
 package com.telran.lesson22.builder;
 
+import com.telran.lesson22.dryyagnikiss.Book;
+
 public class StudentApp {
 
     public static void main(String[] args) {
@@ -18,10 +20,5 @@ public class StudentApp {
         Student.Builder egor = Student.newBuilder()
                 .name("Egor");
 
-        Book book = Book.builder()
-                .author("Duma")
-                .isbn("42342545345-34534")
-                .title("Haha")
-                .build();
     }
 }
