@@ -1,0 +1,4 @@
+Toyota, Honda, Ford, Chevrolet, BMW, Mercedes-Benz, Audi, Volkswagen, Hyundai, Nissan, Kia, Tesla, Volvo, Subaru,
+Mazda, Porsche, Jeep, Lexus, Ferrari, Lamborghini, Jaguar, Land Rover, Dodge, Chrysler, Buick, Mitsubishi, Infiniti,
+Acura, Mini, Fiat, Peugeot, Citroën, Renault, Alfa Romeo, Maserati, Cadillac, Bentley, Rolls-Royce, Aston Martin,
+McLaren, Bugatti
