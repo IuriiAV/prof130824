@@ -5,4 +5,5 @@ public enum Skip {
     SKIP_EMPTY,
     SKIP_NULL,
     SKIP_NONE;
+
 }
