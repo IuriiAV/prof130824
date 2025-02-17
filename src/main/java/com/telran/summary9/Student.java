@@ -11,6 +11,7 @@ public class Student {
     @NonEmpty
     private String email;
 
+
     private int age;
 
     @NonEmpty(skip = Skip.SKIP_EMPTY)
