@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h12 finish">
+    <list default="true" id="22d31060-0a53-4798-8b96-446298c226c6" name="Changes" comment="add h13 start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_13/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/telran/h_13/NumberAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/h_13/NumberAnalyzerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telran/h_13/sss.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +25,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
-        <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="SierikovKonstantin" />
+        <entry key="$PROJECT_DIR$" value="SierikovKonstantin_h9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,100 +68,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlphabetApp.executor": "Run",
-    "Application.App.executor": "Run",
-    "Application.ArrayListTaskExample.executor": "Run",
-    "Application.BTreeApp.executor": "Run",
-    "Application.BankApp.executor": "Run",
-    "Application.BookApp.executor": "Run",
-    "Application.CalcApp.executor": "Run",
-    "Application.CalculatorExample.executor": "Run",
-    "Application.CoffeApp.executor": "Run",
-    "Application.CompareExample.executor": "Run",
-    "Application.CustomListApp.executor": "Run",
-    "Application.DataExample.executor": "Run",
-    "Application.DealApp.executor": "Run",
-    "Application.DealAppAdditional.executor": "Run",
-    "Application.DictionaryApp.executor": "Run",
-    "Application.DonutApp.executor": "Run",
-    "Application.EnumExample.executor": "Run",
-    "Application.EnumExampleTwo.executor": "Run",
-    "Application.EqalsExample.executor": "Run",
-    "Application.ExampleApp.executor": "Run",
-    "Application.ExampleTreeSet.executor": "Run",
-    "Application.FileExample.executor": "Run",
-    "Application.GenericExample.executor": "Run",
-    "Application.GenericTwoExample.executor": "Run",
-    "Application.GraphExample.executor": "Run",
-    "Application.IncorrectExample.executor": "Run",
-    "Application.IteratorExample.executor": "Run",
-    "Application.IteratorExampleTwo.executor": "Run",
-    "Application.LibraryApp.executor": "Run",
-    "Application.LinkedListVsArrayList.executor": "Run",
-    "Application.ListExample.executor": "Run",
-    "Application.ListExampleTwo.executor": "Run",
-    "Application.ListIteratorExample.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MapExample.executor": "Run",
-    "Application.MenuApp.executor": "Run",
-    "Application.Messenger.executor": "Run",
-    "Application.PatterThree.executor": "Run",
-    "Application.PatterTwo.executor": "Run",
-    "Application.PatternOne.executor": "Run",
-    "Application.QueueExample.executor": "Run",
-    "Application.RetrievingElements.executor": "Run",
-    "Application.SeasonAPP.executor": "Run",
-    "Application.SoetExample.executor": "Run",
-    "Application.StackExample.executor": "Run",
-    "Application.StorageApp.executor": "Run",
-    "Application.StreamApiExample.executor": "Run",
-    "Application.StreamApiMamExample.executor": "Run",
-    "Application.StudentApp.executor": "Run",
-    "Application.Task.executor": "Run",
-    "Application.Task1.executor": "Run",
-    "Application.TaskExample.executor": "Run",
-    "Application.TestApp.executor": "Run",
-    "Application.TestAppExample.executor": "Run",
-    "Application.TryCatchExample.executor": "Run",
-    "Application.UniApp.executor": "Run",
-    "Application.VehicleApp.executor": "Run",
-    "Application.com.telran.lesson19.FileExample.executor": "Run",
-    "JUnit.CalculatorTest.executor": "Run",
-    "JUnit.CalculatorTest.testFindMax.executor": "Run",
-    "JUnit.CalculatorTest.testFindMaxWhenArrayIsCorrect.executor": "Run",
-    "JUnit.CalculatorTest.testFindMaxWhenArrayIsEmpty.executor": "Run",
-    "JUnit.CalculatorTest.testFindMaxWhenArrayIsEmptyOrNull.executor": "Run",
-    "JUnit.CalculatorTest.testFindMaxWhenArrayIsNegative.executor": "Run",
-    "JUnit.CalculatorTest.testFindMaxWhenArrayIsNull.executor": "Run",
-    "JUnit.CalculatorTest.testSub.executor": "Run",
-    "JUnit.CalculatorTest.testSum.executor": "Run",
-    "JUnit.DictionaryTest.executor": "Run",
-    "JUnit.MultiplierTest.multiplierTest.executor": "Run",
-    "JUnit.StringFormatterTest.testReversStringWhenStringInLowerCase.executor": "Run",
-    "JUnit.StringFormatterTest.testReversStringWhenStringInUpperCase.executor": "Run",
-    "JUnit.StringFormatterTest.testReversStringWhenStringIsCorrect.executor": "Run",
-    "JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1).executor": "Run",
-    "JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty.executor": "Run",
-    "JUnit.UserTest.executor": "Run",
-    "JUnit.UserTest.testInvalidAge.executor": "Run",
-    "JUnit.UserTest.testValidAge.executor": "Run",
-    "Maven. [clean].executor": "Run",
-    "Maven..executor": "Run",
-    "Maven.pro130824 [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "SierikovKonstantin__h12",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IT/JAVA PRO/LessonPractic1",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlphabetApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListTaskExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BTreeApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalcApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculatorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoffeApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomListApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DealApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DealAppAdditional.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DictionaryApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DonutApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumExampleTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqalsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EventListenerApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleTreeSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericTwoExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraphExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncorrectExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IteratorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IteratorExampleTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListVsArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListExampleTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIteratorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Messenger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatterThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatterTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RetrievingElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeasonAPP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SoetExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StorageApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamApiExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamApiMamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAppExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryCatchExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidatorApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VehicleApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.telran.lesson19.FileExample.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMax.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsCorrect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsEmptyOrNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsNegative.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testFindMaxWhenArrayIsNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testSub.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testSum.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DictionaryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MultiplierTest.multiplierTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumberAnalyzerTest.testAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumberAnalyzerTest.testMin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringFormatterTest.testReversStringWhenStringInLowerCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringFormatterTest.testReversStringWhenStringInUpperCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringFormatterTest.testReversStringWhenStringIsCorrect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringFormatterTest.testReversStringWhenStringIsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidatorTest.testValidate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidatorTest.testValidateIsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidatorTest.testValidateNullException.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven..executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pro130824 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SierikovKonstantin__h13&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IT/JAVA PRO/LessonPractic1&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.telran.summary4" />
@@ -169,7 +174,8 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.telran.h_12" />
+      <recent name="com.telran.h_13" />
+      <recent name="com.telran.summary9" />
       <recent name="com.telran.summary7.translator" />
       <recent name="com.telran.lesson24" />
     </key>
@@ -184,75 +190,81 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BankApp">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.h_12.App" />
+  <component name="RunManager" selected="JUnit.NumberAnalyzerTest">
+    <configuration name="NumberAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.h_12.bank.*" />
+          <option name="PATTERN" value="com.telran.h_13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.telran.h_12.bank.BankApp" />
-      <module name="pro130824" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.h_12.bank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro130824" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.h_12.bank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.h_12" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.h_12.UserTest" />
+      <option name="PACKAGE_NAME" value="com.telran.h_13" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h_13.NumberAnalyzerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testInvalidAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberAnalyzerTest.testAVG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.h_12.bank.*" />
+          <option name="PATTERN" value="com.telran.h_13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.h_12" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.h_12.UserTest" />
-      <option name="METHOD_NAME" value="testInvalidAge" />
+      <option name="PACKAGE_NAME" value="com.telran.h_13" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h_13.NumberAnalyzerTest" />
+      <option name="METHOD_NAME" value="testAVG(java.util.List,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testValidAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberAnalyzerTest.testAllMethodException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro130824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telran.h_12.bank.*" />
+          <option name="PATTERN" value="com.telran.h_13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telran.h_12" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.h_12.UserTest" />
-      <option name="METHOD_NAME" value="testValidAge" />
+      <option name="PACKAGE_NAME" value="com.telran.h_13" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h_13.NumberAnalyzerTest" />
+      <option name="METHOD_NAME" value="testAllMethodException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberAnalyzerTest.testException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h_13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.h_13" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h_13.NumberAnalyzerTest" />
+      <option name="METHOD_NAME" value="testException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberAnalyzerTest.testMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro130824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.h_13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.h_13" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.h_13.NumberAnalyzerTest" />
+      <option name="METHOD_NAME" value="testMin(java.util.List,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -273,21 +285,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BankApp" />
-        <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.UserTest.testValidAge" />
-        <item itemvalue="JUnit.UserTest.testInvalidAge" />
+        <item itemvalue="JUnit.NumberAnalyzerTest" />
+        <item itemvalue="JUnit.NumberAnalyzerTest.testAllMethodException" />
+        <item itemvalue="JUnit.NumberAnalyzerTest.testException" />
+        <item itemvalue="JUnit.NumberAnalyzerTest.testAVG" />
+        <item itemvalue="JUnit.NumberAnalyzerTest.testMin" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -297,7 +301,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731055866608</updated>
-      <workItem from="1739782915778" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="add homework 1">
       <option name="closed" value="true" />
@@ -435,23 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738842341453</updated>
     </task>
-    <task id="LOCAL-00018" summary="add h12 start">
+    <task id="LOCAL-00018" summary="add lesson25">
       <option name="closed" value="true" />
-      <created>1739378049257</created>
+      <created>1739448207762</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1739378049257</updated>
+      <updated>1739448207762</updated>
     </task>
-    <task id="LOCAL-00019" summary="add h12 finish">
-      <option name="closed" value="true" />
-      <created>1739780565841</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1739780565842</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,8 +478,7 @@
     <MESSAGE value="add lesson 14" />
     <MESSAGE value="add lesson21" />
     <MESSAGE value="add lesson24" />
-    <MESSAGE value="add h12 start" />
-    <MESSAGE value="add h12 finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="add h12 finish" />
+    <MESSAGE value="add lesson25" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson25" />
   </component>
 </project>
