@@ -30,19 +30,33 @@ public class CopyFiles {
             }
         }
 
-        List<Path> files = null;
+        List<Path> filesOutput;
         try {
-            files = Files.list(pathOut).map(f -> f.getFileName()).toList();
+            filesOutput = Files.list(pathOut).map(f -> f.getFileName()).toList();
         } catch (IOException e) {
             System.out.println("List with paths is not created");
             e.printStackTrace();
             return;
         }
+
+        List<Path> filesInput;
         try {
-            for (int i = 0; i < files.size(); i++) {
-                Files.copy(pathOut.resolve(files.get(i)), pathInto.resolve(files.get(i)));
+            filesInput = Files.list(pathInto).map(f -> f.getFileName()).toList();
+        } catch (IOException e) {
+            System.out.println("List with paths is not created");
+            e.printStackTrace();
+            return;
+        }
+
+        try {
+            for (int i = 0; i < filesOutput.size(); i++) {
+                if (filesInput.contains(filesOutput.get(i))) {
+                    System.out.println("File " + filesOutput.get(i) + " already exists");
+                } else {
+                    Files.copy(pathOut.resolve(filesOutput.get(i)), pathInto.resolve(filesOutput.get(i)));
+                    System.out.println(filesOutput.get(i) + " is copied");
+                }
             }
-            System.out.println("The copied files: " + files);
         } catch (IOException e) {
             e.printStackTrace();
         }
