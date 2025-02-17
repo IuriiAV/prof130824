@@ -59,12 +59,6 @@ class NumberAnalyzerTest {
     }
 
     @ParameterizedTest
-    @NullAndEmptySource
-    public void testFindAvgThrowsException(List<Integer> numbers) {
-        assertThrows(IllegalArgumentException.class, () -> analyzer.findAvg(numbers));
-    }
-
-    @ParameterizedTest
     @MethodSource("provideAvgData")
     void testFindAvgPositive(List<Integer> numbers, double expected) {
         assertEquals(expected, analyzer.findAvg(numbers));
@@ -78,5 +72,11 @@ class NumberAnalyzerTest {
                 Arguments.of(List.of(new Integer[]{-4, -99, -2, 0, -11}), -23.2),
                 Arguments.of(List.of(new Integer[]{-1, 1}), 0)
         );
+    }
+
+    @ParameterizedTest
+    @NullAndEmptySource
+    public void testFindAvgThrowsException(List<Integer> numbers) {
+        assertThrows(IllegalArgumentException.class, () -> analyzer.findAvg(numbers));
     }
 }
