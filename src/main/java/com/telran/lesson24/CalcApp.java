@@ -6,5 +6,7 @@ public class CalcApp {
         Calculator calculator = new Calculator();
         int sum = calculator.sum(5455, 74123);
         System.out.println("sum " + sum);
+        int sub = calculator.sub(5456,5455);
+        System.out.println("sub " + sub);
     }
 }

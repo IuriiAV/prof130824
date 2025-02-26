@@ -26,6 +26,17 @@ class CalculatorTest {
     //Write test on sub method
     //Write test on findMin method
 
+    @ParameterizedTest
+    @MethodSource("generateDataForSub")
+    public void testSub(int inputFirst, int inputSecond, int expected) {
+        assertEquals(expected, calculator.sub(inputFirst, inputSecond));
+    }
+
+    private static Stream<Arguments> generateDataForSub() {
+        return Stream.of(
+                Arguments.of(8, 7, 1),
+                        Arguments.of(1, 5, -4));
+    }
 //    @Test
 //    public void testFindMaxWhenArrayIsPositive() {
 //        int[] arr = {1, 3, 4, 7, 2};
@@ -59,6 +70,19 @@ class CalculatorTest {
                 () -> calculator.findMax(arr));
     }
 
+    @ParameterizedTest
+    @MethodSource("testFindMinWhenArrayIsCorrect")
+    public void testFindMinPositive(int[] arr, int expected) {
+        assertEquals(expected, calculator.findMin(arr));
+    }
+    private static Stream<Arguments> testFindMinWhenArrayIsCorrect() {
+        return Stream.of(
+                Arguments.of(new int[]{1, 3, 5, 5, 3, 2}, 1),
+                Arguments.of(new int[]{100, 90, 80}, 80),
+                Arguments.of(new int[]{0, -5, -10, 6, 1}, -10),
+                Arguments.of(new int[]{56}, 56)
+        );
+    }
 //    @Test
 //    public void testFindMaxWhenArrayIsEmpty() {
 //        int[] arr = {};
@@ -71,4 +95,11 @@ class CalculatorTest {
 //        assertThrows(IllegalArgumentException.class,
 //                () -> calculator.findMax(null));
 //    }
+
+
+    @ParameterizedTest
+    @NullAndEmptySource
+    public void testFindMinWhenArrayIsEmptyOrNull(int[] arr) {
+        assertThrows(IllegalArgumentException.class, () -> calculator.findMin(arr));
+    }
 }
