@@ -1,6 +1,12 @@
 package com.telran.lesson11.hw;
 
+
 import java.util.Objects;
+
+
+import lombok.ToString;
+
+@ToString
 
 public class Patient {
     private String name;
@@ -46,6 +52,7 @@ public class Patient {
         return age == patient.age && isUrgent == patient.isUrgent && Objects.equals(name, patient.name);
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(name, age, isUrgent);
@@ -58,5 +65,11 @@ public class Patient {
                 ", age=" + age +
                 ", isUrgent=" + isUrgent +
                 '}';
+
+    public int age;
+
+    public Patient(int age) {
+        this.age = age;
+
     }
 }
