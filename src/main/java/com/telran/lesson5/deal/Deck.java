@@ -11,6 +11,8 @@ public class Deck {
 
     private final Card[] cards;
 
+    private int nextCardIndex = 0;
+
     public Deck() {
         cards = new Card[Suit.values().length * Rank.values().length];
     }
@@ -23,6 +25,7 @@ public class Deck {
             }
         }
         shuffle();
+        nextCardIndex = 0;
     }
 
     private void shuffle() {
@@ -31,6 +34,13 @@ public class Deck {
         for (int i = 0; i < list.size(); i++) {
             cards[i] = list.get(i);
         }
+    }
+
+    public Card getNextCard() {
+        if (nextCardIndex>=cards.length){
+            throw new RuntimeException("Deck is empty");
+        }
+        return cards[nextCardIndex++];
     }
 
     public Card[] getCards() {
