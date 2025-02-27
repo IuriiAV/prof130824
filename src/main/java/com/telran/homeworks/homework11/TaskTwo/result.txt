@@ -1,0 +1,6 @@
+Result expression "5 * 55": 275
+Result expression "1050 - 256": 794
+Error in expression "45 / 0": Division by zero!!!
+Result expression "555 + 455": 1010
+Result expression "10 / 2": 5
+Error in expression "7 ? 3": Something is wrong with the math sign...
