@@ -1,0 +1,3 @@
+Hallo, mein liebes Java.
+Java ist komplex, aber interessant.
+Ich mache es weiter trotz der Schwierigkeiten.
