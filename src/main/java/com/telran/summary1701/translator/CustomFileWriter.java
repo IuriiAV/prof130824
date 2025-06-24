@@ -9,7 +9,12 @@ import java.util.Map;
 
 public class CustomFileWriter {
 
-    private static final String PATH = "/Users/jmabra/Projects/Tel-Ran/Tel-Ran-JavaPro-Lessons/prof130824/src/main/java/com/telran/summery1701/translator";
+    private String path;//"/Users/jmabra/Projects/Tel-Ran/Tel-Ran-JavaPro-Lessons/prof130824/src/main/java/com/telran/summery1701/translator";
+
+
+    public CustomFileWriter(String path) {
+        this.path = path;
+    }
 
     public void writeDictionary(Language language, Map<String, String> newWordMap) {
         StringBuilder sb = new StringBuilder();
@@ -19,7 +24,7 @@ public class CustomFileWriter {
         });
 
         try {
-            Files.write(Path.of(PATH, language.getFileName()), sb.toString().getBytes(), StandardOpenOption.APPEND);
+            Files.write(Path.of(path, language.getFileName()), sb.toString().getBytes(), StandardOpenOption.APPEND);
         } catch (IOException e) {
             if (e instanceof FileNotFoundException) {
                 System.err.println("path is incorrect");

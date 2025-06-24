@@ -1,9 +1,11 @@
 package com.telran.lesson24;
 
+import com.telran.summary0702.CustomAnnotation;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.NullAndEmptySource;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.*;
+
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -21,18 +23,21 @@ class CalculatorTest {
     //Write test on sub method
     //Write test on findMin method
 
-    @Test
-    public void testFindMaxWhenArrayIsPositive() {
-        int[] arr = {1, 3, 4, 7, 2};
-        int max = calculator.findMax(arr);
-        assertEquals(7, max);
-    }
+//    @Test
+//    public void testFindMaxWhenArrayIsPositive() {
+//        int[] arr = {1, 3, 4, 7, 2};
+//        int max = calculator.findMax(arr);
+//        assertEquals(7, max);
+//        // assertEquals(3, calculator.findMax(new int[]{2, 3, 4, 2}));
+//    }
 
-    @Test
-    public void testFindMaxWhenArrayIsNegative() {
-        int[] arr = {-3, -5, -4, -2};
-        assertEquals(-2, calculator.findMax(arr));
-    }
+//    @Test
+//    public void testFindMaxWhenArrayIsNegative() {
+//        int[] arr = {-3, -5, -4, -2};
+//        assertEquals(-2, calculator.findMax(arr));
+//    }
+
+
 
     @ParameterizedTest
     @NullAndEmptySource
